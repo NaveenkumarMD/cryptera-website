@@ -4,4 +4,15 @@
     scroll-behavior: smooth;
 overflow-y: auto;
 overflow-x: hidden;
+position: relative;
+}
+
+.add-green{
+    width: 100%;
+    height:0px;
+    border-radius: 2px;
+    position: fixed;
+    bottom: 0;
+    right:0;
+    box-shadow: 0 0 30px rgba(77, 175, 28, 0.7);
 }

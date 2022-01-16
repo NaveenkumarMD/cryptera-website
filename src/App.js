@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-
+import AnimatedCursor from 'react-animated-cursor';
 //Components
 import Navbar from './Components/Navbar';
 
@@ -18,6 +18,14 @@ import Eventdetails from './Components/Screens/Eventdetails';
 function App() {
   return (
     <div className='main-container'>
+      <AnimatedCursor
+        innerSize={8}
+        outerSize={8}
+        color="36,180,126"
+        outerAlpha={0.7}
+        innerScale={0.7}
+        outerScale={3}
+      />
       <BrowserRouter>
         <Navbar />
         <div className='main-content'>

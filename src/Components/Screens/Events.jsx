@@ -1,18 +1,36 @@
 import React, { useRef, useState } from 'react'
 import Eventcard from '../Eventcard'
 import '../../Styles/Events.css'
+import { useNavigate } from 'react-router-dom'
 
 function Events() {
-    const [curr,setcurr]=useState(0)
+    const navigate=useNavigate()
+    const [curr, setcurr] = useState(0)
     const technicalref = useRef(null)
     const nontechnicalref = useRef(null)
     const flagshipref = useRef(null)
     const bodyref = useRef(null)
-    const scrollhandler=(e)=>{
-        e.preventDefault()
-        bodyref.current.scrollLeft+=e.deltaY
+    const greenref = useRef(null)
+    let h=0
+    const scrollhandler = (event) => {
+        event.preventDefault()
+        bodyref.current.scrollLeft += event.deltaY
+        if (event.deltaY < 0) {
+            h=0
+            greenref.current.style.width = "0px"
+        }
+        else {
+            h += 3
+            console.log(h)
+            greenref.current.style.width = h + 'px'
+            if (h > 100) {
+                greenref.current.style.width = '0px'
+                navigate('/timeline')
+            }
+        }
 
     }
+
     const clearstyles = () => {
         nontechnicalref.current.style.color = "transparent"
         flagshipref.current.style.color = "transparent"
@@ -41,13 +59,16 @@ function Events() {
     }
     return (
         <div className="events">
+            <div className='add-green-events bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenref}>
+
+            </div>
             <div className='events-header'>
-                <h1  ref={technicalref} onClick={technicalclick} className='activex'>Technical </h1>
+                <h1 ref={technicalref} onClick={technicalclick} className='activex'>Technical </h1>
                 <h1 ref={nontechnicalref} onClick={nontechnicalclick} >Non-Technical</h1>
                 <h1 ref={flagshipref} onClick={flagshipclick}>Flagship</h1>
             </div>
-            <div className='events-body' onWheel={scrollhandler} ref={bodyref}>
-                <Eventcard primary="#24B47E"  />
+            <div className='events-body' onWheel={scrollhandler} ref={bodyref} >
+                <Eventcard primary="#24B47E" />
                 <Eventcard primary="red" />
                 <Eventcard primary="orange" />
                 <Eventcard primary="#24B47E" />

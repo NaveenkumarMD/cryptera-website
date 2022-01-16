@@ -4,7 +4,7 @@ function Eventcard(props) {
     return (
         <div className='event-card' style={{borderTopColor:props.primary}}>
             <div className='event-card-header'>
-                <span>Murungaikai chips</span>
+                <span>For Testing</span>
             </div>
             <div className='event-card-body'>
                 <span>A high rated tamil movie maja pa maja pa but not</span>
