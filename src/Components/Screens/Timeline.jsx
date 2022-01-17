@@ -70,7 +70,7 @@ function Timeline() {
         <Chrono
           timelineCircleDimension={20}
           theme={{
-            cardBgColor: "#222831",
+            cardBgColor: "var(--bg-black)",
             primary: "var(--fg-green)",
             secondary: "var(--fg-black)",
             textColor: "green",

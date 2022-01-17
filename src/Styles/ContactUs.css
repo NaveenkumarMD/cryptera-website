@@ -30,6 +30,7 @@
     font-weight: 600;
     justify-content: space-between;
     align-items: center;
+    font-family: var(--font-secondary);
 }
 .down-icon{
     cursor: pointer;
@@ -38,6 +39,7 @@
 .faq-answer{
     color:rgba(255, 255, 255,1);
     padding-top: 5px;
+    font-family: var(--font-secondary);
     font-weight: 600;
 }
 .rotate{
@@ -60,6 +62,7 @@
     line-height: 68px;
     margin-bottom: 30px;
     letter-spacing: 0.9px;
+    font-family: var(--font-secondary);
 }
 .support-content>input{
     border: none;

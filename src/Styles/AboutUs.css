@@ -29,6 +29,7 @@
   font-weight: 600;
   font-size: 18px;
   color: rgba(211, 211, 219, 0.9);
+  font-family: var(--font-secondary);
 }
 .contentx{
   display: flex;
@@ -67,7 +68,7 @@
   letter-spacing: 2px;
   margin-top: 4%;
   margin-bottom: 7%;
-  
+  font-family: gilroy-thin;
 
 }
 .lottie-player{

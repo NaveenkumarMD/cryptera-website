@@ -4,29 +4,72 @@ import '../../Styles/Events.css'
 import { useNavigate } from 'react-router-dom'
 
 function Events() {
-    const navigate=useNavigate()
+    const navigate = useNavigate()
     const [curr, setcurr] = useState(0)
     const technicalref = useRef(null)
     const nontechnicalref = useRef(null)
     const flagshipref = useRef(null)
     const bodyref = useRef(null)
-    const greenref = useRef(null)
-    let h=0
+    const greenrightref = useRef(null)
+    const greenleftref = useRef(null)
+
+    let h = 0
+    let i = 0
     const scrollhandler = (event) => {
-        event.preventDefault()
+
+        console.log(bodyref.current.scrollLeft,
+            bodyref.current.scrollWidth,
+            bodyref.current.offsetWidth)
         bodyref.current.scrollLeft += event.deltaY
         if (event.deltaY < 0) {
-            h=0
-            greenref.current.style.width = "0px"
+            h = 0
+            greenrightref.current.style.width = "0px"
+            if (bodyref.current.scrollLeft == 0) {
+                i+=3
+                greenleftref.current.style.width = `${i}px`
+                if(i>60){
+                    greenleftref.current.style.width = "0px"
+                    if(curr==0){
+                        return navigate("/about_us")
+                    }
+                    else if(curr==1){
+                        technicalref.current.click()
+                        bodyref.current.scrollLeft = 0
+                        return setcurr(0)
+                    }
+                    else if(curr==2){
+                        nontechnicalref.current.click()
+                        bodyref.current.scrollLeft = 0
+                        return setcurr(1)
+                    }
+                }
+            }
         }
         else {
-            h += 3
-            console.log(h)
-            greenref.current.style.width = h + 'px'
-            if (h > 100) {
-                greenref.current.style.width = '0px'
-                navigate('/timeline')
+            i = 0
+            greenleftref.current.style.width = "0px"
+            if (bodyref.current.offsetWidth + bodyref.current.scrollLeft >= bodyref.current.scrollWidth - 10) {
+
+
+                h += 3
+                console.log(h)
+                greenrightref.current.style.width = h + 'px'
+                if (h > 60) {
+                    greenrightref.current.style.width = '0px'
+                    if (curr == 0) {
+                        nontechnicalref.current.click()
+                        bodyref.current.scrollLeft = 0
+                        return setcurr(1)
+                    }
+                    if (curr == 1) {
+                        flagshipref.current.click()
+                        bodyref.current.scrollLeft = 0
+                        return setcurr(2)
+                    }
+                    navigate('/timeline')
+                }
             }
+
         }
 
     }
@@ -58,20 +101,24 @@ function Events() {
         flagshipref.current.classList.add("activex")
     }
     return (
-        <div className="events">
-            <div className='add-green-events bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenref}>
+        <div className="events" onWheel={scrollhandler}>
+            <div className='add-green-vertical right-fixed bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenrightref} />
+            <div className='add-green-vertical left-fixed bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenleftref} />
 
-            </div>
+
             <div className='events-header'>
                 <h1 ref={technicalref} onClick={technicalclick} className='activex'>Technical </h1>
                 <h1 ref={nontechnicalref} onClick={nontechnicalclick} >Non-Technical</h1>
                 <h1 ref={flagshipref} onClick={flagshipclick}>Flagship</h1>
             </div>
-            <div className='events-body' onWheel={scrollhandler} ref={bodyref} >
+            <div className='events-body' ref={bodyref} >
                 <Eventcard primary="#24B47E" />
                 <Eventcard primary="red" />
                 <Eventcard primary="orange" />
                 <Eventcard primary="#24B47E" />
+                <Eventcard primary="#24B47E" />
+                <Eventcard primary="#24B47E" />
+                <div className='px-10'></div>
             </div>
         </div>
     )

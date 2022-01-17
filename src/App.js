@@ -15,7 +15,9 @@ import Events from './Components/Screens/Events';
 import Timeline from './Components/Screens/Timeline';
 import Eventdetails from './Components/Screens/Eventdetails';
 
+
 function App() {
+  console.log(window.innerWidth)
   return (
     <div className='main-container'>
       <AnimatedCursor
@@ -27,7 +29,8 @@ function App() {
         outerScale={3}
       />
       <BrowserRouter>
-        <Navbar />
+      {window.innerWidth >1150 ? <Navbar /> : null}
+
         <div className='main-content'>
           <Routes>
             <Route path="/" element={<Home />}></Route>

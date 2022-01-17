@@ -3,15 +3,54 @@ import '../../Styles/WebDevs.css'
 import profile1 from '../../Assets/1905098.png'
 import { useNavigate } from 'react-router-dom'
 function WebDevs() {
-    const webdevsref=useRef(null)
-    const navigate=useNavigate()
-    // const scrollhandler=()=>{
-    //     if (webdevsref.current.offsetHeight+webdevsref.current.scrollTop>webdevsref.current.scrollHeight){
-    //         navigate("/commitee")
-    //     }
-    // }
+    const navigate = useNavigate()
+    const greenTopref = useRef(null)
+    const greenBottomref = useRef(null)
+    const contentref = useRef(null)
+    let h = 10
+    let i = 10
+
+    const wheelhandler = (event) => {
+        console.log('wheel')
+        console.log(event.deltaY)
+        if (event.deltaY < 0) {
+            h = 0
+            greenBottomref.current.style.height = "0px"
+            console.log(
+                contentref.current.offsetHeight,
+                contentref.current.scrollTop,
+                contentref.current.scrollHeight
+            )
+            if (contentref.current.scrollTop == 0) {
+                i += 3
+                greenTopref.current.style.height = `${i}px`
+                if (i > 60) {
+                    greenTopref.current.style.height = `0px`
+                    navigate('/timeline')
+                }
+            }
+        }
+        else {
+            greenTopref.current.style.height = "0px"
+            i = 0
+            if (contentref.current.offsetHeight + contentref.current.scrollTop >= contentref.current.scrollHeight) {
+                h += 3
+                console.log(h)
+                greenBottomref.current.style.height = h + 'px'
+                if (h > 60) {
+                    greenBottomref.current.style.height = '0px'
+                    navigate('/commitee')
+                }
+            }
+
+        }
+
+    }
     return (
-        <div className='webdevs' ref={webdevsref} >
+        <div className='webdevs' ref={contentref} onWheel={wheelhandler} >
+            <div className='add-green bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenBottomref} />
+            <div className='add-green top-fixed bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenTopref} />
+
             <div className='webdevs-container'>
                 <div >
                     <h1 className='webdevs-title'>Web Developers</h1>

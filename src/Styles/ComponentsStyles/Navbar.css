@@ -25,7 +25,7 @@
     display: flex;
     gap: 24px;
     flex-direction: column;
-    letter-spacing: 1.5px
+    letter-spacing: 1px
 }
 .navbar-links>div:hover{
     color: var(--fg-green);
