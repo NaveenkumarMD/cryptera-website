@@ -5,6 +5,11 @@
 overflow-y: auto;
 overflow-x: hidden;
 position: relative;
+padding:30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
 .add-green{
@@ -14,5 +19,31 @@ position: relative;
     position: fixed;
     bottom: 0;
     right:0;
+    background: radial-gradient(
+        circle,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(36, 180, 126, 1) 0%,
+        rgba(19, 195, 185, 1) 81%,
+        rgba(0, 212, 255, 1) 100%
+      );
     box-shadow: 0 0 30px rgba(77, 175, 28, 0.7);
+}
+.home-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:6%
+   
+}
+.home-content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+    font-size: 40px;
+    max-width: 500px;
+    font-weight: 700;
+    line-height: 59.92px;
+    letter-spacing: normal;
+    text-align: start;
 }
