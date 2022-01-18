@@ -14,7 +14,7 @@ import Commitee from './Components/Screens/Commitee';
 import Events from './Components/Screens/Events';
 import Timeline from './Components/Screens/Timeline';
 import Eventdetails from './Components/Screens/Eventdetails';
-
+import Navmobile from './Components/Navmobile';
 
 function App() {
   console.log(window.innerWidth)
@@ -29,7 +29,7 @@ function App() {
         outerScale={3}
       />
       <BrowserRouter>
-      {window.innerWidth >1150 ? <Navbar /> : null}
+      {window.innerWidth >1150 ? <Navbar /> : <Navmobile/>}
 
         <div className='main-content'>
           <Routes>

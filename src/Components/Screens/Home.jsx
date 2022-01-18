@@ -18,23 +18,25 @@ function Home() {
             greenref.current.style.height = "0px"
         }
         else {
-            h += 3
-            console.log(h)
-            greenref.current.style.height = h + 'px'
-            if (h > 60) {
-                greenref.current.style.height = '0px'
-                navigator('/about_us')
+            if (Homeref.current.offsetHeight + Homeref.current.scrollTop >= Homeref.current.scrollHeight) {
+                h += 3
+                console.log(h)
+                greenref.current.style.height = h + 'px'
+                if (h > 60) {
+                    greenref.current.style.height = '0px'
+                    navigator('/about_us')
+                }
             }
         }
 
     }
     return (
         <div className='home main-section' id="Home" ref={Homeref} onWheel={wheelhandler}>
-              
+
             <div className='home-content'>
                 <div className='home-content-text'>
                     <h1>A National level Technical Symposium conducted by CSE department of CIT.    </h1>
-                    <Button text="Check out the Events"/>
+                    <Button text="Check out the Events" />
                 </div>
                 <div>
                     <lottie-player
