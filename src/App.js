@@ -18,6 +18,7 @@ import Navmobile from './Components/Navmobile';
 
 function App() {
   console.log(window.innerWidth)
+  
   return (
     <div className='main-container'>
       <AnimatedCursor
@@ -40,7 +41,7 @@ function App() {
             <Route path="/web_devs" element={<WebDevs />}></Route>
             <Route path="/commitee" element={<Commitee />}></Route>
             <Route path="/contact_us" element={<ContactUs />}></Route>
-            <Route path="/events/:name" element={<Eventdetails />}></Route>
+            <Route path="/events/:name" element={<Eventdetails  />}></Route>
           </Routes>
         </div>
       </BrowserRouter>

@@ -1,6 +1,7 @@
 
 import React, { useEffect, useRef } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
+import { version } from 'react/cjs/react.production.min'
 import '../Styles/ComponentsStyles/Navbar.css'
 function Navbar() {
     const location = useLocation()
@@ -13,6 +14,7 @@ function Navbar() {
     const webref = useRef(null)
     const commiteeref = useRef(null)
     const hintref = useRef(null)
+    const navbarref=useRef(null)
     const clearActive = () => {
         homeref.current.classList.remove('active')
         aboutref.current.classList.remove('active')
@@ -22,6 +24,18 @@ function Navbar() {
         commiteeref.current.classList.remove('active')
         timelineref.current.classList.remove('active')
     }
+    useEffect(()=>{
+        window.addEventListener("mouseover",(event)=>{
+            if(event.clientX> window.innerWidth/4){
+                navbarref.current.style.width="20px"
+
+            }
+            else{
+                navbarref.current.style.width="100%"
+            }
+        })
+        
+    },[])
     useEffect(() => {
         if (location.pathname === "/") {
             clearActive()
@@ -107,7 +121,7 @@ function Navbar() {
             <div className='navbar-logo'>
                 <img src={require('../Assets/logo.png')} alt="logo" />
             </div>
-            <div className='navbar-links'>
+            <div className='navbar-links' ref={navbarref} >
 
                 <Link to="/" ref={homeref} className="active navbar-link" id="Home-link">       <i className="fa fa-home"></i><span>Home</span></Link>
                 <Link to="about_us" ref={aboutref} id="about_us" className="navbar-link" id="about_us-link"><i className="fa fa-info-circle"></i><span>About us</span></Link>

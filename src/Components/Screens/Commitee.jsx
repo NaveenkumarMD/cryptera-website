@@ -2,6 +2,7 @@ import React,{useRef} from 'react'
 import profile1 from '../../Assets/1905098.png'
 import '../../Styles/Commmitee.css'
 import {useNavigate} from 'react-router-dom'
+import commitee_data from '../../Data/commitee_data'
 function Commitee() {
     const navigate = useNavigate()
     const greenTopref = useRef(null)
@@ -47,7 +48,7 @@ function Commitee() {
 
     }
     return (
-        <div className='webdevs'  ref={contentref} onWheel={wheelhandler}>
+        <div className='webdevs'  ref={contentref} onWheel={wheelhandler} onTouchMove={wheelhandler}>
                         <div className='add-green bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenBottomref} />
             <div className='add-green top-fixed bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenTopref} />
 
@@ -57,27 +58,15 @@ function Commitee() {
                     <p className='webdevs-tilte-description'>Join the community around the world</p>
                 </div>
                 <div className='content-container' style={{maxWidth:"800px",margin:"auto",marginTop:"7%"}}>
-                    <Commiteemember />  
-                    <Commiteemember />  
-                    <Commiteemember />  
-                    <Commiteemember />  
-                    <Commiteemember />  
-                    <Commiteemember />  
-                    <Commiteemember />  
-                    <Commiteemember />  
-                    <Commiteemember />  
-                    <Commiteemember />  
-                    <Commiteemember />  
-                    <Commiteemember />  
-                    <Commiteemember />  
-                    <Commiteemember />  
-                    <Commiteemember />  
-                    <Commiteemember />  
-                    <Commiteemember />  
-                    <Commiteemember />  
-                    <Commiteemember />  
-                    <Commiteemember />  
-                    <Commiteemember />  
+                    {
+                        commitee_data.map((item, index) => {
+                            return(
+                                <Commiteemember key={index} data={item} />
+
+                            )
+                        })
+                    }
+                   
 
                 </div>
             </div>
@@ -87,24 +76,31 @@ function Commitee() {
 
 export default Commitee
 
-const Commiteemember = () => {
+const Commiteemember = ({data}) => {
+    console.log(data)
+    if(data){
+
+    
     return (
         <div className='content-container-item'>
             <div className='content-container-item-image'>
-                <img src={profile1} alt='profile' />
+                <img src={data.profile} alt='profile' />
                 <div className='insta-hover-container'>
-                    Secreatary
+                    {data.position}
                 </div>
             </div>
             <div className='content-container-item-description'>
                 <div className='commitee-name-x'>
                     <div>
-                        <h1>Naveenkumar M</h1>
-                        <p>Third year</p>
+                        <h1>{data.name}</h1>
+                        <p>{data.year}</p>
                     </div>
-                    <p>Secretary</p>
+                    <p>{data.x}</p>
                 </div>
             </div>
         </div>
-    )
+    )}
+    else{
+        return true
+    }
 }

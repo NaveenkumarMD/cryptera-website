@@ -2,14 +2,15 @@ import React, { useRef } from 'react'
 import '../../Styles/WebDevs.css'
 import profile1 from '../../Assets/1905098.png'
 import { useNavigate } from 'react-router-dom'
+import web_devs_data from '../../Data/web_devs_data'
 function WebDevs() {
+    console.log(web_devs_data)
     const navigate = useNavigate()
     const greenTopref = useRef(null)
     const greenBottomref = useRef(null)
     const contentref = useRef(null)
     let h = 10
-    let i = 10
-
+    let i = 10  
     const wheelhandler = (event) => {
         console.log('wheel')
         console.log(event.deltaY)
@@ -47,7 +48,7 @@ function WebDevs() {
 
     }
     return (
-        <div className='webdevs' ref={contentref} onWheel={wheelhandler} >
+        <div className='webdevs' ref={contentref} onWheel={wheelhandler} onTouchMove={wheelhandler}>
             <div className='add-green bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenBottomref} />
             <div className='add-green top-fixed bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenTopref} />
 
@@ -57,86 +58,13 @@ function WebDevs() {
                     <p className='webdevs-tilte-description'>Join the community around the world</p>
                 </div>
                 <div className='content-container'>
-                    <div className='web-card'>
-                        <div className='web-card-image'>
-                            <img src={profile1} alt='webdevs-1' />
-                        </div>
-                        <div className='web-card-content'>
-                            <div className='name'>Naveenkumar M</div>
-                            <div className='description'>I am a web developer from bombay is it yes thats true i am from bombay</div>
-                            <div className='media-container'>
-                                <i class="fab fa-instagram"></i>
-                                <i class="fab fa-github"></i>
-                                <i class="fab fa-medium"></i>
-                                <i class="fab fa-linkedin"></i>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className='web-card'>
-                        <div className='web-card-image'>
-                            <img src={profile1} alt='webdevs-1' />
-                        </div>
-                        <div className='web-card-content'>
-                            <div className='name'>Naveenkumar M</div>
-                            <div className='description'>I am a web developer from bombay is it yes thats true i am from bombay</div>
-                            <div className='media-container'>
-                                <i class="fab fa-instagram"></i>
-                                <i class="fab fa-github"></i>
-                                <i class="fab fa-medium"></i>
-                                <i class="fab fa-linkedin"></i>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className='web-card'>
-                        <div className='web-card-image'>
-                            <img src={profile1} alt='webdevs-1' />
-                        </div>
-                        <div className='web-card-content'>
-                            <div className='name'>Naveenkumar M</div>
-                            <div className='description'>I am a web developer from bombay is it yes thats true i am from bombay</div>
-                            <div className='media-container'>
-                                <i class="fab fa-instagram"></i>
-                                <i class="fab fa-github"></i>
-                                <i class="fab fa-medium"></i>
-                                <i class="fab fa-linkedin"></i>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className='web-card'>
-                        <div className='web-card-image'>
-                            <img src={profile1} alt='webdevs-1' />
-                        </div>
-                        <div className='web-card-content'>
-                            <div className='name'>Naveenkumar M</div>
-                            <div className='description'>I am a web developer from bombay is it yes thats true i am from bombay</div>
-                            <div className='media-container'>
-                                <i class="fab fa-instagram"></i>
-                                <i class="fab fa-github"></i>
-                                <i class="fab fa-medium"></i>
-                                <i class="fab fa-linkedin"></i>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className='web-card'>
-                        <div className='web-card-image'>
-                            <img src={profile1} alt='webdevs-1' />
-                        </div>
-                        <div className='web-card-content'>
-                            <div className='name'>Naveenkumar M</div>
-                            <div className='description'>I am a web developer from bombay is it yes thats true i am from bombay</div>
-                            <div className='media-container'>
-                                <i class="fab fa-instagram"></i>
-                                <i class="fab fa-github"></i>
-                                <i class="fab fa-medium"></i>
-                                <i class="fab fa-linkedin"></i>
-                            </div>
-                        </div>
-
-                    </div>
+                    {
+                        web_devs_data.map((data, index) => {
+                            return (
+                                <Web_devs_card data={data} key={index} />
+                            )
+                        })
+                    }
 
                 </div>
             </div>
@@ -145,3 +73,28 @@ function WebDevs() {
 }
 
 export default WebDevs
+
+const Web_devs_card = (props) => {
+    
+    return (
+        <div className='web-card'>
+            <div className='web-card-image'>
+                <img src={props.data.profile} alt='webdevs-1' />
+            </div>
+            <div className='web-card-content'>
+                <div className='name'>{props.data.name}</div>
+                <div className='description'>{props.data.about}</div>
+                <div className='media-container'>
+
+                    <a href={props.data.github} target="_blank" ><i class="fab fa-instagram" ></i></a>
+                    <a href={props.data.github} target="_blank" >   <i class="fab fa-github" ></i> </a>
+                    <a href={props.data.medium} target='_blank'><i class="fab fa-medium-m"></i></a>
+
+                    <a href={props.data.linkedin} target="_blank">  <i class="fab fa-linkedin"  ></i>            </a>
+
+                </div>
+            </div>
+
+        </div>
+    )
+}

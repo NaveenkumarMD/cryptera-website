@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
 
-function Faq() {
+function Faq({data}) {
     const iconref=useRef(null)
     const questionref=useRef(null)
     const [open, setopen] = useState(false)
@@ -17,15 +17,14 @@ function Faq() {
         <div className="faq-card" >
             <div className="faq-question" onClick={toggleanswer} ref={questionref}>
                 <div>
-                    What is the difference between a free trial and a paid subscription?
+                   {data.question}
                 </div>
                 <div className='down-icon' ><i class="fas fa-chevron-down" ref={iconref}></i></div>
             </div>
             {
                 open &&
                 <div className="faq-answer">
-                    A free trial is a 30-day period where you can try out the app without paying.
-                    After the trial period, you can choose to pay for the app.
+                    {data.answer}
                 </div>
             }
 

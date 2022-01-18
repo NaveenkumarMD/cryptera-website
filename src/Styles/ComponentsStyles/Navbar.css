@@ -25,7 +25,11 @@
     display: flex;
     gap: 24px;
     flex-direction: column;
-    letter-spacing: 1px
+    letter-spacing: 1px;
+    height: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: 1s ease-in-out;
 }
 .navbar-links>div:hover{
     color: var(--fg-green);

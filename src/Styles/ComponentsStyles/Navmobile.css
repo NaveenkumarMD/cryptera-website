@@ -4,7 +4,7 @@
     width: 100%;
     z-index: 999;
     position: fixed;
-    box-shadow: 0px 0px 10px 0px rgba(10, 117, 33, 0.75);
+
 }
 
 .logo-x {
@@ -41,7 +41,7 @@
 }
 .linkx{
     position: relative;
-    display: flex;
+    display:none;
     flex-direction: column;
     gap:10px;
     margin-left: 30px;
@@ -62,4 +62,19 @@
     font-size: 20px;
     color: var(--fg-black);
     color: rgba(246, 248, 246, 0.8);
+}
+.hint{
+    position: absolute;
+    left:10px;
+    top: 890px;
+    padding: 10px;
+    font-size: 20px;
+    color: var(--fg-white);
+    color: rgba(246, 248, 246, 0.8);
+}
+.social-linksx{
+    margin: 40px;
+}
+.social-linksx>i{
+    margin: 10px;
 }

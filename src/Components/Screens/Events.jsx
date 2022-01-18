@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react'
 import Eventcard from '../Eventcard'
 import '../../Styles/Events.css'
 import { useNavigate } from 'react-router-dom'
-
+import event_data from '../../Data/events_data'
 function Events() {
     const navigate = useNavigate()
     const [curr, setcurr] = useState(0)
@@ -25,19 +25,19 @@ function Events() {
             h = 0
             greenrightref.current.style.width = "0px"
             if (bodyref.current.scrollLeft == 0) {
-                i+=3
+                i += 3
                 greenleftref.current.style.width = `${i}px`
-                if(i>60){
+                if (i > 60) {
                     greenleftref.current.style.width = "0px"
-                    if(curr==0){
+                    if (curr == 0) {
                         return navigate("/about_us")
                     }
-                    else if(curr==1){
+                    else if (curr == 1) {
                         technicalref.current.click()
                         bodyref.current.scrollLeft = 0
                         return setcurr(0)
                     }
-                    else if(curr==2){
+                    else if (curr == 2) {
                         nontechnicalref.current.click()
                         bodyref.current.scrollLeft = 0
                         return setcurr(1)
@@ -49,8 +49,6 @@ function Events() {
             i = 0
             greenleftref.current.style.width = "0px"
             if (bodyref.current.offsetWidth + bodyref.current.scrollLeft >= bodyref.current.scrollWidth - 10) {
-
-
                 h += 3
                 console.log(h)
                 greenrightref.current.style.width = h + 'px'
@@ -101,7 +99,7 @@ function Events() {
         flagshipref.current.classList.add("activex")
     }
     return (
-        <div className="events" onWheel={scrollhandler}>
+        <div className="events" onWheel={scrollhandler} onTouchMove={scrollhandler}>
             <div className='add-green-vertical right-fixed bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenrightref} />
             <div className='add-green-vertical left-fixed bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenleftref} />
 
@@ -112,12 +110,23 @@ function Events() {
                 <h1 ref={flagshipref} onClick={flagshipclick}>Flagship</h1>
             </div>
             <div className='events-body' ref={bodyref} >
-                <Eventcard primary="#24B47E" />
-                <Eventcard primary="red" />
-                <Eventcard primary="orange" />
-                <Eventcard primary="#24B47E" />
-                <Eventcard primary="#24B47E" />
-                <Eventcard primary="#24B47E" />
+                {
+                    event_data.map((data,index)=>{
+                        if(data.type === "technical" && curr === 0 
+                        || data.type === "non_technical" && curr==1
+                        || data.type === "flagship" && curr==3
+                        ){
+                            return(
+                                <Eventcard primary={data.color} data={data} />
+                            )
+                        }
+                        else{
+                            return true
+                        }
+
+                    })
+                }
+
                 <div className='px-10'></div>
             </div>
         </div>

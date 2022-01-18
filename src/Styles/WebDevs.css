@@ -93,9 +93,16 @@
     width: 100%;
     bottom: 25px;
 }
-.media-container>i{
+.media-container>a>i{
     cursor: pointer;
 }
-.media-container>i:hover{
+.media-container>a>i:hover{
     color: var(--fg-green);
+}
+@media only screen and (max-width: 900px) {
+    .webdevs-container{
+        text-align: center;
+        padding: 20px;
+        margin-top: 15%;
+    }
 }

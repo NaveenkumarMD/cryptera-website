@@ -121,3 +121,27 @@
     top: 50px;
     right: 50px;
 }
+@media only screen and (max-width: 900px) {
+    .support-container{
+        margin-top: 60px;
+    }
+    .support-content{
+        max-width: 100%;
+        padding-left: 0px;
+    }
+    .support-content>input{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .text-area{
+        min-width: 100%;
+    }
+    .mobile-container{
+        position: absolute;
+        top: 90px;
+        right: 30px;
+    }
+    .submit{
+        margin-top: 0px;
+    }
+}

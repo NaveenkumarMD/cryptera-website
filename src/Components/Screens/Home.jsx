@@ -9,7 +9,18 @@ function Home() {
     const Homeref = useRef(null)
     const greenref = useRef(null)
     let h = 10
-
+    const clickhandler = (e) => {
+        navigator("/events")
+    }
+    const cursorhandler=(event)=>{
+        const screenwidth=window.innerWidth
+        if(
+            event.clientX > screenwidth/2
+        ){
+            // alert("Hello")
+        }
+       
+    }
     const wheelhandler = (event) => {
         console.log('wheel')
         console.log(event.deltaY)
@@ -30,15 +41,22 @@ function Home() {
         }
 
     }
+
     return (
-        <div className='home main-section' id="Home" ref={Homeref} onWheel={wheelhandler}>
+        <div className='home main-section' id="Home" ref={Homeref} onWheel={wheelhandler} onTouchMove={wheelhandler}
+       onMouseOver={cursorhandler}
+        >
 
             <div className='home-content'>
                 <div className='home-content-text'>
                     <h1>A National level Technical Symposium conducted by CSE department of CIT.    </h1>
-                    <Button text="Check out the Events" />
+                    {/* <div className='explore-btn'></div> */}
+                    <div className='explore-btn'>
+                        <Button text="Check out the Events" onClick={clickhandler} />
+                    </div>
+
                 </div>
-                <div>
+                <div className='lottie'>
                     <lottie-player
                         autoplay
                         loop

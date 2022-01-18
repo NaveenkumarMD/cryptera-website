@@ -1,18 +1,22 @@
 import React from 'react'
-
-function Eventcard(props) {
+import {useNavigate} from 'react-router-dom'
+function Eventcard({data,primary}) {
+    const navigate=useNavigate()
+    const clickhandler=(e)=>{
+        navigate(`/events/${data.name}`)
+    }
     return (
-        <div className='event-card' style={{borderTopColor:props.primary}}>
+        <div className='event-card' style={{borderTopColor:primary}}>
             <div className='event-card-header'>
-                <span>For Testing</span>
+                <span>{data.title}</span>
             </div>
             <div className='event-card-body'>
-                <span>A high rated tamil movie maja pa maja pa but not</span>
-                <span>A high rated tamil movie maja pa maja pa but not</span>
-                <span>A high rated tamil movie maja pa maja pa but not</span>
+                <span>{data.description}</span>
+
+
             </div>
-            <div className='read-more' style={{backgroundColor:props.primary}}>
-                <button>Apply<i className='fa fas-angle-right'></i> </button>
+            <div className='read-more' style={{backgroundColor:primary}}>
+                <button onClick={clickhandler}>View<i className='fa fas-angle-right'></i> </button>
             </div>
         </div>
     )

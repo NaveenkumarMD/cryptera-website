@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import '../Styles/ComponentsStyles/Navmobile.css'
 import Logo from '../Assets/logo.png'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
@@ -32,6 +32,94 @@ function Navmobile() {
     const closenav = () => {
         clickhandler()
     }
+    const clearActive = () => {
+        homeref.current.classList.remove('active')
+        aboutref.current.classList.remove('active')
+        contactref.current.classList.remove('active')
+        eventref.current.classList.remove('active')
+        webref.current.classList.remove('active')
+        commiteeref.current.classList.remove('active')
+        timelineref.current.classList.remove('active')
+    }
+    useEffect(() => {
+        if (location.pathname === "/") {
+            clearActive()
+            homeref.current.classList.add("active")
+            hintref.current.innerHTML = "Scroll"
+            hintref.current.addEventListener("click", () => {
+
+            })
+
+        }
+        else if (location.pathname.includes("/events")) {
+            clearActive()
+            eventref.current.classList.add("active")
+            if (location.pathname === "/events") {
+                hintref.current.innerHTML = "Timeline"
+                hintref.current.addEventListener("click", () => {
+                    navigate("/timeline")
+                })
+            }
+            else {
+                hintref.current.innerHTML = "Back"
+                hintref.current.addEventListener("click", () => {
+                    navigate("/events")
+                })
+            }
+        }
+        else if (location.pathname === "/about_us") {
+            clearActive()
+            aboutref.current.classList.add("active")
+            hintref.current.innerHTML = "Events"
+            hintref.current.addEventListener("click", () => {
+                navigate('/events')
+            })
+        }
+        else if (location.pathname === "/contact_us") {
+            clearActive()
+            contactref.current.classList.add("active")
+            hintref.current.innerHTML = "To top"
+            hintref.current.addEventListener("click", () => {
+                navigate("/")
+            })
+        }
+        else if (location.pathname === "/events") {
+            clearActive()
+            eventref.current.classList.add("active")
+            hintref.current.innerHTML = "Time line"
+            hintref.current.addEventListener("click", () => {
+                navigate("/timeline")
+            })
+        }
+        else if (location.pathname === "/web_devs") {
+            clearActive()
+            webref.current.classList.add("active")
+            hintref.current.innerHTML = "Committee"
+            hintref.current.addEventListener("click", () => {
+                navigate("/commitee")
+            })
+
+        }
+        else if (location.pathname === "/timeline") {
+            clearActive()
+            timelineref.current.classList.add("active")
+            hintref.current.innerHTML = "Web devs"
+            hintref.current.addEventListener("click", () => {
+                navigate("/web_devs")
+            })
+        }
+        else if (location.pathname === "/commitee") {
+            clearActive()
+            commiteeref.current.classList.add("active")
+            hintref.current.innerHTML = "Contact us"
+            hintref.current.addEventListener("click", () => {
+                navigate("/contact_us")
+            })
+        }
+        else {
+            clearActive()
+        }
+    }, [location])
     return (
         <>
             <div>
@@ -39,6 +127,7 @@ function Navmobile() {
                     <div className='close-btn-x' onClick={closenav}>
                         <i class="fas fa-times"></i>
                     </div>
+                    <div className='hint' ref={hintref}></div>
 
                     <div className='linkx' ref={linkxref}>
                         <Link to="/" ref={homeref} className=" navbar-linkx" id="Home-link">       <i className="fa fa-home"></i><span>Home</span></Link>
@@ -49,6 +138,14 @@ function Navmobile() {
                         <Link to="commitee" ref={commiteeref} className=" navbar-linkx"><i className="fa fa-users"></i><span>Commitee</span></Link>
                         <Link to="contact_us" ref={contactref} className=" navbar-linkx"><i className="fa fa-headset"></i><span>Contact Us</span></Link>
                     </div>
+                    <div>
+                        <div className="social-linksx">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div className='nav-mobile'>
@@ -57,7 +154,8 @@ function Navmobile() {
                     <img src={Logo} alt='logo' />
                 </div>
                 <div onClick={clickhandler} className='close-btn'>
-                    <i class="fas fa-bars"></i>
+                    Menu
+                    {/* <i class="fas fa-bars"></i> */}
                 </div>
 
             </div>
