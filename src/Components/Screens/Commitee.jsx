@@ -48,7 +48,7 @@ function Commitee() {
 
     }
     return (
-        <div className='webdevs'  ref={contentref} onWheel={wheelhandler} onTouchMove={wheelhandler}>
+        <div className='webdevs'  ref={contentref} onWheel={wheelhandler} >
                         <div className='add-green bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenBottomref} />
             <div className='add-green top-fixed bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenTopref} />
 

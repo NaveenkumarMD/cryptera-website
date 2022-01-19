@@ -43,7 +43,7 @@ function Home() {
     }
 
     return (
-        <div className='home main-section' id="Home" ref={Homeref} onWheel={wheelhandler} onTouchMove={wheelhandler}
+        <div className='home main-section' id="Home" ref={Homeref} onWheel={wheelhandler} 
        onMouseOver={cursorhandler}
         >
 

@@ -53,7 +53,7 @@ function AboutUs() {
     }
   };
   return (
-    <div className="about-us" onWheel={wheelhandler} ref={contentref} onTouchMove={wheelhandler}>
+    <div className="about-us" onWheel={wheelhandler} ref={contentref} >
       <div className="lottie-player">
         <lottie-player
           autoplay
