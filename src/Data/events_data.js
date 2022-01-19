@@ -69,7 +69,7 @@ export default [
             }
         ],
         color: 'orange',
-        description: "A hisg lfewrgr eg erwgerg gwwegr gr gherhgr h r h rh  r h w g dgsdg ad  er bhf  h raercgg feuwycbtryi74 fgrvutfr tryuvtyuf gty uerwgf yu34",
+        description: "Routes are meant to reach a Cloud native application hosted in Cloud platform like Cloud Foundry. Routes are created and assigned to a cloud foundry application when an application is deployed in Cloud Foundry for the first time. Routes are the fully qualified paths of the application which is a unique name and domain to reach the application. The routes are used as the base URL of an application. One application can be assigned multiple routes.",
         form: "https://google.com",
         type: "technical",
         faq: [
@@ -158,7 +158,7 @@ export default [
             }
         ],
         color: '#00a65a',
-        description: "A hisg lfewrgr eg erwgerg gwwegr gr gherhgr h r h rh  r h w g dgsdg ad  er bhf  h raercgg feuwycbtryi74 fgrvutfr tryuvtyuf gty uerwgf yu34",
+        description: "Routes are meant to reach a Cloud native application hosted in Cloud platform like Cloud Foundry. Routes are created and assigned to a cloud foundry application when an application is deployed in Cloud Foundry for the first time. Routes are the fully qualified paths of the application which is a unique name and domain to reach the application. The routes are used as the base URL of an application. One application can be assigned multiple routes.",
         form: "https://google.com",
         type: "non_technical",
         faq: [

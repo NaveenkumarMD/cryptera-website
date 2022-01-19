@@ -85,9 +85,7 @@ const Commiteemember = ({data}) => {
         <div className='content-container-item'>
             <div className='content-container-item-image'>
                 <img src={data.profile} alt='profile' />
-                <div className='insta-hover-container'>
-                    {data.position}
-                </div>
+
             </div>
             <div className='content-container-item-description'>
                 <div className='commitee-name-x'>
@@ -95,7 +93,7 @@ const Commiteemember = ({data}) => {
                         <h1>{data.name}</h1>
                         <p>{data.year}</p>
                     </div>
-                    <p>{data.x}</p>
+                    <p>{data.position}</p>
                 </div>
             </div>
         </div>

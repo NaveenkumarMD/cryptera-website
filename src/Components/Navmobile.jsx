@@ -16,15 +16,18 @@ function Navmobile() {
     const commiteeref = useRef(null)
     const hintref = useRef(null)
     const linkxref = useRef(null)
+    const sociallinksref=useRef(null)
     const clickhandler = () => {
         sidenavref.current.classList.toggle('activeo')
         setopen(!open)
         if (open) {
             linkxref.current.style.display = "none"
+            sociallinksref.current.style.display = "none"
         }
         else {
             setTimeout(() => {
                 linkxref.current.style.display = "flex"
+                sociallinksref.current.style.display = "block"
             }, [500])
 
         }
@@ -139,7 +142,7 @@ function Navmobile() {
                         <Link to="contact_us" ref={contactref} className=" navbar-linkx"><i className="fa fa-headset"></i><span>Contact Us</span></Link>
                     </div>
                     <div>
-                        <div className="social-linksx">
+                        <div className="social-linksx" ref={sociallinksref}>
                         <i class="fab fa-instagram"></i>
                         <i class="fab fa-youtube"></i>
                         <i class="fab fa-linkedin-in"></i>

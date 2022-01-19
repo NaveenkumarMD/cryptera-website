@@ -74,6 +74,7 @@
 }
 .social-linksx{
     margin: 40px;
+    display: none;
 }
 .social-linksx>i{
     margin: 10px;
