@@ -26,13 +26,15 @@
     gap: 24px;
     flex-direction: column;
     letter-spacing: 1px;
-    height: 300px;
+    height: auto;
     white-space: nowrap;
     overflow: hidden;
     transition: 1s ease-in-out;
+    
 }
 .navbar-links>div:hover{
     color: var(--fg-green);
+    cursor: pointer;
     cursor: pointer;
 }
 .bottom-special{

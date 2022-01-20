@@ -26,7 +26,7 @@ function Navbar() {
     }
     useEffect(()=>{
         window.addEventListener("mouseover",(event)=>{
-            if(event.clientX> window.innerWidth/4){
+            if(event.clientX> window.innerWidth/3){
                 navbarref.current.style.width="20px"
 
             }

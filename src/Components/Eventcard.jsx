@@ -15,8 +15,8 @@ function Eventcard({data,primary}) {
 
 
             </div>
-            <div className='read-more' style={{backgroundColor:primary}}>
-                <button onClick={clickhandler}>View<i className='fa fas-angle-right'></i> </button>
+            <div className='read-more' style={{backgroundColor:primary}} onClick={clickhandler}>
+                <button >View<i className='fa fas-angle-right'></i> </button>
             </div>
         </div>
     )
