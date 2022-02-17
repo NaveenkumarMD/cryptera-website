@@ -86,7 +86,7 @@ export default [
             },
         ],
         tags: [
-            'python', "codin"
+            'python', "coding"
         ]
 
     },

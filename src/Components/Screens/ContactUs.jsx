@@ -14,7 +14,7 @@ function ContactUs() {
             alert("All fields are mandatory")
         }
         // validations
-
+        
     }
     return (
         <div className='support' >

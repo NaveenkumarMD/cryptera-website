@@ -33,17 +33,6 @@ const web_devs_data= [
         linkedin:"https://www.linkedin.com/in/santhosh-mohan-612898190"
     },
     {
-        id: 4,
-        profile:"https://drive.google.com/uc?export=view&id=1IRlCrYEOY5XVl9I65hBXgQHpd_oO6W4-",
-        name:"Sakthivel M",
-        about:"Enthusiastic web developer and innovative creator with progressive ideas",
-        instagram:"https://www.instagram.com/vizharian_coder",
-        github:"https://github.com/sakthim24",
-        medium:"",
-        portfolio:"",
-        linkedin:"https://www.linkedin.com/in/sakthivel-murugesh-976153202"
-    },
-    {
         id: 5,
         profile:"https://drive.google.com/uc?export=view&id=1VhcWnyim_uMnEQdlssjOd1klMQmaqN1G",
         name:"Vigneswari G",
@@ -54,38 +43,6 @@ const web_devs_data= [
         portfolio:"",
         linkedin:"https://www.linkedin.com/in/vigneswari-g-754923195/"
     },
-    {
-        id: 6,
-        profile:"https://drive.google.com/uc?export=view&id=15Jc7QHahdDqFR7mp_MzJUU1iuVTyGTh_",
-        name:"Soundarya M",
-        about:"I am an enthusiastic web developer and also passionate in Data Science.",
-        instagram:"https://www.instagram.com/soundarya_.ms/",
-        github:"https://github.com/soundarya-ms3",
-        medium:"https://medium.com/@soundaryams03",
-        portfolio:"",
-        linkedin:"https://www.linkedin.com/in/soundarya-m-369226203/"
-    },
-    {
-        id: 7,
-        profile:"https://drive.google.com/uc?export=view&id=17bO6olg0wL6GXo634kGvJJ8g9ZnekbDg",
-        name:"Murugalakshmi M",
-        about:"I love coding, creating websites and mobile applications and learning new things.",
-        instagram:"https://www.instagram.com/mlakshmi_2k20/",
-        github:"https://github.com/mlakshmi2k19",
-        medium:"",
-        portfolio:"",
-        linkedin:"https://www.linkedin.com/in/murugalakshmi-murugan-367874217"
-    },
-    {
-        id: 8,
-        profile:"https://drive.google.com/uc?export=view&id=183FHZ2fldO_7CHEvGAyqbcfY0TRpW9of",
-        name:"Harshita.K ",
-        about:"Web/App Developer",
-        instagram:"",
-        github:"",
-        medium:"",
-        portfolio:"",
-        linkedin:"https://www.linkedin.com/in/harshita-kumaravel-9272281a9"
-    },
+
 ]
 export default web_devs_data;
