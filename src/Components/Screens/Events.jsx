@@ -1,8 +1,7 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef, useState,useEffect } from 'react'
 import Eventcard from '../Eventcard'
 import '../../Styles/Events.css'
 import { useNavigate } from 'react-router-dom'
-import event_data from '../../Data/events_data'
 function Events() {
     const navigate = useNavigate()
     const [curr, setcurr] = useState(0)
@@ -12,6 +11,12 @@ function Events() {
     const bodyref = useRef(null)
     const greenrightref = useRef(null)
     const greenleftref = useRef(null)
+    const [event_data,seteventdata]=useState([])
+    useEffect(()=>{
+        const data=JSON.parse(localStorage.getItem("event_details"))
+        seteventdata(data)
+        console.log(data)
+    },[])
 
     let h = 0
     let i = 0
@@ -111,16 +116,16 @@ function Events() {
             </div>
             <div className='events-body' ref={bodyref} >
                 {
-                    event_data.map((data,index)=>{
-                        if(data.type === "technical" && curr === 0 
-                        || data.type === "non_technical" && curr==1
-                        || data.type === "flagship" && curr==3
-                        ){
-                            return(
+                    event_data.map((data, index) => {
+                        if (data.type === "technical" && curr === 0
+                            || data.type === "non_technical" && curr == 1
+                            || data.type === "flagship" && curr == 3
+                        ) {
+                            return (
                                 <Eventcard primary={data.color} data={data} />
                             )
                         }
-                        else{
+                        else {
                             return true
                         }
 
