@@ -2,6 +2,9 @@ import React, { useState } from 'react'
 import '../../Styles/ContactUs.css'
 import Faq from '../Faq'
 import Faq_data from '../../Data/Faqs_main'
+import {db} from '../../App'
+import { getFirestore, collection, getDocs, addDoc } from "firebase/firestore";
+import Button from '../Button'
 function ContactUs() {
     const [name, setname] = useState("")
     const [college, setcollege] = useState("")
@@ -9,11 +12,27 @@ function ContactUs() {
     const [mobile, setmobile] = useState("")
     const [question, setquestion] = useState("")
 
-    const submit = () => {
+    const submit = async () => {
         if (!(name && college && email && mobile && question)) {
             alert("All fields are mandatory")
         }
         // validations
+        try {
+            const docRef = await addDoc(collection(db, "queries"), {
+                name,
+                email,
+                mobile,
+                question,
+                college,
+                replied:false
+            });
+          
+            console.log("Document written with ID: ", docRef.id);
+            alert("Success")
+            
+          } catch (e) {
+            console.error("Error adding document: ", e);
+          }
         
     }
     return (
@@ -33,6 +52,7 @@ function ContactUs() {
                 <div className='submit' onClick={submit}>
                     <div>SUBMIT</div>
                 </div>
+
             </div>
             <div className='faq-container'>
                 <div className='faq-header'>

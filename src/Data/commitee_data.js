@@ -86,7 +86,7 @@ export default [
         year: "Third year",
         x: "CSE",
         profile:
-            "https://drive.google.com/uc?export=view&id=1I4qOLwB37FtcRky7QVKoOSg26vQi3ncI",
+            "https://drive.google.com/uc?export=view&id=1VBk2KdniAFlpFeB0Y_mIoPpnrixYtmtc",
     },
     {
         name: "Daarani.S",
@@ -207,7 +207,7 @@ export default [
         year: "Third year",
         x: "CSE",
         profile:
-            "https://drive.google.com/uc?export=view&id=1IRlCrYEOY5XVl9I65hBXgQHpd_oO6W4-",
+            "https://drive.google.com/uc?export=view&id=1ITP8bcUR0re3VsOeStfemLi0vLXQxx7N",
     },
     {
         name: "Santhosh M",

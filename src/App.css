@@ -9,3 +9,107 @@
     justify-content: center;
 
 }
+.sectone{
+    height: 100vh;
+    overflow: hidden;
+}
+.bg img{
+    width: 110vw;
+    height: 110vh;
+}
+
+.fgrocks{
+    position: absolute ;
+    top: 30% !important;
+    z-index:5;
+  
+}
+
+.fgrocks img{
+    width:100%;
+    z-index: 100;
+}
+
+.bottomblend{
+    position: absolute ;
+    width: 100vw !important;
+    height: 100vh !important;
+ 
+
+    mix-blend-mode: screen;
+}
+.bottomblend img{
+    z-index: 4;
+}
+
+.blend-layer{
+    position: absolute;
+    transform: translate(10%,50%) !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 2;
+    mix-blend-mode: screen; 
+}
+
+
+.globe{
+    position: absolute;
+    left: 30% !important;
+    top: -30% !important;
+    z-index: 1;
+    mix-blend-mode: screen;
+}
+.globe img{
+    width: 60% !important;
+}
+.text{
+    position: absolute;
+    left: 10% !important;
+    top: -30% !important;
+    z-index: 0;
+    mix-blend-mode: screen;
+ 
+}
+.text img{
+    width: 90% !important;
+}
+.rock{
+    position: absolute ;
+    left: 12% !important;
+    top: 20% !important;
+    z-index: 100;
+}
+.rock img{
+    width: 90% !important;
+
+}
+.upblend{
+    position: absolute;
+    width: 17% !important;
+    left: 38% !important;
+    top: -2% !important;
+    mix-blend-mode: screen;
+    z-index: 4;
+}
+
+.fore-rocks{
+    position: absolute;
+
+    top: 2% !important;
+
+    z-index: 2;
+}
+.fore-rocks img{
+    height: 110% !important;
+}
+
+.mobile-bg{
+    display: none;
+}
+.violet-gradient{
+    background: radial-gradient( circle, rgb(65, 21, 122) 0%, rgb(129, 77, 177) 0%, rgb(86, 19, 195) 81%, rgb(111, 22, 214) 100% ) !important;
+}
+.mail-container{
+    bottom:50px !important;
+    
+}

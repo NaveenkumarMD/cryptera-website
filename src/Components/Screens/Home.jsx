@@ -44,9 +44,19 @@ function Home() {
 
     return (
         <div className='home main-section' id="Home" ref={Homeref} onWheel={wheelhandler} 
-       onMouseOver={cursorhandler}
+       onMouseOver={cursorhandler} style={{position:"relative"}}
         >
-
+            <div className='mobile-container'>
+                <a href='tel:+91 8870499146'>
+                <i className='fa fa-phone'></i>
+                </a>
+               
+            </div>
+            <div className='mail-container mobile-container'>
+            <a href='tel:+91 8870499146'>
+                <i className='fa fa-phone'></i>
+                </a>
+            </div>
             <div className='home-content'>
                 <div className='home-content-text'>
                     <h1>A National level Technical Symposium conducted by CSE department of CIT.    </h1>

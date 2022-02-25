@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import AnimatedCursor from 'react-animated-cursor';
 //Components
@@ -15,6 +15,9 @@ import Events from './Components/Screens/Events';
 import Timeline from './Components/Screens/Timeline';
 import Eventdetails from './Components/Screens/Eventdetails';
 import Navmobile from './Components/Navmobile';
+import Queries from './Components/Screens/Queries';
+import Main from './Components/Screens/Main';
+import Update_event from './Components/Screens/Update_event';
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, getDocs, addDoc } from "firebase/firestore";
 import { getevent_details_data } from './Data/events_data';
@@ -29,8 +32,9 @@ const firebaseApp = initializeApp({
 });
 
 const db = getFirestore()
+export {db}
 function App() {
-
+  const [flag,setflag]=useState(true)
   useEffect(async () => {
     const getdata = async () => {
       const querysnapshot = await getDocs(collection(db, "event_details"))
@@ -47,6 +51,14 @@ function App() {
       localStorage.removeItem("event_details")
     }
   }, [])
+  const movetohomepage=()=>{
+    setflag(false)
+  }
+  if (flag && window.innerWidth>1150){
+    return(
+      <Main movetohomepage={movetohomepage}/>
+    )
+  }
   return (
     <div className='main-container'>
 
@@ -71,6 +83,9 @@ function App() {
             <Route path="/commitee" element={<Commitee />}></Route>
             <Route path="/contact_us" element={<ContactUs />}></Route>
             <Route path="/events/:name" element={<Eventdetails />}></Route>
+            <Route path='/access_code_8870' element={<Queries/>}></Route>
+            <Route path='/access_code_8870499146_ji' element={<Update_event/>}></Route>
+
           </Routes>
         </div>
       </BrowserRouter>

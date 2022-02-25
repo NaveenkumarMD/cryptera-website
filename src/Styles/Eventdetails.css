@@ -73,7 +73,7 @@
 }
 
 .event-content-container {
-    display: flex;
+
     max-width: 80%;
     margin: auto;
     flex-direction: row;
@@ -343,4 +343,7 @@
         font-size: 60px;
         margin-bottom: 10px;
     }
+}
+.highlight{
+    color: #24B47E;
 }
