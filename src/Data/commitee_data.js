@@ -30,7 +30,7 @@ export default [
         year: "Third year",
         x: "CSE",
         profile:
-            "https://drive.google.com/uc?export=view&id=1r1JZNUtF6pixuxya6GmOi-AGuUwuSorD",
+            "https://drive.google.com/uc?export=view&id=1ANHwBtBsZmvQeYjYRVJECrtAb11d8AWY",
     },
     {
         name: "Vijay Shanmugan S",
@@ -46,7 +46,7 @@ export default [
         year: "Third year",
         x: "CSE",
         profile:
-            "https://drive.google.com/uc?export=view&id=1oTzfKzfwfng0Rb_LlP5IOj9yhEOaCzl7",
+            "https://drive.google.com/uc?export=view&id=1Q70kwgPXGh3bkqx6mUjd4iQLy3Zt4a-W",
     },
     {
         name: "Loganathan D",
@@ -295,7 +295,7 @@ export default [
         year: "Third year",
         x: "CSE",
         profile:
-            "https://drive.google.com/uc?export=view&id=11KBqfaBAmqu16Pd-ZWNJI7pjZ-OUWM4T",
+            "https://drive.google.com/uc?export=view&id=1608K5FyBhVYG-rWF8l2KjuPpA8MFvotT",
     },
     {
         name: "Chandramouli G",
@@ -378,7 +378,7 @@ export default [
         year: "Third year",
         x: "CSE",
         profile:
-            "https://drive.google.com/uc?export=view&id=1MFzxQ79YpE96VQILpCA1rsRxrMne_iOT",
+            "https://drive.google.com/uc?export=view&id=1CLkoqHQVdkxtqpj_wUE-SCQT5oHDgOB6",
     },
     {
         name: "Sreemathi Sampath",
@@ -394,7 +394,7 @@ export default [
         year: "Third year",
         x: "CSE",
         profile:
-            "https://drive.google.com/uc?export=view&id=1y3EfysqNs-OSUKd-z44EKa_bmKtaRQ4l",
+            "https://drive.google.com/uc?export=view&id=157KDcTZ_pFgn6S3jWe6xL0xB-bnajEkt",
     },
     {
         name: "Sukirtha Raj N ",
@@ -410,7 +410,7 @@ export default [
         year: "Third year",
         x: "CSE",
         profile:
-            "https://drive.google.com/uc?export=view&id=1SUv0_QIsnxv_BWAl6Qw9bI1wGbhrKz3f",
+            "https://drive.google.com/uc?export=view&id=1nhZgQritbKV-pUWeo6qV3KOe6RJtZp5b",
     },
 
     {
