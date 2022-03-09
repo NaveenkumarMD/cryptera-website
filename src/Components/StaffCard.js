@@ -8,14 +8,14 @@ function StaffCard(props) {
                 <div className='circle circle-hover' >
                 </div>
                 <div className='manager-profile-image img-hover ' >
-                    <img src={props.image} alt='event' />
+                    <img src={props.image} alt='event' style={{width:"100%",height:"100%",borderRadius:"50%",objectFit:"cover"}} />
                 </div>
                 <div className='manager-profile-details'>
-                    <div className='manager-profile-name'>
-                        <h1>Manager Name</h1>
+                    <div style={{fontSize:"16px"}}>
+                        <h1>{props.name}</h1>
                     </div>
-                    <div className='manager-profile-description'>
-                        <p>Third year CSE</p>
+                    <div style={{fontSize:"14px",textAlign:"center",paddingTop:"2px"}}>
+                        <p>{props.position}</p>
                     </div>
                 </div>
 

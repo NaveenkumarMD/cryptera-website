@@ -55,7 +55,7 @@ function Commitee() {
             <div className='webdevs-container'>
                 <div >
                     <h1 className='webdevs-title'>Commitee members</h1>
-                    <p className='webdevs-tilte-description'>Join the community around the world</p>
+                    <p className='webdevs-tilte-description'>The crew in charge of painting the events. </p>
                 </div>
                 <div className='content-container' style={{maxWidth:"800px",margin:"auto",marginTop:"7%"}}>
                     {
@@ -84,7 +84,7 @@ const Commiteemember = ({data}) => {
     return (
         <div className='content-container-item'>
             <div className='content-container-item-image'>
-                <img src={data.profile} alt='profile' />
+                <img src={data.profile} alt='profile' loading='lazy' />
 
             </div>
             <div className='content-container-item-description'>

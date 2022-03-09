@@ -9,7 +9,7 @@
     display: block !important;
 }
 .webdevs::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to bottom, #56a387, #3cc51a);
+    background:green !important;
     border-radius: 10px;
     display: block !important;
 }

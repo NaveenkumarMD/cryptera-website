@@ -1,7 +1,7 @@
 export default [
     {
         name: "Naveenkumar M",
-        position: "Chairman",
+        position: "President",
         year: "Third year",
         x: "CSE",
         profile:
@@ -26,7 +26,7 @@ export default [
     },
     {
         name: "Renuka Devi P",
-        position: "Joint Secretary",
+        position: "Vice president",
         year: "Third year",
         x: "CSE",
         profile:

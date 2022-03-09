@@ -25,7 +25,7 @@ const web_devs_data= [
         id: 3,
         profile:"https://drive.google.com/uc?export=view&id=1gRgFSCRIfDQ52-jOtDNdJrJZv1R1naCC",
         name:"Santhosh M",
-        about:"Web/App Developer",
+        about:"Web and app development enthusiast. Messing up with MERN.",
         instagram:"https://www.instagram.com/santhosh_.25/",
         github:"https://github.com/santhoshm25",
         medium:"https://medium.com/@santhoshm25",
@@ -36,12 +36,23 @@ const web_devs_data= [
         id: 5,
         profile:"https://drive.google.com/uc?export=view&id=1VhcWnyim_uMnEQdlssjOd1klMQmaqN1G",
         name:"Vigneswari G",
-        about:"Passionate Web/App Developer",
+        about:"Aspiring python programmer with a keen interest in problem solving and a Django developer.",
         instagram:"https://www.instagram.com/_vigneswari_ganesan_/",
         github:"https://github.com/Vigneswari078",
-        medium:"",
-        portfolio:"",
+        medium:null,
+        portfolio:null,
         linkedin:"https://www.linkedin.com/in/vigneswari-g-754923195/"
+    },
+    {
+        id: 6,
+        profile:"https://drive.google.com/uc?export=view&id=1I41O8gV9C40tNbKBpETx1iSvUDb6wQwb",
+        name:"Sethubharathi B",
+        about:"An enthusiastic web and app developer and a designer who is looking for new things",
+        instagram:"https://www.instagram.com/___.bharathi/",
+        github:"https://github.com/Sethu-bharathi",
+        medium:"https://medium.com/@bharathisethu018",
+        portfolio:" https://sethu-bharathi.web.app",
+        linkedin:"https://www.linkedin.com/in/sethubharathi-b-2282991b2/"
     },
 
 ]

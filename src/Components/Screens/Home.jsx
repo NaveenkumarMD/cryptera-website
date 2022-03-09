@@ -12,14 +12,14 @@ function Home() {
     const clickhandler = (e) => {
         navigator("/events")
     }
-    const cursorhandler=(event)=>{
-        const screenwidth=window.innerWidth
-        if(
-            event.clientX > screenwidth/2
-        ){
+    const cursorhandler = (event) => {
+        const screenwidth = window.innerWidth
+        if (
+            event.clientX > screenwidth / 2
+        ) {
             // alert("Hello")
         }
-       
+
     }
     const wheelhandler = (event) => {
         console.log('wheel')
@@ -43,23 +43,17 @@ function Home() {
     }
 
     return (
-        <div className='home main-section' id="Home" ref={Homeref} onWheel={wheelhandler} 
-       onMouseOver={cursorhandler} style={{position:"relative"}}
+        <div className='home main-section' id="Home" ref={Homeref} onWheel={wheelhandler}
+            onMouseOver={cursorhandler} style={{ position: "relative" }}
         >
             <div className='mobile-container'>
                 <a href='tel:+91 8870499146'>
-                <i className='fa fa-phone'></i>
-                </a>
-               
-            </div>
-            <div className='mail-container mobile-container'>
-            <a href='tel:+91 8870499146'>
-                <i className='fa fa-phone'></i>
+                    <i className='fa fa-phone'></i>
                 </a>
             </div>
             <div className='home-content'>
                 <div className='home-content-text'>
-                    <h1>A National level Technical Symposium conducted by CSE department of CIT.    </h1>
+                    <h1>A National level Technical Symposium conducted by CSE department of CIT.</h1>
                     {/* <div className='explore-btn'></div> */}
                     <div className='explore-btn'>
                         <Button text="Check out the Events" onClick={clickhandler} />

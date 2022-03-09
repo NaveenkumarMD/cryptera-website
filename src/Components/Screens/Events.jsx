@@ -1,4 +1,4 @@
-import React, { useRef, useState,useEffect } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import Eventcard from '../Eventcard'
 import '../../Styles/Events.css'
 import { useNavigate } from 'react-router-dom'
@@ -11,12 +11,12 @@ function Events() {
     const bodyref = useRef(null)
     const greenrightref = useRef(null)
     const greenleftref = useRef(null)
-    const [event_data,seteventdata]=useState([])
-    useEffect(()=>{
-        const data=JSON.parse(localStorage.getItem("event_details"))
+    const [event_data, seteventdata] = useState([])
+    useEffect(() => {
+        const data = JSON.parse(localStorage.getItem("event_details"))
         seteventdata(data)
         console.log(data)
-    },[])
+    }, [])
 
     let h = 0
     let i = 0
@@ -69,7 +69,7 @@ function Events() {
                         bodyref.current.scrollLeft = 0
                         return setcurr(2)
                     }
-                    navigate('/timeline')
+                    navigate('/web_devs')
                 }
             }
 
@@ -114,7 +114,10 @@ function Events() {
                 <h1 ref={nontechnicalref} onClick={nontechnicalclick} >Non-Technical</h1>
                 <h1 ref={flagshipref} onClick={flagshipclick}>Flagship</h1>
             </div>
-            <div className='events-body' ref={bodyref} >
+            <div className="events-boy" style={{marginTop:"16%"}}>
+<h1 style={{textAlign:"center",fontSize:"50px"}}>Coming soon......</h1>
+            </div>
+            {/* <div className='events-body' ref={bodyref} >
                 {
                     event_data.map((data, index) => {
                         if (data.type === "technical" && curr === 0
@@ -133,7 +136,7 @@ function Events() {
                 }
 
                 <div className='px-10'></div>
-            </div>
+            </div> */}
         </div>
     )
 }
@@ -143,7 +146,7 @@ export default Events
 const Technical = () => {
     return (
         <div className="technical">
-            Technicla
+            Technical
         </div>
     )
 }

@@ -10,7 +10,7 @@ function WebDevs() {
     const greenBottomref = useRef(null)
     const contentref = useRef(null)
     let h = 10
-    let i = 10  
+    let i = 10
     const wheelhandler = (event) => {
         console.log('wheel')
         console.log(event.deltaY)
@@ -27,7 +27,7 @@ function WebDevs() {
                 greenTopref.current.style.height = `${i}px`
                 if (i > 60) {
                     greenTopref.current.style.height = `0px`
-                    navigate('/timeline')
+                    navigate('/events')
                 }
             }
         }
@@ -55,7 +55,7 @@ function WebDevs() {
             <div className='webdevs-container'>
                 <div >
                     <h1 className='webdevs-title'>Web Developers</h1>
-                    <p className='webdevs-tilte-description'>Join the community around the world</p>
+                    <p className='webdevs-tilte-description'>The team that is similar to the root of the tree</p>
                 </div>
                 <div className='content-container'>
                     {
@@ -75,7 +75,7 @@ function WebDevs() {
 export default WebDevs
 
 const Web_devs_card = (props) => {
-    
+
     return (
         <div className='web-card'>
             <div className='web-card-image'>
@@ -85,11 +85,14 @@ const Web_devs_card = (props) => {
                 <div className='name'>{props.data.name}</div>
                 <div className='description'>{props.data.about}</div>
                 <div className='media-container'>
-
+        {
+            props.data.portfolio &&  <a href={props.data.portfolio} target="_blank" ><i class="fas fa-globe" ></i></a>
+        }
                     <a href={props.data.github} target="_blank" ><i class="fab fa-instagram" ></i></a>
-                    <a href={props.data.github} target="_blank" >   <i class="fab fa-github" ></i> </a>
-                    <a href={props.data.medium} target='_blank'><i class="fab fa-medium-m"></i></a>
-
+                    <a href={props.data.instagram} target="_blank" >   <i class="fab fa-github" ></i> </a>
+                    {
+                        props.data.medium && <a href={props.data.medium} target='_blank'><i class="fab fa-medium-m"></i></a>
+                    }
                     <a href={props.data.linkedin} target="_blank">  <i class="fab fa-linkedin"  ></i>            </a>
 
                 </div>

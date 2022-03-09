@@ -1,4 +1,4 @@
-import React, { useEffect,useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import Image1 from './assets/bg.png'
 import Image2 from './assets/blend-layer.png'
 import Image3 from './assets/bottom-blend.png'
@@ -11,16 +11,16 @@ import Image9 from './assets/upperblend.png'
 import '../../App.css'
 import Parallax from 'parallax-js'
 function Main({ movetohomepage }) {
-    const sectionref=useRef(null)
-    const greenref=useRef(null)
-    const Homeref=useRef(null)
-    let h=10
+    const sectionref = useRef(null)
+    const greenref = useRef(null)
+    const Homeref = useRef(null)
+    let h = 10
     useEffect(() => {
         const parallaxinstance = new Parallax(sectionref.current)
         parallaxinstance.enable()
-        return()=>parallaxinstance.disable()
+        return () => parallaxinstance.disable()
     }, [])
-    const wheelhandler=(event)=>{
+    const wheelhandler = (event) => {
         console.log('wheel')
         console.log(event.deltaY)
         if (event.deltaY < 0) {
@@ -44,9 +44,10 @@ function Main({ movetohomepage }) {
             margin: '0',
             boxSizing: "border-box",
             padding: '0',
-            overflow: "hidden"
+            overflow: "hidden",
+            position: "relative"
         }}>
-            <section className="sectone" id="sectone" ref={sectionref}>
+            <section className="sectone" id="sectone" ref={sectionref} >
                 <div data-depth="0.01" className="bg">
                     <img src={Image1} />
                 </div>
@@ -68,13 +69,20 @@ function Main({ movetohomepage }) {
                 <div data-depth="0.05" className="rock">
                     <img data-depth="0.1" src={Image7} alt="" />
                 </div>
-                <div className="upblend">
-                    <img src={Image9} alt="" />
-                </div>
+
                 <div data-depth="0.3" className="fore-rocks">
                     <img src={Image4} alt="" />
                 </div>
+
             </section>
+            <div className='scroll-indicator'>
+                <div>
+                    
+                </div>
+                <div>
+                <a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon="">Scroll</a>
+                </div>
+            </div>
             <div className='add-green violet-gradient ' ref={greenref} />
         </div>
     )

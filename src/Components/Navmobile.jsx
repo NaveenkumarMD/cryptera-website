@@ -8,7 +8,7 @@ function Navmobile() {
     const location = useLocation()
     const navigate = useNavigate()
     const homeref = useRef(null)
-    const timelineref = useRef(null)
+
     const aboutref = useRef(null)
     const contactref = useRef(null)
     const eventref = useRef(null)
@@ -16,7 +16,7 @@ function Navmobile() {
     const commiteeref = useRef(null)
     const hintref = useRef(null)
     const linkxref = useRef(null)
-    const sociallinksref=useRef(null)
+    const sociallinksref = useRef(null)
     const clickhandler = () => {
         sidenavref.current.classList.toggle('activeo')
         setopen(!open)
@@ -42,7 +42,7 @@ function Navmobile() {
         eventref.current.classList.remove('active')
         webref.current.classList.remove('active')
         commiteeref.current.classList.remove('active')
-        timelineref.current.classList.remove('active')
+
     }
     useEffect(() => {
         if (location.pathname === "/") {
@@ -58,9 +58,9 @@ function Navmobile() {
             clearActive()
             eventref.current.classList.add("active")
             if (location.pathname === "/events") {
-                hintref.current.innerHTML = "Timeline"
+                hintref.current.innerHTML = "Web devs"
                 hintref.current.addEventListener("click", () => {
-                    navigate("/timeline")
+                    navigate("/web_devs")
                 })
             }
             else {
@@ -89,9 +89,9 @@ function Navmobile() {
         else if (location.pathname === "/events") {
             clearActive()
             eventref.current.classList.add("active")
-            hintref.current.innerHTML = "Time line"
+            hintref.current.innerHTML = "Web devs"
             hintref.current.addEventListener("click", () => {
-                navigate("/timeline")
+                navigate("/web_devs")
             })
         }
         else if (location.pathname === "/web_devs") {
@@ -103,14 +103,7 @@ function Navmobile() {
             })
 
         }
-        else if (location.pathname === "/timeline") {
-            clearActive()
-            timelineref.current.classList.add("active")
-            hintref.current.innerHTML = "Web devs"
-            hintref.current.addEventListener("click", () => {
-                navigate("/web_devs")
-            })
-        }
+
         else if (location.pathname === "/commitee") {
             clearActive()
             commiteeref.current.classList.add("active")
@@ -134,18 +127,27 @@ function Navmobile() {
 
                     <div className='linkx' ref={linkxref}>
                         <Link to="/" ref={homeref} className=" navbar-linkx" id="Home-link">       <i className="fa fa-home"></i><span>Home</span></Link>
-                        <Link to="about_us" ref={aboutref} id="about_us" className="navbar-linkx" id="about_us-link"><i className="fa fa-info-circle"></i><span>About us</span></Link>
+                        <Link to="about_us" ref={aboutref} id="about_us" className="navbar-linkx"><i className="fa fa-info-circle"></i><span>About us</span></Link>
                         <Link to="events" ref={eventref} className=" navbar-linkx"> <i className="fa fa-calendar-minus"></i><span>Events</span></Link>
-                        <Link to="timeline" ref={timelineref} className=" navbar-linkx"> <i className="fa fa-user-clock"></i><span>Timeline</span></Link>
                         <Link to="web_devs" ref={webref} className="navbar-linkx"><i className="fa fa-wifi"></i><span>Web devs</span></Link>
                         <Link to="commitee" ref={commiteeref} className=" navbar-linkx"><i className="fa fa-users"></i><span>Commitee</span></Link>
                         <Link to="contact_us" ref={contactref} className=" navbar-linkx"><i className="fa fa-headset"></i><span>Contact Us</span></Link>
                     </div>
                     <div>
                         <div className="social-linksx" ref={sociallinksref}>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-youtube"></i>
-                        <i class="fab fa-linkedin-in"></i>
+                            <a href='https://www.instagram.com/cryptera_2k22/' style={{ padding: "10px" }}>
+                                <i class="fab fa-instagram"></i>
+                            </a>
+
+
+                            <a style={{ padding: "10px" }} href="https://www.youtube.com/channel/UCsiIbEbaefrwPFmJ_cxwoJg">
+                                <i class="fab fa-youtube" ></i>
+                            </a>
+                            <a style={{ padding: "10px" }} href="mailto:cryptera.cit@gmail.com">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+
+
                         </div>
                     </div>
 

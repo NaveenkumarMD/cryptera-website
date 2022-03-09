@@ -45,8 +45,18 @@
 .rotate{
     transform: rotate(180deg);
 }
+.mobile-containe{
+    font-size: 16px;
+    font-weight: 600;
+    color:white;
+}
 .support-header{
     font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
     color: var(--fg-green);
     margin-top: 8%;
     margin-bottom: 40px;
@@ -138,7 +148,7 @@
     }
     .mobile-container{
         position: absolute;
-        top: 90px;
+        top: -0px;
         right: 30px;
     }
     .submit{

@@ -142,10 +142,10 @@ function AboutUs() {
         Our Sincere thanks to
       </div>
       <div className="container5 ">
-        <Staffcard image={image1} Name={"Faculty1"} position={"Professor"} />
-        <Staffcard image={image1} Name={"Faculty1"} position={"Professor"} />
-        <Staffcard image={image1} Name={"Faculty1"} position={"Professor"} />
-        <Staffcard image={image1} Name={"Faculty1"} position={"Professor"} />
+        <Staffcard image={require("../../Assets/Staffs/principal.jpg")} name="Dr.A.Rajeswari" position={"Principal"} />
+        <Staffcard image={require("../../Assets/Staffs/hod.jpg")} name="Dr.G.Kousalya" position={"HOD"} />
+        <Staffcard image={require("../../Assets/Staffs/seniortutor.jpg")} name="Dr.A.N.Senthilvel" position={"Senior tutor"} />
+      
       </div>
       <div className="py-20"></div>
     </div>

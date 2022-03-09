@@ -12,7 +12,7 @@ import ContactUs from './Components/Screens/ContactUs';
 import WebDevs from './Components/Screens/WebDevs';
 import Commitee from './Components/Screens/Commitee';
 import Events from './Components/Screens/Events';
-import Timeline from './Components/Screens/Timeline';
+
 import Eventdetails from './Components/Screens/Eventdetails';
 import Navmobile from './Components/Navmobile';
 import Queries from './Components/Screens/Queries';
@@ -63,10 +63,10 @@ function App() {
     <div className='main-container'>
 
       <AnimatedCursor
-        innerSize={8}
-        outerSize={8}
+        innerSize={12}
+        outerSize={12}
         color="36,180,126"
-        outerAlpha={0.7}
+        outerAlpha={0.3}
         innerScale={0.7}
         outerScale={3}
       />
@@ -78,7 +78,6 @@ function App() {
             <Route path="/" element={<Home />}></Route>
             <Route path="/about_us" element={<AboutUs />}></Route>
             <Route path="/events" element={<Events />}></Route>
-            <Route path="/timeline" element={<Timeline />}></Route>
             <Route path="/web_devs" element={<WebDevs />}></Route>
             <Route path="/commitee" element={<Commitee />}></Route>
             <Route path="/contact_us" element={<ContactUs />}></Route>

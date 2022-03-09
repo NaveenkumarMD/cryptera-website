@@ -91,6 +91,7 @@ justify-content: center;
 .explore-btn{
     margin-top: 00px;
 }
+
 /* below 900px */
 @media only screen and (max-width: 900px) {
     .home-content{
