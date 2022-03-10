@@ -60,23 +60,7 @@ function ContactUs() {
                 </div>
 
             </div>
-            <div className='faq-container'>
-                <div className='faq-header'>
-                    Frequently asked questions
-                </div>
-                <div className="faq-content-container">
-                    {
-                        Faq_data.map((faq, index) => {
-                            return (
-                                <Faq
-                                    key={index}
-                                    data={faq}
-                                />
-                            )
-                        })
-                    }
-                </div>
-            </div>
+           
         </div>
     )
 }

@@ -57,12 +57,11 @@ function Commitee() {
                     <h1 className='webdevs-title'>Commitee members</h1>
                     <p className='webdevs-tilte-description'>The crew in charge of painting the events. </p>
                 </div>
-                <div className='content-container' style={{maxWidth:"800px",margin:"auto",marginTop:"7%"}}>
+                <div className='content-container' style={{maxWidth:"1200px",margin:"auto",marginTop:"7%"}}>
                     {
                         commitee_data.map((item, index) => {
                             return(
                                 <Commiteemember key={index} data={item} />
-
                             )
                         })
                     }
