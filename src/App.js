@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import AnimatedCursor from 'react-animated-cursor';
 //Components
 import Navbar from './Components/Navbar';
-
+import events from '../src/Data/events';
 //Screens
 import Home from './Components/Screens/Home';
 import AboutUs from './Components/Screens/AboutUs';
@@ -33,17 +33,15 @@ const firebaseApp = initializeApp({
 
 const db = getFirestore()
 export {db}
+
 function App() {
   const [flag,setflag]=useState(true)
   useEffect(async () => {
     const getdata = async () => {
-      const querysnapshot = await getDocs(collection(db, "event_details"))
-      var event_details = []
-      querysnapshot.forEach(doc => {
-        event_details.push(doc.data())
-      })
-      localStorage.setItem("event_details", JSON.stringify(event_details))
+      let event_details=events
       console.log(event_details)
+      localStorage.setItem("event_details", JSON.stringify(event_details))
+   
     }
     await getdata()
     getevent_details_data()

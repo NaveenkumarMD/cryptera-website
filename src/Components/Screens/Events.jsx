@@ -3,6 +3,7 @@ import Eventcard from '../Eventcard'
 import '../../Styles/Events.css'
 import { useNavigate } from 'react-router-dom'
 function Events() {
+    console.log()
     const navigate = useNavigate()
     const [curr, setcurr] = useState(0)
     const technicalref = useRef(null)
@@ -114,29 +115,28 @@ function Events() {
                 <h1 ref={nontechnicalref} onClick={nontechnicalclick} >Non-Technical</h1>
                 <h1 ref={flagshipref} onClick={flagshipclick}>Flagship</h1>
             </div>
-            <div className="events-boy" style={{marginTop:"16%"}}>
-<h1 style={{textAlign:"center",fontSize:"50px"}}>Coming soon......</h1>
-            </div>
-            {/* <div className='events-body' ref={bodyref} >
+
+            <div className='events-body' ref={bodyref} >
+                
                 {
                     event_data.map((data, index) => {
+                        console.warn(data)
                         if (data.type === "technical" && curr === 0
                             || data.type === "non_technical" && curr == 1
                             || data.type === "flagship" && curr == 3
                         ) {
                             return (
-                                <Eventcard primary={data.color} data={data} />
+                                <Eventcard primary={data.color} data={data} key={index} />
                             )
                         }
                         else {
                             return true
                         }
-
                     })
                 }
 
                 <div className='px-10'></div>
-            </div> */}
+            </div>
         </div>
     )
 }

@@ -10,13 +10,22 @@ function Eventdetails() {
     const navigate = useNavigate()
     const pathname = useLocation().pathname
     const event_name_from_path = pathname.split('/')[2]
-
+    const contactref = useRef(null)
     useEffect(() => {
         const data = JSON.parse(localStorage.getItem("event_details"))
-        console.log(data)
+        console.log("data is ", data)
+        console.warn(event_name_from_path)
 
         const temp = data.filter(event => event.name === event_name_from_path)[0]
-        console.log(temp)
+        console.log("your content is", temp)
+        setTimeout(() => {
+            contactref.current.innerHTML = `
+            <a href="tel:+91 ${temp.contact}">
+    <i class="fas fa-phone-alt"></i>
+    </a>
+            `
+        }, 100)
+
         seteventt_data(temp)
     }, [])
     if (!Event_data) {
@@ -44,11 +53,12 @@ function Eventdetails() {
                         <div className='event-content-section1'>
                             <div className='e-title'>
                                 <div className='header'>
-                                    <h1>{Event_data.name}</h1>
+                                    <h1>{Event_data.title}</h1>
                                     <p><i className='fas fa-calendar-week mr-2 mb-3'></i>{Event_data.dateTime}</p>
                                 </div>
-                                <div className='google-calendar'>
-                                    <img src={calendar} alt='event' />
+                                <div className='google-calendar' ref={contactref}>
+
+
                                 </div>
                             </div>
 
@@ -93,7 +103,9 @@ function Eventdetails() {
                                 </div>
 
                                 <div className='e-description-m cen'>
-                                    <div className='trophies'>
+                                    {
+                                        Event_data.prizes["gold"] ?
+                                        <div className='trophies'>
                                         <div className='silver-trophy'>
                                             <i class="fa fa-trophy"></i>
                                             <div>
@@ -103,6 +115,7 @@ function Eventdetails() {
                                             </div>
                                         </div>
                                         <div className='gold-trophy'>
+
                                             <i class="fa fa-trophy"></i>
                                             <div>
                                                 <div>First place</div>
@@ -118,7 +131,9 @@ function Eventdetails() {
                                                 {Event_data.prizes["bronze"]}
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> :<div>{Event_data.prizes}</div> 
+                                            }
+       
                                 </div>
                                 <div className='e-title-m'>
                                     Result
@@ -129,24 +144,13 @@ function Eventdetails() {
                                     }
 
                                 </div>
-                                <div className='e-title-m'>
-                                    Event managers
-                                </div>
-                                <div className='managers'>
-                                    {
-                                        Event_data.event_managers && Event_data.event_managers.map((manager, index) => {
-                                            return (
-                                                <ManagerProfile />
-                                            )
-                                        })
-                                    }
-                                </div>
+
                                 <div className='e-title-m faq-header fq-header'>
                                     Frequently asked questions
                                 </div>
                                 <div className='faq'>
                                     {
-                                       Event_data.faq && Event_data.faq.map((faq, index) => {
+                                        Event_data.faq && Event_data.faq.map((faq, index) => {
                                             return <Faq key={index} data={faq} />
                                         })
                                     }
@@ -170,7 +174,7 @@ function Eventdetails() {
 
 export default Eventdetails
 
-const ManagerProfile = () => {
+const ManagerProfile = ({ name, instagram }) => {
     const circleref = useRef(null)
     const profileref = useRef(null)
     const socialref = useRef(null)
