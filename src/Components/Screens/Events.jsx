@@ -120,10 +120,11 @@ function Events() {
                 
                 {
                     event_data.map((data, index) => {
-                        console.warn(data)
+                        console.error(data.type)
+                        console.error(curr)
                         if (data.type === "technical" && curr === 0
                             || data.type === "non_technical" && curr == 1
-                            || data.type === "flagship" && curr == 3
+                            || data.type === "flagship" && curr == 2
                         ) {
                             return (
                                 <Eventcard primary={data.color} data={data} key={index} />

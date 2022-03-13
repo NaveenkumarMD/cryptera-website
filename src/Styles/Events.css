@@ -94,7 +94,8 @@
 
 .event-card {
 
-    max-width: 300px;
+    min-width: 300px;
+    width: 300px;
     height: 300px;
     background-color: rgba(38, 38, 43, 0.6);
     border-radius: 5px;

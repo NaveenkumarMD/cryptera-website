@@ -85,11 +85,11 @@ const Web_devs_card = (props) => {
                 <div className='name'>{props.data.name}</div>
                 <div className='description'>{props.data.about}</div>
                 <div className='media-container'>
-        {
-            props.data.portfolio &&  <a href={props.data.portfolio} target="_blank" ><i class="fas fa-globe" ></i></a>
-        }
-                    <a href={props.data.github} target="_blank" ><i class="fab fa-instagram" ></i></a>
-                    <a href={props.data.instagram} target="_blank" >   <i class="fab fa-github" ></i> </a>
+                    {
+                        props.data.portfolio && <a href={props.data.portfolio} target="_blank" ><i class="fas fa-globe" ></i></a>
+                    }
+                    <a href={props.data.instagram} target="_blank" ><i class="fab fa-instagram" ></i></a>
+                    <a href={props.data.github} target="_blank" >   <i class="fab fa-github" ></i> </a>
                     {
                         props.data.medium && <a href={props.data.medium} target='_blank'><i class="fab fa-medium-m"></i></a>
                     }

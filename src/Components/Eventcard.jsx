@@ -11,7 +11,10 @@ function Eventcard({data,primary}) {
                 <span>{data.title}</span>
             </div>
             <div className='event-card-body'>
-                <span>{data.description}</span>
+                {
+                    data.carddescription ?  <span>{data.carddescription}</span>:<span>{data.description}</span>
+                }
+                
 
 
             </div>

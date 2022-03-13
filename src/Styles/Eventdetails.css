@@ -252,8 +252,8 @@
     z-index: 99;
 }
 .manager-profile-image{
-    width:100px;
-    height:100px;
+    width:auto;
+    height:110px;
     border: 0px solid white;
     transition: all 0.24s ease-in-out;
 }

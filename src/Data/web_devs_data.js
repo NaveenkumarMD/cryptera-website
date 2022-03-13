@@ -5,7 +5,7 @@ const web_devs_data= [
         name:"Naveenkumar M",
         about:"An enthusiastic web developer often work with js and loves python for automation.",
         instagram:"https://www.instagram.com/_________md___/?hl=en",
-        github:"https://www.linkedin.com/in/naveenkumar-m-712612187/",
+        github:"https://github.com/NaveenkumarMD",
         medium:"https://medium.com/@naveen9715568487",
         portfolio:"https://mdnaveenkumar.web.app",
         linkedin:"https://www.linkedin.com/in/naveenkumar-m-712612187/"
@@ -17,8 +17,8 @@ const web_devs_data= [
         about:"Passionate programmer and Graphic designer. MERN Stack and Flutter Developer.",
         instagram:"https://instagram.com/_.logan.ai._?utm_medium=copy_link",
         github:"https://github.com/logan0501",
-        medium:"https://medium.com/@logan05012001",
-        portfolio:"loganathand.me",
+    medium:"https://medium.com/@logan05012001",
+        portfolio:"https://loganathand.me",
         linkedin:"https://www.linkedin.com/in/logan05012001"
     },
     {

@@ -57,6 +57,20 @@ export default [
             "https://drive.google.com/uc?export=view&id=1VMl-kcs03zeEfrtvDW25Dhxw39Hz4iLG",
     },
     {
+        name: 'Anantha Ramachandran B',
+        position: 'Campaign Head',
+        year: 'Third year',
+        x: 'CSE',
+        profile: 'https://drive.google.com/uc?export=view&id=1ydayYy3Hqs5ZqAq0RglyPdq9bdyx2m4s'
+    },
+    {
+        name: 'Pranav Devi R',
+        position: 'Campaign Head',
+        year: 'Third year',
+        x: 'CSE',
+        profile: 'https://drive.google.com/uc?export=view&id=1kuLIIIUCCUIsX6scQklepC_E5t98mSia'
+    },
+    {
         name: 'Aakash G S',
         position: 'Event Manager',
         year: 'Third year',
@@ -77,13 +91,7 @@ export default [
         x: 'CSE',
         profile: 'https://drive.google.com/uc?export=view&id=1d292-KtDI3Iavx6ktfh9C0Z7wN7hm_4o'
     },
-    {
-        name: 'Anantha Ramachandran B',
-        position: 'Event Manager',
-        year: 'Third year',
-        x: 'CSE',
-        profile: 'https://drive.google.com/uc?export=view&id=1ydayYy3Hqs5ZqAq0RglyPdq9bdyx2m4s'
-    },
+
     {
         name: 'Anush A',
         position: 'Social Media Manager',
@@ -347,13 +355,7 @@ export default [
         x: 'CSE',
         profile: 'https://drive.google.com/uc?export=view&id=1HmeT2FMGWBrrsbb5LxFXwu2Pv5e5l8EX'
     },
-    {
-        name: 'Pranav Devi R',
-        position: 'Event Manager',
-        year: 'Third year',
-        x: 'CSE',
-        profile: 'https://drive.google.com/uc?export=view&id=1kuLIIIUCCUIsX6scQklepC_E5t98mSia'
-    },
+
     {
         name: 'Praveena.P',
         position: 'Event Manager',
