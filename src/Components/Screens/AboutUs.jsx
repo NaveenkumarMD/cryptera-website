@@ -146,9 +146,9 @@ function AboutUs() {
         <Staffcard image={require("../../Assets/Staffs/hod.jpg")} name="Dr.G.Kousalya" position={"HOD"} />
         <Staffcard image={require("../../Assets/Staffs/seniortutor.jpg")} name="Dr.A.N.Senthilvel" position={"Senior tutor"} />
         <Staffcard image={require("../../Assets/Staffs/rubini.jpg")} name="Ms.S.Saranya Rubini" position={"Tutor"} />
-        <Staffcard image={require("../../Assets/Staffs/prabha.jpg")} name="Ms.M.Prabhavathy M.E" position={"Tutor"} />
-        <Staffcard image={require("../../Assets/Staffs/pavithra.jpg")} name="Ms.M.Prabhavathy M.E" position={"Tutor"} />
-        <Staffcard image={require("../../Assets/Staffs/saranya.jpg")} name="Ms.M.Prabhavathy M.E" position={"Tutor"} />
+        <Staffcard image={require("../../Assets/Staffs/prabha.jpg")} name="Ms.M.Prabhavathy" position={"Tutor"} />
+        <Staffcard image={require("../../Assets/Staffs/pavithra.jpg")} name="Ms.R.Pavithra" position={"Tutor"} />
+        <Staffcard image={require("../../Assets/Staffs/saranya.jpg")} name="Ms.S.Saranya" position={"Tutor"} />
       
       </div>
       <div className="py-20"></div>

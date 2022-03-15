@@ -92,7 +92,7 @@ export default [
             "Decisions taken by the panel members are final",
         ],
         pics: {
-            primary: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+            primary: "https://bhivetechnologies.in/wp-content/uploads/2021/02/4-Stages-of-Web-Designing.jpg",
             secondary: [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
@@ -161,7 +161,7 @@ export default [
             "In case of tie in points time of completion will be the criteria for evaluation."
         ],
         pics: {
-            primary: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+            primary: "https://pspdfkit.com/assets/images/blog/2020/the-state-of-debugging-in-webassembly/article-header-0e1ba396.png",
             secondary: [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
@@ -245,7 +245,7 @@ export default [
         eligibility: "Anyone can join",
         completed: false,
         results: null,
-        carddescription:"Work on the given template to create a artwork.",
+        carddescription: "Work on the given template to create a artwork.",
         rules: [
             "Participants should work on the template provided",
             "Each submission should be unique",
@@ -343,23 +343,23 @@ export default [
             "Quiz link will be shared in the gmeet",
         ],
         pics: {
-            primary: "https://images.unsplash.com/photo-151https://media.istockphoto.com/photos/artificial-intelligence-digital-concept-abstract-brains-with-bulb-and-picture-id1354729652?b=1&k=20&m=1354729652&s=170667a&w=0&h=BSNmm5KqeXzcJL6w1jp5UHcSxsDmKb5v8EGIEzHiMis=8791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+            primary: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYalzu9bXnGrgv3sSVUgfGikPOzKDefMUozw&usqp=CAU",
             secondary: "https://media.istockphoto.com/photos/innovation-and-new-ideas-lightbulb-concept-with-question-mark-picture-id1348235111?b=1&k=20&m=1348235111&s=170667a&w=0&h=xPxnIB4yuzeNyPmk0c92Xicl9dO4iGfO2qyjp8ZkQB4=",
         },
-        carddescription:"Check your knowledge on the given topics and test your skills on the given quiz",
+        carddescription: "Check your knowledge on the given topics and test your skills on the given quiz",
         dateTime: "Mar 26th,11.00 am",
         duration: "80 minutes",
         prizes: {
             gold: '500',
             silver: '250',
         },
-        contact: "86106559986",
+        contact: "8610559986",
         event_managers: [
             {
                 id: '1',
                 name: "Neharika A.R",
                 email: "neharika0502@gmail.com",
-                phone: "+91 86106559986",
+                phone: "+91 8610559986",
                 role: "Event Manager",
                 year: "3rd year CSE",
 
@@ -571,17 +571,15 @@ export default [
         completed: false,
         results: null,
         rules: [
-            "1)Any domain related to computer science can be chosen",
-            "2)Maximum 4 members per team",
-            "3)Two rounds will be conducted",
-            "4)A pdf document and a short video(2-4 mins) about the problem statement and abstract is to be submitted in the first round through Google form(If you are a team, the video can be presented either by a single member or as a team)",
-            "5)Shortlisted candidates will proceed to the second round and a proper presentation of the complete paper is to be delivered",
-            "6)The completed paper should be in IEEE format",
-
-            "7)Google Pay: +91 9360098939",
+            "Any domain related to computer science can be chosen",
+            "Maximum 4 members per team",
+            "Two rounds will be conducted",
+            "A pdf document and a short video(2-4 mins) about the problem statement and abstract is to be submitted in the first round through Google form(If you are a team, the video can be presented either by a single member or as a team)",
+            "Shortlisted candidates will proceed to the second round and a proper presentation of the complete paper is to be delivered",
+            "The completed paper should be in IEEE format",
+            "Google Pay: +91 9360098939",
             "Phone pay: +91 9361546692",
-            "8)E-Certificates will be provided to all the participants",
-
+            "E-Certificates will be provided to all the participants"
 
         ],
         pics: {
@@ -866,18 +864,18 @@ export default [
     {
         id: '1',
         name: "Naduvula_Konjam_Pakkatha_Kaanom",
-        title: "Naduvula Konjam Pakkatha Kaanom",
+        title: "Missing code",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
         rules: [
-            "1.No inclusion new variables.",
-            "2.Total questions :7",
-            "3.Event time : 1 hr",
+            "No inclusion new variables.",
+            "Total questions : 7",
+            "Event time : 1 hr",
             "Note : Problem Statement won't be given",
         ],
         pics: {
-            primary: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+            primary: "https://images.unsplash.com/photo-1536859355448-76f92ebdc33d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80",
             secondary: [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
@@ -934,7 +932,7 @@ export default [
         ],
         color: 'orange',
         description: "Fill in the missing code line to get the desired output (Output will be Given).",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSeTjYD5aYNL2CvAOOgEvqOpFcPCo03VPFr8G2ooesXcCb9czA/viewform?usp=sf_link",
+        form: "https://forms.gle/YCBFTDKp72RYgtSa9",
         type: "technical",
         faq: [
             {
@@ -1031,7 +1029,7 @@ export default [
 
         dateTime: "On 26th of March",
         duration: "",
-        contact:"8825829751",
+        contact: "8825829751",
         prizes: "Participant who submits first will get cash prize of Rs.200.",
         event_managers: [
             {
@@ -1087,7 +1085,7 @@ export default [
             }
         ],
         color: '#FF5733',
-        contact:"9994861281",
+        contact: "9994861281",
         description: "can take any brand logo and redesign it",
         form: "https://forms.gle/wsmafTBLs7GCfhCn8",
         type: "non_technical",
@@ -1106,17 +1104,17 @@ export default [
     {
         id: '1',
         name: "Sketch_and_Splash",
-        title:"Sketch and Splash",
-        eligibility:"Open to all",
-        completed:false,
-        results:null,
-        rules:[
+        title: "Sketch and Splash",
+        eligibility: "Open to all",
+        completed: false,
+        results: null,
+        rules: [
             "Creative ideas are encouraged",
             "Good quality picture of the art is expected",
             "Editing of picture is stricty prohibited",
             "Winner will be announced based on likes(50%) and judges decision(50%)",
             "A surprise gift will be given to the winner",
-            
+
         ],
         pics: {
             primary: "https://pngtree.com/freebackground/graffiti-art-campus-graffiti-competition_1105570.html",
@@ -1129,7 +1127,7 @@ export default [
             ]
         },
         deadline: "On or before 25th march",
-        contact:"6369396072",
+        contact: "6369396072",
         event_managers: [
             {
                 id: '1',
@@ -1138,14 +1136,14 @@ export default [
                 phone: "+91 6369396072",
                 role: "Event Manager",
                 year: "3rd year CSE",
-                
+
                 id: '2',
                 name: "Praveena.P",
                 email: "ppraveena1414@gmail.com",
                 phone: "+91 9047446699",
                 role: "Event Manager",
                 year: "3rd year CSE",
-                
+
 
             }
         ],
@@ -1159,12 +1157,533 @@ export default [
                 answer: "An online sketching competition which is open for all"
             }
         ],
-        prizes:"Winner will be awarded with cash prize of Rs.1000",
+        prizes: "Winner will be awarded with cash prize of Rs.1000",
         speakers: null,
         tags: [
             'sketching', "painting"
         ]
 
+    },
+    {
+        id: '14',
+        name: "Cryptathon",
+        title: "Cryptathon",
+        eligibility: "Engineering Under Graduates and Post Graduates in any Stream",
+        completed: false,
+        results: null,
+        contact: "8220341119",
+        rules: [
+            "Hackathon will be conducted in 2 rounds",
+            "In the First round We expect your solution for the Problems",
+            "In the second round you will ba asked to implement your solution",
+        ],
+        pics: {
+            primary: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+            secondary: [
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+
+            ]
+        },
+        dateTime: "May 22nd,11.00 am",
+        duration: "4 days",
+        prizes: {
+            gold: '1000',
+            silver: '350',
+            bronze: '150'
+        },
+        event_managers: [
+            {
+                id: '1',
+                name: "Sethubharathi B",
+                email: "bharathisethu018@gmail.com",
+                phone: "+91 8220341119",
+                role: "Event Manager",
+                year: "3rd year CSE",
+
+            }
+        ],
+        color: 'Yellow',
+        description: "The goal of a hackathon is to create functioning software or hardware by the end of the event",
+        form: "https://forms.gle/dpFezkeEKrGEXG5ZA",
+        type: "flagship",
+        faq: [
+            {
+                question: "What is the event?",
+                answer: "A hackathon, also known as a codefest, is a social coding event that brings computer programmers and other interested people together to improve upon or build a new software program."
+            }
+        ],
+        speakers: null,
+        tags: [
+            'Hackathon', "Innovation"
+        ]
+
+    },
+    {
+        id: '1',
+        name: "Poster_Making",
+        title: "Poster Making",
+        eligibility: "Open to all",
+        completed: false,
+        results: null,
+        rules: [
+            "Be creative,Be original",
+            "Theme-open",
+            "Solo participation",
+            "one or more posters are accepted",
+            "Decision of both panel of judges and no.of likes would be final",
+        ],
+        pics: {
+            primary: "https://pngtree.com/freebackground/geometric-composition-cover-creative-triangle-background_536959.html",
+
+            secondary: [
+                "https://www.rawpixel.com/image/2210929/blank-memphis-patterned-frame",
+                "https://pngtree.com/freebackground/poster-background-line-simple_959958.html",
+                "https://lovepik.com/image-401419234/simple-color-border-poster-background.html",
+                "https://lovepik.com/image-401419234/simple-color-border-poster-background.html",
+
+            ]
+        },
+        dateTime: "March 13-March23",
+        deadline: "before 23th march 18.00 pm",
+        prizes: {
+            gold: '0',
+            silver: '0',
+            bronze: '0',
+        },
+        contact: "9787777715",
+        event_managers: [
+            {
+                id: '1',
+                name: "Charu Nethra.S",
+                email: "charunethrasekar@gmail.com",
+                phone: "+91 9787777715",
+                role: "Event Manager",
+                year: "3rd year CSE",
+
+                id: '2',
+                name: "Shubhashini.J",
+                email: "j.shubajayan14@gmail.com",
+                phone: "+91 7904425902",
+                role: "Event Manager",
+                year: "3rd year CSE",
+
+                id: '3',
+                name: "Dhatshika.K.M",
+                email: "dhatshikakm@gmail.com",
+                phone: "+91 9842901619",
+                role: "Event Manager",
+                year: "3rd year CSE",
+
+                id: '4',
+                name: "Sreemathi Sampath",
+                email: "sreemathisampath55@gmail.com",
+                phone: "+91 9361383535",
+                role: "Event Manager",
+                year: "3rd year CSE",
+            }
+        ],
+        color: 'orange',
+        description: "Whitespace is like air;it is necessary for design to breathe.Share your appreciation on any field through your creativity by making a poster.",
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSe4XYVuZAz2I7ydqOPA24MXh_ej10WUb7KUZr00j5UVlPpc8g/viewform?usp=sf_link",
+        type: "non_technical",
+        faq: [
+            {
+                question: "What is the event about?",
+                answer: "An digital poster making contest which is open for all"
+            }
+        ],
+        speakers: null,
+        tags: [
+            'posters', "digital poster making"
+        ]
+
     }
+    ,
+    {
+        id: '91',
+        name: "Technical_Treasure_Trailing",
+        title: "Technical Treasure Trailing",
+        eligibility: "Anyone can join",
+        completed: false,
+        contact: "8105199200",
+        results: null,
+        rules: [
+            "Team event (max 3 in a team).",
+            "Join the WhatsApp group (Link will be in provided in google form once registration is done)",
+            "Problem file will be shared to the registered e-mail id.",
+            "Problems will be asked from C, C++, Python, Java.",
+            "Answers will not be accepted after the deadline"
+        ],
+        pics: {
+            primary: " https://www.google.com/url?sa=i&url=https%3A%2F%2Fbinaryondemand.com%2Finsights%2Fsecurity%2Fencryption-and-decryption-data-transfer-needs-planning-of-resources%2F&psig=AOvVaw346uBO7PC1TANLyfNz1lUc&ust=1647352515172000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPiyudngxfYCFQAAAAAdAAAAABAf",
+            secondary: [
+                " https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.ryadel.com%2Fwp-content%2Fuploads%2F2019%2F03%2Fdata-encryption-at-rest-in-transit-end-to-end.jpg&imgrefurl=https%3A%2F%2Fwww.ryadel.com%2Fen%2Fdata-encryption-in-transit-at-rest-definitions-best-practices-tutorial guide%2F&tbnid=vHodKy1sd576oM&vet=10CDYQMyh_ahcKEwj4srnZ4MX2AhUAAAAAHQAAAAAQAg..i&docid=TD7dU5btTbxLPM&w=735&h=368&q=digital%20encryption&ved=0CDYQMyh_ahcKEwj4srnZ4MX2AhUAAAAAHQAAAAAQAg",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+
+            ]
+        },
+        dateTime: "Jan 2nd,11.00 am",
+        duration: "2 hours",
+        prizes: {
+            gold: '100',
+            silver: '50',
+            bronze: '20'
+        },
+        event_managers: [
+            {
+                id: '1',
+                name: "Nishanth K",
+                email: "nishanth152001@gmail.com",
+                phone: "+91 8105199200",
+                role: "Event Manager",
+                year: "3rd year CSE",
+
+            }, {
+                id: '2',
+                name: "Nithish V B",
+                email: "vbnithish@gmail.com",
+                phone: "+91 9659454275",
+                role: "Event Manager",
+                year: "3rd year CSE",
+
+            },
+            {
+                id: '3',
+                name: "Vigneswari G",
+                email: "ganesanvigneswari@gmail.com",
+                phone: "+918838733265",
+                role: "Event Manager",
+                year: "3rd year CSE",
+
+            }, {
+                id: '4',
+                name: "Murugalakshmi M",
+                email: "mlakshmi2k19@gmail.com",
+                phone: "+91 9361115430",
+                role: "Event Manager",
+                year: "3rd year CSE",
+
+            },
+            {
+                id: '5',
+                name: "Soundarya",
+                email: "soundaryams03@gmail.com",
+                phone: "+91 8925604899",
+                role: "Event Manager",
+                year: "3rd year CSE",
+
+            }
+        ],
+        color: 'green',
+        description: "Interested in cracking codes and puzzles?   Well, this event is for you.  Here each team use collaborative brain powers to solve programmatic puzzle, algorithmic clues, pseudocode to cross each level to reach the treasure”",
+        form: "https://forms.gle/4V1Bkb3Z8VC7VcqY6",
+        type: "technical",
+        faq: [
+            {
+                question: "What is the event?",
+                answer: `you will be given a zip file and a problem initially. The solution to the problem is the password to file which has the next problem. Crack the consequent problem to move ahead and the one finally solves the last problem is the winner`
+            },
+            {
+                question: `How is the winner declared?`,
+                answer: ` The winner is one who solves all the problems in the least time.In case no one solves all the problems, the one who has solved the maximum number of problems in the least time will be declared as the winner.`,
+            }
+        ],
+
+        tags: [
+            'puzzles', "cracking"
+        ]
+
+    },
+    {
+        id: '90',
+        name: "Call_of_Duty",
+        title: "Call of Duty",
+        eligibility: "Anyone can join",
+        completed: false,
+        results: null,
+        rules: [
+            "Standard Search and Destroy rules will apply.",
+            "Changes in team members need to be reported 24 hours prior.",
+            "Finals will be a best of 3 Search and Destroy.",
+            "Random map picked by the host.",
+            "Each Team gets to ban 1 map of their choice.",
+            "No mythic or legendary weapons are allowed. Usage of the same will result in disqualification.",
+            "No mods/emulators are allowed."
+        ],
+        pics: {
+            primary: "https://drive.google.com/uc?export=view&id=1K8rA_OcRNRzW0kvUnXmy9EaSVcsXMQ3f",
+            secondary: []
+        },
+        dateTime: "null",
+        duration: "2 hours",
+        prizes: {
+            gold: "-",
+            silver: "-",
+            bronze: "-",
+        },
+        contact: "9003625565",
+        event_managers: "Sukirtha Raj N",
+        color: '#d8c7b6',
+        carddescription: "Success is not final, failure is not fatal: it is the courage to continue that counts – Call of duty",
+        description: "\"Success is not final, failure is not fatal: it is the courage to continue that counts – Call of duty.\" – Modern Warfare \nCall Of Duty Search & Destroy: Experience the thrill of Call of Duty on the go. Choose your targets precisely and snipe them all.\"",
+        form: "https://forms.gle/wsmafTBLs7GCfhCn8",
+        type: "non_technical",
+        faq: null,
+        tags: [
+            "Gaming", "Mobile", "COD"
+        ]
+    },
+
+    {
+        id: '90',
+        name: "0xdebug",
+        title: "0xdebug",
+        eligibility: "Anyone can join",
+        completed: false,
+        results: null,
+        rules: [
+            "Submit before time exhausts.",
+            "Can refer any resource.",
+            "The winner is evaluated based on, I) Number of Question solved II) Time.",
+        ],
+        pics: {
+            primary: "https://drive.google.com/uc?export=view&id=1MW8x2TObNvPlSO0HQD50d8C0KAhiTfsH",
+            secondary: []
+        },
+        dateTime: "null",
+        duration: "1 hours",
+        prizes: "500",
+        contact: "9003625565",
+        event_managers: "Chandramouli G",
+        color: '#d8c7b6',
+        carddescription: "Ready to flex some of that bug hunting skills?",
+        description: "0xdebug is a code debugging event. The participants will be given C/C++/Python code containing Lexical/Logical/Syntactic errors. You should locate and correct the bug. The questions are divided into 3 levels based on difficulty (Easy-Medium-Hard).",
+        form: "https://forms.gle/wsmafTBLs7GCfhCn8",
+        type: "technical",
+        faq: [{
+            question: "How is the event conducted? ",
+            answer: "The event is conducted via Google form. "
+        },
+        {
+            question: "What to do in case of queries?",
+            answer: "Participants are added in a whatsapp group, you can post your queries there. "
+        }
+        ],
+        tags: [
+            "Debugging", "Problem Solving", "C", "C++", "Python", "Bug Hunting"
+        ]
+    },
+    {
+        id: '90',
+        name: "pubg",
+        title: "BGMI-Rock the Field",
+        eligibility: "Anyone can join",
+        completed: false,
+        results: null,
+        rules: [
+            "No Emulator.",
+            "No Hackers."
+        ],
+        pics: {
+            primary: "https://drive.google.com/uc?export=view&id=1MW8x2TObNvPlSO0HQD50d8C0KAhiTfsH",
+            secondary: []
+        },
+        dateTime: "null",
+        duration: "45 mins",
+        prizes: {
+            gold: '100',
+            silver: '50',
+            bronze: '20'
+        },
+        contact: "9361105009",
+        event_managers: "Arul Karthikeyan M",
+        color: '#d8c7b6',
+        carddescription: "BGMI room will be created and the match will be conducted in squad mode and Erangel map.",
+        description: "BGMI Room code will be shared before the match start and the Match will be conducted in squard mode. The Match will be conducted in Erangel map. The Winning squard will be awarded.",
+        form: "https://forms.gle/wsmafTBLs7GCfhCn8",
+        type: "non_technical",
+        faq: null,
+        tags: [
+            "PUBG", "BGMI", "Fun Event", "indianversion", "battlegrounds", "winnerwinnerchickendinner"
+        ]
+    },
+
+
+
+    {
+        id: '90',
+        name: "MIND_FEST",
+        title: "MIND FEST",
+        eligibility: "From Second Years",
+        completed: false,
+        results: null,
+        rules: [
+            "Solo participation",
+            "Pre-requisite: Basics of DSA, DBMS, OS, C, C++, Java, Python",
+            "Fill out the registration form on or before 23.03.2022",
+            "Join the gmeet before 10 minutes for the event; Quiz link will be shared in the gmeet."
+        ],
+        pics: {
+            primary: "https://images.unsplash.com/photo-151https://media.istockphoto.com/photos/artificial-intelligence-digital-concept-abstract-brains-with-bulb-and-picture-id1354729652?b=1&k=20&m=1354729652&s=170667a&w=0&h=BSNmm5KqeXzcJL6w1jp5UHcSxsDmKb5v8EGIEzHiMis=8791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+            secondary: [
+                "https://images6.alphacoders.com/665/665354.png",
+                "https://images4.alphacoders.com/108/1080044.png",
+                "https://images8.alphacoders.com/505/505616.png",
+                "https://images5.alphacoders.com/114/1141137.jpg",
+
+            ]
+        },
+        dateTime: "null",
+        duration: "45 mins",
+        prizes: {
+            gold: "0",
+            silver: "0",
+            bronze: "0",
+        },
+        contact: "8610559986",
+        event_managers: "Neharika A R",
+        color: '#d8c7b6',
+        carddescription: "The event involves questions based on DBMS, DSA, OS, C, C++, Python, Java ",
+        description: "This event will be of two phases - 1st phase will be elimination phase. Duration: 20mins. Selected participants will make it to 2nd phase - Duration: 30 mins. Questions will be based on DBMS, DSA, OS, C, C++, Python, Java. Certificates will be provided to all participants. Winners will be awarded with cash prize. Event details can be viewed at www.crypteracit.in",
+        form: "https://forms.gle/wsmafTBLs7GCfhCn8",
+        type: "technical",
+        faq: [
+            {
+                question: "Who can participate?",
+                answer: "From UG second years"
+            },
+            {
+                question: "Is there any registration fee?",
+                answer: "No"
+            }
+        ],
+        tags: [
+            "DBMS", "DSA", "OS", "C", "C++", "Java", "Python"
+        ]
+    },
+
+    {
+        id: '90',
+        name: "Coding_Contest",
+        title: "Coding Contest",
+        eligibility: "Anyone can join",
+        completed: false,
+        results: null,
+        rules: [
+            "Fastest to solve a problem i.e. all testcases grabs the top spot",
+            "Refer anything or you can copy code from the net too!!",
+            "No more rules"
+
+        ],
+        pics: {
+            primary: "https://www.istockphoto.com/photo/software-developer-programming-code-on-computer-gm488651322-74298825?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcoding-c%252B%252B&utm_term=coding%20c%2B%2B%3A%3A%3A",
+            secondary: [
+            ]
+        },
+        dateTime: "null",
+        duration: " ",
+        prizes: {
+            gold: "-",
+            silver: "-",
+            bronze: "-",
+        },
+        contact: "9498076092",
+        event_managers: "Narasiman C V",
+        color: '#d8c7b6',
+        carddescription: "The Coding contest is based on a certain theme and comprises of Data structures and algorithms related problems.",
+        description: "The Coding contest is based on a certain theme and comprises of Data structures and algorithms related problems. There will be around 4 to 6 questions and a time limit of 1 or 2 hours to solve them. Hot cash for hot hands! Kaching! Further information regarding the link and time will be updated",
+        form: null,
+        type: "technical",
+        faq: null,
+        tags: [
+            "DSA", "Logic", "Math", "Coding"
+        ]
+    }
+    ,
+    {
+        id: '100',
+        title: "Code behind",
+        name: "Code_behind",
+        eligibility: "Anyone who is good at programming",
+        completed: false,
+        results: null,
+        rules: [
+            "Individual event",
+            "You can use any programming language of given choice(C,C++, Java, Python)",
+            "Join the WhatsApp group (Link will be in provided in google form once registration is done)",
+
+            "Two rounds: top performers from the first round will be participating in the second round",
+            "Plagiarism will not be accepted.",
+            "Further clarifications will be done in the whatsapp group",
+
+        ],
+        pics: {
+            primary: " https://www.google.com/url?sa=i&url=https%3A%2F%2Fbinaryondemand.com%2Finsights%2Fsecurity%2Fencryption-and-decryption-data-transfer-needs-planning-of-resources%2F&psig=AOvVaw346uBO7PC1TANLyfNz1lUc&ust=1647352515172000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPiyudngxfYCFQAAAAAdAAAAABAf",
+            secondary: [
+                " https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.ryadel.com%2Fwp-content%2Fuploads%2F2019%2F03%2Fdata-encryption-at-rest-in-transit-end-to-end.jpg&imgrefurl=https%3A%2F%2Fwww.ryadel.com%2Fen%2Fdata-encryption-in-transit-at-rest-definitions-best-practices-tutorial guide%2F&tbnid=vHodKy1sd576oM&vet=10CDYQMyh_ahcKEwj4srnZ4MX2AhUAAAAAHQAAAAAQAg..i&docid=TD7dU5btTbxLPM&w=735&h=368&q=digital%20encryption&ved=0CDYQMyh_ahcKEwj4srnZ4MX2AhUAAAAAHQAAAAAQAg",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+
+            ]
+        },
+        dateTime: "Jan 2nd,11.00 am",
+        duration: "2 hours",
+        prizes: {
+            gold: '100',
+            silver: '50',
+            bronze: '20'
+        },
+        contact: "8105199200",
+        event_managers: [
+            {
+                id: '1',
+                name: "Nishanth K",
+                email: "nishanth152001@gmail.com",
+                phone: "+91 8105199200",
+                role: "Event Manager",
+                year: "3rd year CSE",
+
+            }, {
+                id: '2',
+                name: "Nithish V B",
+                email: "vbnithish@gmail.com",
+                phone: "+91 9659454275",
+                role: "Event Manager",
+                year: "3rd year CSE",
+
+            }
+        ],
+        color: 'orange',
+        description: "Bored at usual coding? We have something new for you. Code the problem  WITHOUT LOOKING AT THE EDITOR. Not so easy now is it? Even better….  There is a time limit. If all these won’t stop you. We admit it…. you deserve this cash award… Good Luck.",
+        form: "https://forms.gle/hqG18xsCEKRV9Dtf6",
+        type: "technical",
+        faq: [
+            {
+                question: "What is the event?",
+                answer: "You will be provided with the editor where you can't see what you type. Copy and paste options disabled."
+            },
+            {
+                question: "How is the winner declared?",
+                answer: "The most optimized code of all will be selected as the winner. If nobody solves the problem, the submissions with minimal errors, the proposed solutions are considered to pick the winner. The panel members' decision is final",
+
+
+            }
+        ],
+
+        tags: [
+            "Coding", "blind code", "code behind"
+        ]
+
+    }
+
+
+
+
 
 ]

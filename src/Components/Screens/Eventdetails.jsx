@@ -40,14 +40,12 @@ function Eventdetails() {
                 <div className='eventdetails-container'>
                     <div className=' image-container'>
                         <div className='one'>
-                            <img src={profile} alt='event' />
+                            {
+                                Event_data.pics.primary && <img src={Event_data.pics.primary} alt='event' />
+                            }
+                            
                         </div>
-                        <div className="two">
-                            <div> <img src={profile} alt='event' /></div>
-                            <div><img src={profile} alt='event' /></div>
-                            <div><img src={profile} alt='event' /></div>
-                            <div><img src={profile} alt='event' /></div>
-                        </div>
+                        
                     </div>
                     <div className='event-content-container'>
                         <div className='event-content-section1'>
@@ -159,7 +157,7 @@ function Eventdetails() {
                                 <div className='final-btn'>
                                     <a href={Event_data.form} target="_blank">
                                         <div className='submit-btn-event'>
-                                            <div>SUBMIT</div>
+                                            <div>Register</div>
                                         </div>
                                     </a>
                                 </div>
