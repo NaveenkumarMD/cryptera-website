@@ -43,9 +43,9 @@ function Eventdetails() {
                             {
                                 Event_data.pics.primary && <img src={Event_data.pics.primary} alt='event' />
                             }
-                            
+
                         </div>
-                        
+
                     </div>
                     <div className='event-content-container'>
                         <div className='event-content-section1'>
@@ -81,6 +81,28 @@ function Eventdetails() {
                             <div className='e-description-m'>
                                 <p>{Event_data.eligibility}</p>
                             </div>
+                            {
+                                Event_data.entry &&
+
+                                <>
+                            <div className='e-title-m'>
+                                Entry fee
+                            </div>
+                            <div className='e-description-m'>
+                                {
+                                    Event_data.entry.map(data=>{
+                                        return(
+                                            <tr>
+                                                <td>{data.type  }  </td>
+                                                <td>: RS {data.amt}</td>
+                                            </tr>
+                                                            )
+                                    })
+                                }
+                                
+                            </div>
+                            </>
+                            }
                             <div className='e-title-m'>
                                 Rules
                             </div>
@@ -103,35 +125,35 @@ function Eventdetails() {
                                 <div className='e-description-m cen'>
                                     {
                                         Event_data.prizes["gold"] ?
-                                        <div className='trophies'>
-                                        <div className='silver-trophy'>
-                                            <i class="fa fa-trophy"></i>
-                                            <div>
-                                                <div>Second place</div>
-                                                <i className='fas fa-rupee-sign'></i>
-                                                {Event_data.prizes["silver"]}
-                                            </div>
-                                        </div>
-                                        <div className='gold-trophy'>
+                                            <div className='trophies'>
+                                                <div className='silver-trophy'>
+                                                    <i class="fa fa-trophy"></i>
+                                                    <div>
+                                                        <div>Second place</div>
+                                                        <i className='fas fa-rupee-sign'></i>
+                                                        {Event_data.prizes["silver"]}
+                                                    </div>
+                                                </div>
+                                                <div className='gold-trophy'>
 
-                                            <i class="fa fa-trophy"></i>
-                                            <div>
-                                                <div>First place</div>
-                                                <i className='fas fa-rupee-sign'></i>
-                                                {Event_data.prizes["gold"]}
-                                            </div>
-                                        </div>
-                                        <div className='bronze-trophy'>
-                                            <i class="fa fa-trophy"></i>
-                                            <div>
-                                                <div>Third place</div>
-                                                <i className='fas fa-rupee-sign'></i>
-                                                {Event_data.prizes["bronze"]}
-                                            </div>
-                                        </div>
-                                    </div> :<div>{Event_data.prizes}</div> 
-                                            }
-       
+                                                    <i class="fa fa-trophy"></i>
+                                                    <div>
+                                                        <div>First place</div>
+                                                        <i className='fas fa-rupee-sign'></i>
+                                                        {Event_data.prizes["gold"]}
+                                                    </div>
+                                                </div>
+                                                <div className='bronze-trophy'>
+                                                    <i class="fa fa-trophy"></i>
+                                                    <div>
+                                                        <div>Third place</div>
+                                                        <i className='fas fa-rupee-sign'></i>
+                                                        {Event_data.prizes["bronze"]}
+                                                    </div>
+                                                </div>
+                                            </div> : <div>{Event_data.prizes}</div>
+                                    }
+
                                 </div>
                                 <div className='e-title-m'>
                                     Result

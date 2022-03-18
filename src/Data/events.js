@@ -17,7 +17,7 @@ export default [
             "Solo participation"
         ],
         pics: {
-            primary: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+            primary: "https://drive.google.com/uc?export=view&id=1vdjjiOC58QSVBjFsf3NAk6x8BUG8b9Vs",
             secondary: [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
@@ -29,47 +29,29 @@ export default [
         dateTime: "March 23-March  25, deadline: before 25th  11.00 am",
 
         prizes: {
-            gold: '-999',
-            silver: '-999',
-            bronze: '-999'
+            gold: '100',
+            silver: '50',
+            bronze: '20'
         },
-        contact: "9655493224",
-        event_managers: [
+        contact: "9384024888",
 
-            {
-                id: '1',
-                name: " Priyanka.S",
-                email: "krisampriya@gmail.com",
-                phone: "+91 9384024888",
-                role: "Event Manager",
-                year: "3rd year CSE",
-            },
-            {
-                id: '2',
-                name: " Dhakshinya.B.G",
-                email: "dhakshinya832007@gmail.com",
-                phone: "+91 9655493224",
-                role: "Event Manager",
-                year: "3rd year CSE",
-            },
-            {
-                id: '3',
-                name: " Sanjana.S.Menon",
-                email: "sanjanasaimenon@gmail.com",
-                phone: "+91 8300904165",
-                role: "Event Manager",
-                year: "3rd year CSE",
-            }
 
-        ],
-
-        color: 'orange',
-        description: "This is the description of the event.",
-        form: "https://forms.gle/ZYXyZYXyZYXyZYXy",
+        color: 'green',
+        carddescription: "Send your poems to us and get awarded based on likes.",
+        description: `Start writing, no matter what. The water does not flow until the faucet is turned on.
+        — Louis L’Amour
+        Poetry and short stories can take various forms but always expresses a message in a unique way. 
+        It is an opportunity for all writers to put your thoughts into words and win an amazing prize.`,
+        form: "https://forms.gle/hNdYb8B2yCMNfUjW6",
         faq: [
             {
-                question: "can i submit more than one poem?",
-                answer: " No , you can't"
+                question: "Is this event only for poem writing?",
+                answer: "No,you can write poem or short stories"
+            },
+            {
+                question: "Can I submit more than one poem/short story?",
+                answer: "Yes,you can submit maximum two"
+
             }
         ],
         speakers: null,
@@ -86,10 +68,10 @@ export default [
         completed: false,
         results: null,
         rules: [
-            "The web design should be implemented only during the contest time",
-            "Any programming technology can be used to implement the design",
-            "Static site generators are not allowed",
-            "Decisions taken by the panel members are final",
+            "The web design should be implemented only during the contest time.",
+            "Any front-end technology can be used to implement the design.",
+            "Static site generators are not allowed.",
+            "Decisions taken by the panel members are final.",
         ],
         pics: {
             primary: "https://bhivetechnologies.in/wp-content/uploads/2021/02/4-Stages-of-Web-Designing.jpg",
@@ -104,137 +86,38 @@ export default [
         dateTime: "Mar 25/26th, 10.00 am",
         duration: "5 hours",
         prizes: {
-            gold: '100',
-            silver: '50',
-            bronze: '20'
+            gold: '500',
+            silver: '250',
+            bronze: '100'
         },
         contact: "9080525310",
-        event_managers: [
-            {
-                id: '1',
-                name: "Santhosh M",
-                email: "santhoshm2504@gmail.com",
-                phone: "+91 9080525310",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            },
-            {
-                id: '1',
-                name: "Prem B",
-                email: "prembalaraman056@gmail.com",
-                phone: "+91 6382 093 752",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            },
-
-        ],
-        color: 'orange',
-        description: "Design a website on the given theme.",
-        form: "https://forms.gle/ZYXyZYXyZYXyZYXy",
+        color: 'green',
+        description: `Participants will be given a theme and
+are expected to design beautiful
+webpages. All participants must finish
+designing their webpages within the
+time limit and the creators with the
+best webpage will receive their prize.`,
+        carddescription: "Design a website on the given theme.",
+        form: "https://forms.gle/5wS4NxHs8XJiebC39",
         type: "technical",
         faq: [
             {
                 question: "What are the technologies allowed?",
                 answer: "Any programming technologies(Ex: HTML,CSS,JavaScript). Static site generators are not allowed"
             },
+            {
+                question: "Can I use any frameworks like Angular or React library?",
+                answer: "Yes, you can."
+            },
+            {
+                question: "How the evaluation is done?",
+                answer: "It is done based on the UI/UX."
+            },
         ],
         speakers: [],
         tags: [
             "web development", "front-end development", "coding"
-        ]
-
-    },
-    {
-        id: '3',
-        name: "Debugging",
-        title: "Debugging",
-        eligibility: "programming knowledge",
-        completed: false,
-        results: null,
-        rules: [
-            "Participants will be provided with G-Form link.",
-            "The link is valid only for 1 hour 30 minutes.",
-            "You can refer any resource.",
-            "Submit the G-Form on or before the deadline.",
-            "In case of tie in points time of completion will be the criteria for evaluation."
-        ],
-        pics: {
-            primary: "https://pspdfkit.com/assets/images/blog/2020/the-state-of-debugging-in-webassembly/article-header-0e1ba396.png",
-            secondary: [
-                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-
-            ]
-        },
-        dateTime: "Jan 2nd,11.00 am",
-        duration: "2 hours",
-        prizes: {
-            gold: '200',
-            silver: null,
-            bronze: null
-        },
-        contact: "8946092794",
-        event_managers: [
-            {
-                id: '1',
-                name: "Chandramouli G",
-                email: "chandsumo948@gmail.com",
-                phone: "+91 8946092794",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            },
-            {
-                id: '2',
-                name: "Lakshan H",
-                email: "lakshanharikrk@gmail.com",
-                phone: "+91 9003591263",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            },
-            {
-                id: '3',
-                name: "Vishal Karthik S",
-                email: "svishal240102@gmail.com",
-                phone: "+91 7550275071",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            },
-            {
-                id: '4',
-                name: "Narasiman C V",
-                email: "naveenred97@gmail.com",
-                phone: "+91 8870499146",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            }
-        ],
-        color: 'orange',
-        description: "Novices insert corrective code; expert remove defective code;",
-        form: "https://forms.gle/ZYXyZYXyZYXyZYXy",
-        type: "technical",
-        faq: [
-            {
-                question: "What is the event?",
-                answer: "Find bugs from the given code."
-            }
-        ],
-        speakers: [
-            {
-                name: null,
-                image: null,
-                description: null
-            },
-        ],
-        tags: [
-            "Debugging", "coding", "Problem solving"
         ]
 
     },
@@ -263,54 +146,7 @@ export default [
         duration: "3 hours",
         prizes: "200 rupees,Opportunity to get your artwork turned into an NFT!!",
         contact: "9150414945",
-        event_managers: [
-            {
-                id: '1',
-                name: "Manu Varghese Tomson",
-                email: "manutomson2415@gmail.com",
-                phone: "+91 9150414945",
-                role: "Event Manager",
-                year: "III year CSE",
-
-            },
-            {
-                id: '2',
-                name: "Jayant Gupta",
-                email: "stagerredrope@gmail.com",
-                phone: "+91 8492936555",
-                role: "Event Manager",
-                year: "III year CSE",
-
-            },
-            {
-                id: '3',
-                name: "M Nihil Praveen",
-                email: "nihilpraveen01.com",
-                phone: "+91 9150414945",
-                role: "Event Manager",
-                year: "III year CSE",
-
-            },
-            {
-                id: '4',
-                name: "Anantha Ramachandran",
-                email: "ananthaburner@gmail.com",
-                phone: "+91 9843109033",
-                role: "Event Manager",
-                year: "III year CSE",
-
-            },
-            {
-                id: '5',
-                name: "Chandramouli",
-                email: "chandsumo948@gmail.com",
-                phone: "+91 8946092794",
-                role: "Event Manager",
-                year: "III year CSE",
-
-            }
-        ],
-        color: '#00FFFF',
+        color: 'green',
         description: "Students will be provided 3 hours to work on a template provided to create a series of artworks, from 1 to maximum 10. The best artwork or series will bechosen and will be converted into NFTs",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSfg-yRrhdM0Z2Q2tMQ05fS1Zgwk8xoMEa2xFkPuslEJ7_5mZw/viewform?usp=sf_link",
         type: "technical",
@@ -318,6 +154,14 @@ export default [
             {
                 question: "What is the event?",
                 answer: "Students who are interested in digital art and NFTs.... This is your opportunity to make it in both the worlds. You will receive a template on which you will make multiple artworks. The best series will be converted into NFTs"
+            },
+            {
+                question: "What is an NFT?",
+                answer: "A non-fungible token is a non-interchangeable unit of data stored on a blockchain, a form of digital ledger, that can be sold and traded. "
+            },
+            {
+                question: "Can I work on my own theme?",
+                answer: "No, you should work only on the template provided."
             }
         ],
         speakers: [
@@ -328,114 +172,23 @@ export default [
         ]
 
     },
-    {
-        id: '7',
-        name: "MindFest",
-        title: "MindFest",
-        eligibility: "Minimum: second year",
-        completed: false,
-        results: null,
-        rules: [
-            "Solo participation",
-            "Pre-requisite: Basics of DSA, DBMS, OS, C, C++, Java, Python",
-            "Fill out the registration form on or before 23.03.2022",
-            "Join the gmeet before 10 minutes for the event",
-            "Quiz link will be shared in the gmeet",
-        ],
-        pics: {
-            primary: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYalzu9bXnGrgv3sSVUgfGikPOzKDefMUozw&usqp=CAU",
-            secondary: "https://media.istockphoto.com/photos/innovation-and-new-ideas-lightbulb-concept-with-question-mark-picture-id1348235111?b=1&k=20&m=1348235111&s=170667a&w=0&h=xPxnIB4yuzeNyPmk0c92Xicl9dO4iGfO2qyjp8ZkQB4=",
-        },
-        carddescription: "Check your knowledge on the given topics and test your skills on the given quiz",
-        dateTime: "Mar 26th,11.00 am",
-        duration: "80 minutes",
-        prizes: {
-            gold: '500',
-            silver: '250',
-        },
-        contact: "8610559986",
-        event_managers: [
-            {
-                id: '1',
-                name: "Neharika A.R",
-                email: "neharika0502@gmail.com",
-                phone: "+91 8610559986",
-                role: "Event Manager",
-                year: "3rd year CSE",
 
-            },
-            {
-                id: '2',
-                name: "Murugalakshmi M",
-                email: "mlakshmi2k19@gmail.com",
-                phone: "+91 9361115430",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            },
-            {
-                id: '3',
-                name: "Sabana Yashmin K",
-                email: "yashmin04052001@gmail.com",
-                phone: "+91 6385902434",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            },
-            {
-                id: '4',
-                name: "Tharunika PA",
-                email: "tharunika1801@gmail.com",
-                phone: "+91 6381243719",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            },
-
-        ],
-        color: '#FFFFBF',
-        description: "Two phases - 1st phase will be elimination phase. Duration: 20mins. Selected participants will make it to 2nd phase - Duration: 30 mins. Questions will be based on DBMS, DSA, OS, C, C++, Python, Java. Certificates will be provided to all participants. Winners will be awarded with cash prize. Event details can be viewed at www.crypteracit.in",
-        form: "https://docs.google.com/forms/d/1KYz35tmzvsC8G8tlSZuekA29Mv48x3CtBTXV-_qj7GQ",
-        type: "technical",
-        faq: [
-            {
-                question: "Who can participate?",
-                answer: "From UG second year"
-            },
-            {
-                question: "Is there any registration fee?",
-                answer: "Rs.50"
-            },
-
-        ],
-        speakers: [
-            {
-                name: "John Doe",
-                image: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
-                description: "A hisg lfewrgr eg erwgerg gwwegr gr gherhgr h r h rh  r h w g dgsdg ad  er bhf  h raercgg feuwycbtryi74 fgrvutfr tryuvtyuf gty uerwgf yu34"
-            },
-        ],
-        tags: [
-            'DBMS', 'DSA', 'operating systems', 'python', 'c', 'java', 'c++'
-        ]
-
-    },
     {
         id: '1',
-        title: "Facial Arts",
-        name: "Facial_Arts",
+        title: "Munjila kirukku",
+        name: "Munjila_kirukku",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
         rules: [
-            "1. Only water colour paints are allowed ",
-            "2. Half face or full face arts are allowed based on the given theme and your ideology.",
-            "3. Participants are required to use their own necessary materials.",
-            "4. Only 2 PARTICIPANTS for each team are allowed(no department restrictions)",
+            "Only water colour paints are allowed ",
+            "Half face or full face arts are allowed based on the given theme and your ideology.",
+            "Participants are required to use their own necessary materials.",
+            "Only 2 PARTICIPANTS for each team are allowed(no department restrictions)",
 
         ],
         pics: {
-            primary: " http://makeupclasses.in/wp-content/uploads/2017/10/MG_9191.jpg",
+            primary: "https://drive.google.com/uc?export=view&id=1iACSs6B4NCV9dU8XhwJwZN6tkCmMp8y1",
             secondary: [
                 "https://image.shutterstock.com/image-photo/portrait-bright-beautiful-girl-art-600w-1104056732.jpg",
                 " https://mymodernmet.com/wp/wp-content/uploads/archive/3MCnZvpjsLjkvryBANOe_1082071907.jpeg",
@@ -446,8 +199,8 @@ export default [
         duration: "1 hour",
         prizes: {
             gold: '250',
-            silver: '100',
-            bronze: '50'
+            silver: '150',
+            bronze: '100'
         },
         contact: "9500458557",
         event_managers: [
@@ -480,9 +233,9 @@ export default [
             }
 
         ],
-        color: 'orange',
+        color: 'green',
         description: " Participants are asked to art a facial painting based on the given theme / topic .",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSc8-yzU9Zqj-4Z5bYLOaB0x9W1sy5Fd9KgAjIFlEe49_NR-9w/viewform?usp=sf_link ",
+        form: "https://forms.gle/d8SHzpDhpuAPqFGE7",
         type: "non_technical",
         tags: [
             "Facial Arts", "painting"
@@ -500,7 +253,7 @@ export default [
             "Entry can be individual or as a team",
         ],
         pics: {
-            primary: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+            primary: "https://drive.google.com/uc?export=view&id=1GBk_xb943Yx5-meBYO6_rOBYN4MeSDGo",
             secondary: [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
@@ -509,48 +262,19 @@ export default [
 
             ]
         },
-        dateTime: "March 25th",
-        duration: "2 hours",
-        prizes:
-            "exclusive chance to join startup social",
+        dateTime: "March 25th , duration 2 hours",
+        duration: "",
+        prizes: {
+            gold: '1000',
+            silver: '500',
+            bronze: '250'
+        },
         contact: "9843109033",
-        event_managers: [
-            {
-                id: '1',
-                name: "Anantha Ramachandran B",
-                email: "anantharc55@yahoo.com",
-                phone: "+91 9843109033",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            },
-
-
-            {
-                id: '1',
-                name: "SHINY SELVARAJU S",
-                email: "shinylmois@gmail.com",
-                phone: "+91 8939592577",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            },
-
-            {
-                id: '1',
-                name: "NIDIN SREE S",
-                email: "nidinsree16@gmail.com",
-                phone: "+91 7538889737",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            }
-        ],
-        color: 'orange',
+        color: 'green',
         description: `This is a one day event in which aspiring entrepreneurs can pitch their business/startup ideas to the the panel of judges.The event brings together startup enthusiasts to share ideas, form teams and launch new ventures.
 `,
         form: "https://docs.google.com/forms/d/e/1FAIpQLSc6kIOuLxh6cElg2bmoNeNbf2iNDfZFSanhb8gEiqjo8wYZOQ/viewform?usp=sf_link",
-        type: "non_technical",
+        type: "flagship",
         faq: [
             {
                 question: "What is the event?",
@@ -570,6 +294,21 @@ export default [
         eligibility: "Anyone can join",
         completed: false,
         results: null,
+        entry: [
+            {
+                type: "1 person",
+                amt: "100"
+            },
+            {
+                type: "2 to 3 members",
+                amt: "200"
+            },
+            {
+                type: "4 members",
+                amt: "300"
+            }
+
+        ],
         rules: [
             "Any domain related to computer science can be chosen",
             "Maximum 4 members per team",
@@ -583,14 +322,18 @@ export default [
 
         ],
         pics: {
-            primary: "https://global-uploads.webflow.com/59e16042ec229e00016d3a66/60357aa30eb694f66d6828d5_blog-hero%20(9).gif",
+            primary: "https://drive.google.com/uc?export=view&id=1SZWBEMs6vrCftBOsFS328HMJ2El-Tr9c",
             secondary: [
                 null,
             ]
         },
         dateTime: "Jan 2nd,11.00 am",
         duration: "2 hours",
-        prizes: "will be announced",
+        prizes: {
+            gold: '1000',
+            silver: '750',
+            bronze: '500'
+        },
         contact: "9360098939",
         event_managers: [
             {
@@ -641,9 +384,9 @@ export default [
 
 
         ],
-        color: '#10E0DC',
+        color: 'green',
         description: "Present solutions or ideas for a topic or area in computer science",
-        form: "https://forms.gle/KpnRid4Hh4ediLhK6",
+        form: "https://forms.gle/zS9YGjNjb26ersZ27",
         type: "flagship",
 
         tags: [
@@ -666,12 +409,12 @@ export default [
         ],
         contact: "9994067109",
         pics: {
-            primary: "https://images.app.goo.gl/GQzKEbXoG74zTHMs5",
+            primary: "https://drive.google.com/uc?export=view&id=1T7dXwL2dyjoemHYrje5Lln2uCsWMAsq2",
             secondary: [
 
             ]
         },
-        dateTime: "NULL",
+        dateTime: "submit On or before March 25 Midnight",
         duration: "On or before March 25 Midnight",
         prizes: "Best Apparasandi will be awarded with prize money Of INR 200 ",
         event_managers: [
@@ -685,9 +428,9 @@ export default [
 
             }
         ],
-        color: '#FF5733',
+        color: 'green',
         description: "Send any meme related to any content without any adult content. The best of all will be awarded as the winner",
-        form: "https://forms.gle/KaTai9okCnHx5C1x8",
+        form: "https://forms.gle/usskwnLFv649RyUK9",
         type: "non_technical",
         faq: [
             {
@@ -715,7 +458,7 @@ export default [
 
         ],
         pics: {
-            primary: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+            primary: "https://drive.google.com/uc?export=view&id=1Enw85e_QEkAwR3l6HywtDmC7mJFowjAi",
             secondary: [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
@@ -724,56 +467,18 @@ export default [
 
             ]
         },
-        dateTime: "Jan 2nd,11.00 am",
+        dateTime: "Jan 2nd,11.00 am,duration : 2hrs",
         duration: "2 hours",
         prizes: {
-            gold: '100',
-            silver: '50',
-            bronze: '20'
+            gold: '2000',
+            silver: ' 1000 VP',
+            bronze: '0'
         },
         contact: "8903683936",
-        event_managers: [
-            {
-                id: '1',
-                name: "Vishnu Ram R",
-                email: "vishnu572001@gmail.com",
-                phone: "+91 8903683936",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            },
-            {
-                id: '2',
-                name: "Anantha Ramachandran B",
-                email: "anantharc55@yahoo.com",
-                phone: "+91 9843109033",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            },
-            {
-                id: '3',
-                name: "Aakash Varma",
-                email: "1905001cse@cit.edu.in",
-                phone: "+91 9003499880",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            },
-            {
-                id: '4',
-                name: "Gourav Gopal",
-                email: "1905015cse@cit.edu.in",
-                phone: "+91 6380485679",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            }
-        ],
-        color: 'orange',
+        color: 'green',
         description: "AYO AGENTS TIME TO CARRY YOUR TEAMMATES; Here comes the Party; GET READY TO MEET YOUR MATCH IN HIGH INTENSITY PUSHS;",
-        form: "https://forms.gle/jcPdpda3sYFvEVSd6",
-        type: "non_technical",
+        form: "https://forms.gle/rbr7cfkVBGipWd9M7",
+        type: "flagship",
         faq: [
             {
                 question: "What is the event?",
@@ -799,7 +504,7 @@ export default [
             "Solo participation"
         ],
         pics: {
-            primary: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+            primary: "https://drive.google.com/uc?export=view&id=1MENtqYsOefQI-YnZQ88nDNB_Pxrp8DBn",
             secondary: [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
@@ -811,9 +516,9 @@ export default [
         contact: "9360894080",
         dateTime: "11th march - 23rd march ,11.00 am",
         prizes: {
-            gold: '100',
-            silver: '50',
-            bronze: '0'
+            gold: '350',
+            silver: '150',
+            bronze: '50'
         },
         event_managers: [
             {
@@ -835,9 +540,9 @@ export default [
 
             }
         ],
-        color: 'orange',
+        color: 'green',
         description: "Are you bored of taking amazing pictures and keeping it to yourself? 😪Say no more.😁",
-        form: "https://forms.gle/GHtXdWFJQ1mKpdoL9",
+        form: "https://forms.gle/UCMj8FZrUGHRQfCcA",
         type: "non_technical",
         faq: [
             {
@@ -869,7 +574,7 @@ export default [
         completed: false,
         results: null,
         rules: [
-            "No inclusion new variables.",
+            "No inclusion of new variables.",
             "Total questions : 7",
             "Event time : 1 hr",
             "Note : Problem Statement won't be given",
@@ -892,52 +597,30 @@ export default [
             bronze: '100'
         },
         contact: "9994102389",
-        event_managers: [
-            {
-                id: '1',
-                name: "YOKESH R S",
-                email: "yokesh0128@gmail.com",
-                phone: "+91 9994102389",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            },
-            {
-                id: '2',
-                name: "SUKIRTHA RAJ N",
-                email: "n.sukirtharaj@gmail.com",
-                phone: "+91 9003625565",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            },
-            {
-                id: '3',
-                name: "ASWINRAJA R ",
-                email: "aswinrajaramesh@gmail.com",
-                phone: "+91 9486832579",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            },
-            {
-                id: '4',
-                name: "PRADESH KUMAR J ",
-                email: "1905035cse@cit.edu.in",
-                phone: "+91 8270137043",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            }
-        ],
-        color: 'orange',
-        description: "Fill in the missing code line to get the desired output (Output will be Given).",
+        color: 'green',
+        carddescription: "Fill in the missing code line to get the desired output (Output will be Given).",
+        description: `Participants will be given a code with
+a few missing lines… You are
+expected to look at the output, look at
+the code, look at the output again, and
+figure out the missing lines and make
+them match…. The participant who
+finishes first will be rewarded
+handsomely.`,
         form: "https://forms.gle/YCBFTDKp72RYgtSa9",
         type: "technical",
         faq: [
             {
                 question: "What is the event?",
-                answer: "Fill the code"
+                answer: "Fill the missing code given."
+            },
+            {
+                question: "What languages are used?",
+                answer: "Questions will be based on C, C++, Python and Java."
+            },
+            {
+                question: "What is the event?",
+                answer: "Fill the missing code given."
             }
         ],
 
@@ -963,7 +646,7 @@ export default [
             "IT IS ABSOLUTELY NECESSARY THAT YOU ALL HAVE FUN AND ENJOY THE EVENT!!"
         ],
         pics: {
-            primary: "https://drive.google.com/file/d/1qo6RB4R3ywej8NwSOCYb_RlgOM01L3dt/view?usp=sharing",
+            primary: "https://drive.google.com/uc?export=view&id=1qo6RB4R3ywej8NwSOCYb_RlgOM01L3dt",
             secondary: [
                 "https://images6.alphacoders.com/665/665354.png",
                 "https://images4.alphacoders.com/108/1080044.png",
@@ -990,10 +673,10 @@ export default [
                 year: "III year CSE",
             }
         ],
-        color: '#d8c7b6',
+        color: 'green',
         carddescription: "The event involves guessing of anime names/titles after watching a small clip. ",
         description: "The event involves guessing of anime names/titles after watching a small clip. There will be around 30 rounds with various difficulties and genre. The participants have to fill up the answers in a google form and submit it immediately after the last round. For answering, the anime names/titles can be in English or Japanese (e.g both \"Attack on Titan\" and \"Shingeki no Kyojin\" would be marked correct). Although the event is open to all, it would be recommended that you have atleast some basic knowledge.",
-        form: "https://forms.gle/wsmafTBLs7GCfhCn8",
+        form: "https://forms.gle/3PiuX3xag5nmz8dA7",
         type: "non_technical",
         faq: [
             {
@@ -1026,11 +709,25 @@ export default [
             "The participant who first completes the jumbled code and submitting the form will be awarded.",
             "If malpracticed or copied code from internet,the participant will be disqualified.",
         ],
+        pics: {
+            primary: "https://drive.google.com/file/d/1qo6RB4R3ywej8NwSOCYb_RlgOM01L3dt/view?usp=sharing",
+            secondary: [
+                "https://images6.alphacoders.com/665/665354.png",
+                "https://images4.alphacoders.com/108/1080044.png",
+                "https://images8.alphacoders.com/505/505616.png",
+                "https://images5.alphacoders.com/114/1141137.jpg",
+
+            ]
+        },
 
         dateTime: "On 26th of March",
         duration: "",
         contact: "8825829751",
-        prizes: "Participant who submits first will get cash prize of Rs.200.",
+        prizes: {
+            gold: '125',
+            silver: '100',
+            bronze: '75'
+        },
         event_managers: [
             {
                 id: '1',
@@ -1042,9 +739,17 @@ export default [
 
             }
         ],
-        color: '#FF5733',
-        description: "Send the correct code for the given output. It's a time related event. The participant who first sends the form with correct answer will be awarded.",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSdP9gENeL2dJ96hdARIj5m516R7wDEuDkVCdo4Lo1qG6CZWRg/viewform?usp=sf_link",
+        color: 'green',
+        carddescription: "Send the correct code for the given output. It's a time related event. The participant who first sends the form with correct answer will be awarded.",
+        description: `Participants will be given a code…. Not
+just any code… a jumbled one….
+Unjumble the code and obtain the final
+code which executes perfectly and
+BAM… You’re the winner… Time
+constraints apply but you can handle it
+because you’re a pro. Win and receive
+a juicy reward.`,
+        form: "https://forms.gle/JUK9XdSuPsCBf6x87",
         type: "technical",
         faq: [
             {
@@ -1072,22 +777,15 @@ export default [
 
         dateTime: "On 26th of March",
         duration: "",
-        prizes: "Participant who submits first will get cash prize of Rs.200.",
-        event_managers: [
-            {
-                id: '1',
-                name: "Vijay Shanmugan S",
-                email: "vijaysvijay24@gmail.com",
-                phone: "+91 8825829751",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            }
-        ],
-        color: '#FF5733',
+        prizes: {
+            gold: '500',
+            silver: '350',
+            bronze: '150'
+        },
+        color: 'green',
         contact: "9994861281",
         description: "can take any brand logo and redesign it",
-        form: "https://forms.gle/wsmafTBLs7GCfhCn8",
+        form: "https://forms.gle/Kce1LgVA7nuo4VUg9",
         type: "non_technical",
         faq: [
             {
@@ -1157,7 +855,7 @@ export default [
                 answer: "An online sketching competition which is open for all"
             }
         ],
-        prizes: "Winner will be awarded with cash prize of Rs.1000",
+        prizes: "INR 500 will be given to the best artist",
         speakers: null,
         tags: [
             'sketching', "painting"
@@ -1194,6 +892,13 @@ export default [
             silver: '350',
             bronze: '150'
         },
+        entry: [
+            {
+                type: "1 team",
+                amt: "50"
+            }
+
+        ],
         event_managers: [
             {
                 id: '1',
@@ -1205,7 +910,7 @@ export default [
 
             }
         ],
-        color: 'Yellow',
+        color: 'green',
         description: "The goal of a hackathon is to create functioning software or hardware by the end of the event",
         form: "https://forms.gle/dpFezkeEKrGEXG5ZA",
         type: "flagship",
@@ -1248,11 +953,7 @@ export default [
         },
         dateTime: "March 13-March23",
         deadline: "before 23th march 18.00 pm",
-        prizes: {
-            gold: '0',
-            silver: '0',
-            bronze: '0',
-        },
+        prizes: "INR 500 will be given to the best designer",
         contact: "9787777715",
         event_managers: [
             {
@@ -1285,7 +986,7 @@ export default [
                 year: "3rd year CSE",
             }
         ],
-        color: 'orange',
+        color: 'green',
         description: "Whitespace is like air;it is necessary for design to breathe.Share your appreciation on any field through your creativity by making a poster.",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSe4XYVuZAz2I7ydqOPA24MXh_ej10WUb7KUZr00j5UVlPpc8g/viewform?usp=sf_link",
         type: "non_technical",
@@ -1315,10 +1016,10 @@ export default [
             "Join the WhatsApp group (Link will be in provided in google form once registration is done)",
             "Problem file will be shared to the registered e-mail id.",
             "Problems will be asked from C, C++, Python, Java.",
-            "Answers will not be accepted after the deadline"
+            "Answers will not be accepted after the deadline."
         ],
         pics: {
-            primary: " https://www.google.com/url?sa=i&url=https%3A%2F%2Fbinaryondemand.com%2Finsights%2Fsecurity%2Fencryption-and-decryption-data-transfer-needs-planning-of-resources%2F&psig=AOvVaw346uBO7PC1TANLyfNz1lUc&ust=1647352515172000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPiyudngxfYCFQAAAAAdAAAAABAf",
+            primary: " https://s3-us-west-2.amazonaws.com/a.techdemand.io/wp-content/uploads/2019/04/09090003/Data-Encryption-Descryption-1024x631.jpg",
             secondary: [
                 " https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.ryadel.com%2Fwp-content%2Fuploads%2F2019%2F03%2Fdata-encryption-at-rest-in-transit-end-to-end.jpg&imgrefurl=https%3A%2F%2Fwww.ryadel.com%2Fen%2Fdata-encryption-in-transit-at-rest-definitions-best-practices-tutorial guide%2F&tbnid=vHodKy1sd576oM&vet=10CDYQMyh_ahcKEwj4srnZ4MX2AhUAAAAAHQAAAAAQAg..i&docid=TD7dU5btTbxLPM&w=735&h=368&q=digital%20encryption&ved=0CDYQMyh_ahcKEwj4srnZ4MX2AhUAAAAAHQAAAAAQAg",
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
@@ -1330,56 +1031,12 @@ export default [
         dateTime: "Jan 2nd,11.00 am",
         duration: "2 hours",
         prizes: {
-            gold: '100',
-            silver: '50',
-            bronze: '20'
+            gold: '500',
+            silver: '200',
+            bronze: '100'
         },
-        event_managers: [
-            {
-                id: '1',
-                name: "Nishanth K",
-                email: "nishanth152001@gmail.com",
-                phone: "+91 8105199200",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            }, {
-                id: '2',
-                name: "Nithish V B",
-                email: "vbnithish@gmail.com",
-                phone: "+91 9659454275",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            },
-            {
-                id: '3',
-                name: "Vigneswari G",
-                email: "ganesanvigneswari@gmail.com",
-                phone: "+918838733265",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            }, {
-                id: '4',
-                name: "Murugalakshmi M",
-                email: "mlakshmi2k19@gmail.com",
-                phone: "+91 9361115430",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            },
-            {
-                id: '5',
-                name: "Soundarya",
-                email: "soundaryams03@gmail.com",
-                phone: "+91 8925604899",
-                role: "Event Manager",
-                year: "3rd year CSE",
-
-            }
-        ],
         color: 'green',
+        carddescription: "Interested in cracking codes and puzzles?   Well, this event is for you.",
         description: "Interested in cracking codes and puzzles?   Well, this event is for you.  Here each team use collaborative brain powers to solve programmatic puzzle, algorithmic clues, pseudocode to cross each level to reach the treasure”",
         form: "https://forms.gle/4V1Bkb3Z8VC7VcqY6",
         type: "technical",
@@ -1391,6 +1048,10 @@ export default [
             {
                 question: `How is the winner declared?`,
                 answer: ` The winner is one who solves all the problems in the least time.In case no one solves all the problems, the one who has solved the maximum number of problems in the least time will be declared as the winner.`,
+            },
+            {
+                question: "How will you recieve the zip file?",
+                answer: "The Zip file is uploaded in google drive. Participants will get the drive link when event starts."
             }
         ],
 
@@ -1407,35 +1068,66 @@ export default [
         completed: false,
         results: null,
         rules: [
-            "Standard Search and Destroy rules will apply.",
+            "There will be atleast two battles",
             "Changes in team members need to be reported 24 hours prior.",
-            "Finals will be a best of 3 Search and Destroy.",
-            "Random map picked by the host.",
-            "Each Team gets to ban 1 map of their choice.",
+            "Standard BattleRoyale rules will apply.",
+            "Map selection is based on majority preference.",
+            "Team-up among squads during the match is strictly prohibited.",
             "No mythic or legendary weapons are allowed. Usage of the same will result in disqualification.",
             "No mods/emulators are allowed."
         ],
         pics: {
-            primary: "https://drive.google.com/uc?export=view&id=1K8rA_OcRNRzW0kvUnXmy9EaSVcsXMQ3f",
+            primary: "https://drive.google.com/uc?export=view&id=1lM3jnB39tD9LN7yFIlYvbtL6bXfutFOb",
             secondary: []
         },
-        dateTime: "null",
+        dateTime: "25th and 26th of March",
         duration: "2 hours",
-        prizes: {
-            gold: "-",
-            silver: "-",
-            bronze: "-",
-        },
+        prizes: "Minimum of INR 4000 will be given to the top 3 teams in solo,duo and squad.",
         contact: "9003625565",
         event_managers: "Sukirtha Raj N",
-        color: '#d8c7b6',
+        color: 'green',
         carddescription: "Success is not final, failure is not fatal: it is the courage to continue that counts – Call of duty",
-        description: "\"Success is not final, failure is not fatal: it is the courage to continue that counts – Call of duty.\" – Modern Warfare \nCall Of Duty Search & Destroy: Experience the thrill of Call of Duty on the go. Choose your targets precisely and snipe them all.\"",
-        form: "https://forms.gle/wsmafTBLs7GCfhCn8",
+        description: `\"Success is not final, failure is not fatal: it is the courage to continue that counts – Call of duty.\" Display your versitality and skills as you gain control of the game and earn kills 
+        furthermore pushing through your way towards victory.
+        With your profeciency in battlefield play as solo or assist your team for the big win. `,
+        form: "https://forms.gle/9dU3Jk7NKUB7p4W5A",
         type: "non_technical",
         faq: null,
         tags: [
             "Gaming", "Mobile", "COD"
+        ],
+        faq:[
+ 
+            {
+                question:"What is Call of Duty: Mobile?",
+                answer:`Call of Duty: Mobile is a free-to-play shooter game. In BR mode players have to find weapons
+                and attachments while keeping their ammo in check and being on the lookout
+                for enemies. The final surviving team/player is the winner!!`
+            },
+            {
+                question:"How do referrels work?",
+                answer:`Referral code is the registered participant's UID who is referring to others (Team Representative UID in case of Duo & Squad referrals).
+                For minimum of 3 referral registrations, the referred UID will get 50% cashback of Registration fees paid.
+                Atmost of 2 cashback are offerable.`
+            },
+
+            {
+                question:"Who are all eligible for the Lucky draw contest?",
+                answer:`Invite a minimum of 1 referral registration to enter lucky draw and win much more!!`
+            },
+            {
+                question:" Will the prize amount increase?",
+                answer:`Prize amount will increase depending upon the number of registrations.`
+            }
+            ,
+            {
+                question:"What are the two maps in BR?",
+                answer:`Isolated and Blackout.`
+            }
+
+
+
+
         ]
     },
 
@@ -1457,13 +1149,13 @@ export default [
         },
         dateTime: "null",
         duration: "1 hours",
-        prizes: "500",
+        prizes: "Rs.500 will be given to the winner",
         contact: "9003625565",
         event_managers: "Chandramouli G",
-        color: '#d8c7b6',
+        color: 'green',
         carddescription: "Ready to flex some of that bug hunting skills?",
         description: "0xdebug is a code debugging event. The participants will be given C/C++/Python code containing Lexical/Logical/Syntactic errors. You should locate and correct the bug. The questions are divided into 3 levels based on difficulty (Easy-Medium-Hard).",
-        form: "https://forms.gle/wsmafTBLs7GCfhCn8",
+        form: "https://forms.gle/UEs156aVnrPBmu7E6",
         type: "technical",
         faq: [{
             question: "How is the event conducted? ",
@@ -1490,22 +1182,18 @@ export default [
             "No Hackers."
         ],
         pics: {
-            primary: "https://drive.google.com/uc?export=view&id=1MW8x2TObNvPlSO0HQD50d8C0KAhiTfsH",
+            primary: "https://drive.google.com/uc?export=view&id=1_NrSmg8CI68fM0HypDQx9n_lKbLtb_eN",
             secondary: []
         },
         dateTime: "null",
         duration: "45 mins",
-        prizes: {
-            gold: '100',
-            silver: '50',
-            bronze: '20'
-        },
+        prizes: "INR 1000 will be given to the winner",
         contact: "9361105009",
         event_managers: "Arul Karthikeyan M",
-        color: '#d8c7b6',
+        color: 'green',
         carddescription: "BGMI room will be created and the match will be conducted in squad mode and Erangel map.",
         description: "BGMI Room code will be shared before the match start and the Match will be conducted in squard mode. The Match will be conducted in Erangel map. The Winning squard will be awarded.",
-        form: "https://forms.gle/wsmafTBLs7GCfhCn8",
+        form: "https://forms.gle/geQY2mdXK13e5xNF9",
         type: "non_technical",
         faq: null,
         tags: [
@@ -1529,7 +1217,7 @@ export default [
             "Join the gmeet before 10 minutes for the event; Quiz link will be shared in the gmeet."
         ],
         pics: {
-            primary: "https://images.unsplash.com/photo-151https://media.istockphoto.com/photos/artificial-intelligence-digital-concept-abstract-brains-with-bulb-and-picture-id1354729652?b=1&k=20&m=1354729652&s=170667a&w=0&h=BSNmm5KqeXzcJL6w1jp5UHcSxsDmKb5v8EGIEzHiMis=8791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+            primary: "https://www.stlmag.com/downloads/226309/download/MindFestLogo_02.jpg?cb=081a49a33582297f4094c40ff2a68b8a&w=640",
             secondary: [
                 "https://images6.alphacoders.com/665/665354.png",
                 "https://images4.alphacoders.com/108/1080044.png",
@@ -1541,16 +1229,16 @@ export default [
         dateTime: "null",
         duration: "45 mins",
         prizes: {
-            gold: "0",
-            silver: "0",
+            gold: "500",
+            silver: "250",
             bronze: "0",
         },
         contact: "8610559986",
         event_managers: "Neharika A R",
-        color: '#d8c7b6',
+        color: 'green',
         carddescription: "The event involves questions based on DBMS, DSA, OS, C, C++, Python, Java ",
         description: "This event will be of two phases - 1st phase will be elimination phase. Duration: 20mins. Selected participants will make it to 2nd phase - Duration: 30 mins. Questions will be based on DBMS, DSA, OS, C, C++, Python, Java. Certificates will be provided to all participants. Winners will be awarded with cash prize. Event details can be viewed at www.crypteracit.in",
-        form: "https://forms.gle/wsmafTBLs7GCfhCn8",
+        form: "https://docs.google.com/forms/d/1KYz35tmzvsC8G8tlSZuekA29Mv48x3CtBTXV-_qj7GQ",
         type: "technical",
         faq: [
             {
@@ -1581,25 +1269,38 @@ export default [
 
         ],
         pics: {
-            primary: "https://www.istockphoto.com/photo/software-developer-programming-code-on-computer-gm488651322-74298825?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcoding-c%252B%252B&utm_term=coding%20c%2B%2B%3A%3A%3A",
+            primary: "https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-deve-picture-id537331500?b=1&k=20&m=537331500&s=170667a&w=0&h=-OawbbTR9TwfewLYKlaU-_cn1m_dq1WLpBK1qubFhGI=",
             secondary: [
             ]
         },
-        dateTime: "null",
+        dateTime: "26 Mar",
         duration: " ",
         prizes: {
-            gold: "-",
-            silver: "-",
-            bronze: "-",
+            gold: "750",
+            silver: "350",
+            bronze: "100(random participant from rank 3 to 10)",
         },
         contact: "9498076092",
         event_managers: "Narasiman C V",
-        color: '#d8c7b6',
+        color: 'green',
         carddescription: "The Coding contest is based on a certain theme and comprises of Data structures and algorithms related problems.",
         description: "The Coding contest is based on a certain theme and comprises of Data structures and algorithms related problems. There will be around 4 to 6 questions and a time limit of 1 or 2 hours to solve them. Hot cash for hot hands! Kaching! Further information regarding the link and time will be updated",
-        form: null,
+        form: "https://forms.gle/4EXy6xYThExJYFrj7",
         type: "technical",
-        faq: null,
+        faq: [
+            {
+                question: "What languages can be used?",
+                answer: "C,C++,python,java is preferred"
+            },
+            {
+                question: "Contest will be hosted on which platform?",
+                answer: "Hackerrank"
+            },
+            {
+                question: "What is the duration of the contest?",
+                answer: "1 to 2 hours"
+            }
+        ],
         tags: [
             "DSA", "Logic", "Math", "Coding"
         ]
@@ -1612,6 +1313,7 @@ export default [
         eligibility: "Anyone who is good at programming",
         completed: false,
         results: null,
+        carddescription: "Code without seeing the editor,The code with minimal error will be awarded",
         rules: [
             "Individual event",
             "You can use any programming language of given choice(C,C++, Java, Python)",
@@ -1623,7 +1325,7 @@ export default [
 
         ],
         pics: {
-            primary: " https://www.google.com/url?sa=i&url=https%3A%2F%2Fbinaryondemand.com%2Finsights%2Fsecurity%2Fencryption-and-decryption-data-transfer-needs-planning-of-resources%2F&psig=AOvVaw346uBO7PC1TANLyfNz1lUc&ust=1647352515172000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPiyudngxfYCFQAAAAAdAAAAABAf",
+            primary: "https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
             secondary: [
                 " https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.ryadel.com%2Fwp-content%2Fuploads%2F2019%2F03%2Fdata-encryption-at-rest-in-transit-end-to-end.jpg&imgrefurl=https%3A%2F%2Fwww.ryadel.com%2Fen%2Fdata-encryption-in-transit-at-rest-definitions-best-practices-tutorial guide%2F&tbnid=vHodKy1sd576oM&vet=10CDYQMyh_ahcKEwj4srnZ4MX2AhUAAAAAHQAAAAAQAg..i&docid=TD7dU5btTbxLPM&w=735&h=368&q=digital%20encryption&ved=0CDYQMyh_ahcKEwj4srnZ4MX2AhUAAAAAHQAAAAAQAg",
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
@@ -1635,9 +1337,9 @@ export default [
         dateTime: "Jan 2nd,11.00 am",
         duration: "2 hours",
         prizes: {
-            gold: '100',
-            silver: '50',
-            bronze: '20'
+            gold: '500',
+            silver: '200',
+            bronze: '100'
         },
         contact: "8105199200",
         event_managers: [
@@ -1659,7 +1361,7 @@ export default [
 
             }
         ],
-        color: 'orange',
+        color: 'green',
         description: "Bored at usual coding? We have something new for you. Code the problem  WITHOUT LOOKING AT THE EDITOR. Not so easy now is it? Even better….  There is a time limit. If all these won’t stop you. We admit it…. you deserve this cash award… Good Luck.",
         form: "https://forms.gle/hqG18xsCEKRV9Dtf6",
         type: "technical",
@@ -1680,10 +1382,370 @@ export default [
             "Coding", "blind code", "code behind"
         ]
 
+    },
+    {
+        id: '1',
+        name: "Chess_Tournament",
+        title: "Chess Tournament",
+        eligibility: "Any one",
+        completed: false,
+        results: null,
+        rules: [
+            "Chess matches will be conducted on lichess",
+            "Blitz matches will be conducted",
+            "Number of rounds will depend on Number of players",
+        ],
+        pics: {
+            primary: "https://drive.google.com/uc?export=view&id=1Ok2WDKxhqKH6zhoGtTWmB3z_tcieY0dQ",
+            secondary: [
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+
+            ]
+        },
+        dateTime: "May 27nd ,duration: 2 days",
+        duration: "",
+        prizes: {
+            gold: '100',
+            silver: '70',
+            bronze: '30'
+        },
+        contact: "8220341119",
+        description:"Online chess game",
+        color: 'green',
+        form: "https://forms.gle/W7vWvbQuZCqiYhe69",
+        type: "non_technical",
+        faq: [
+            {
+                question: "What is the event?",
+                answer: "A chess tournament conducted in lichess"
+            }
+        ],
+
+        tags: [
+            'chess', "Gaming", "Indoor games"
+        ]
+
+    },
+    {
+        id: '1',
+        name: "Optimuz",
+        title: "Optimuz",
+        eligibility: "Anyone can join",
+        completed: false,
+        results: null,
+        rules: [
+            "Code will be given in google form",
+            "You have to optimize the given code",
+            "Winners will be decided based on runtime and submission time",
+        ],
+        pics: {
+            primary: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwY29udGVzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+            secondary: [
+                "https://images.unsplash.com/photo-1483817101829-339b08e8d83f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nJTIwY29udGVzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+
+            ]
+        },
+        dateTime: "March 26nd",
+        duration: "Max 2 hours",
+        prizes: {
+            gold: '300',
+            silver: '200',
+            bronze: '-'
+        },
+        contact: "9585714043",
+        event_managers: [
+            {
+                id: '1',
+                name: "Loganathan D",
+                email: "logan05012001@gmail.com",
+                phone: "+91 9585714043",
+                role: "Event Manager",
+                year: "3rd year CSE",
+
+            }
+        ],
+        color: 'green',
+        description: "The goal of the optimuz event is to optimize the given code",
+        form: "https://forms.gle/RLJFoSuH69AZF2SJ7",
+        type: "technical",
+        faq: [
+            {
+                question: "What is the event?",
+                answer: "You hace to optimize the gicen solution using various techniques"
+            }
+        ],
+
+        tags: [
+            'coding', "Time complexity", "O(n)"
+        ]
+
+    },
+    {
+        id: '1',
+        name: "STARK_EXPO",
+        title: "STARK EXPO",
+        eligibility: "Anyone can join",
+        completed: false,
+        results: null,
+        rules:
+            [
+                "1. The project should be applied to computer science and its allied Domains(AI,ML, Automation, Wireless, Electronics, Robotics,Instrumentation, etc).",
+                "2. Should submit their project as pdf as reference.",
+                "3. Have proper network connections.",
+                "4. Only 2-3 PARTICIPANTS for each team are allowed (no department restrictions)",
+            ],
+        pics: {
+            primary: "https://drive.google.com/drive/folders/1mndaaKDL_hp4IjFYMrxVIu_Q0S_voAPS",
+            secondary: [
+            ]
+        },
+        dateTime: "March 26nd",
+        duration: "Max 2 hours",
+        prizes: {
+            gold: '300',
+            silver: '200',
+            bronze: '100'
+        },
+        contact: "9600573375",
+        color: 'green',
+        carddescription: "Stark Expo is a technical event where participant are asked to show their innovation/project.",
+        description: `Get that innovative inventor out and take this opportunity to exhibit your best project works, be it ANYTHING.
+    The most innovative, creative, different altogether awesome project will receive cash price. Good Luck!`,
+        form: "https://forms.gle/L2pA8SiiVAagB5H69",
+        type: "technical",
+        faq: [
+            {
+                question: "How the event will be conducted?",
+                answer: "Event conducted in online mode only(Gmeet)"
+            },
+            {
+                question: "How the prize will be awarded?",
+                answer: "Participant awarded through gpay/phonepe/paytm"
+            },
+            {
+                question: "How project is evaluated?",
+                answer: "Based on project solution and how it is useful for our Human environment."
+            }
+        ],
+
+        tags: [
+            "project", "expo", "technology", "engineering", "exhibition", "newtech"
+        ]
+
+    },
+    {
+        id: '1',
+        name: "UI_design",
+        title: "UI Design contest",
+        eligibility: "Anyone can join",
+        completed: false,
+        results: null,
+        rules: [
+            "The UI design has to be for a mobile device",
+            "A minimum of 4 screens must be designed",
+            "The UI must fit the provided brief",
+            "Submission must include - User flow, UI screens, a brief description of each screen and justifications for design decisions made",
+        ],
+        pics: {
+            primary: "https://drive.google.com/file/d/1OrWuFggV5P43UvgoznMgUt9T25qkeKKi/view?usp=sharing",
+            secondary: [
+                "https://drive.google.com/file/d/1RIykylOs_-MOuKpIJ4Bcjeaa1nvbNCX1/view?usp=sharing",
+                "https://drive.google.com/file/d/1uEOTJGn4PlJVmqbta0YnLgqSSnh2S9fm/view?usp=sharing",
+                "null",
+                "null"
+            ]
+        },
+        contact: "9361198668",
+        dateTime: "March 25th",
+        duration: "",
+        prizes: {
+            gold: '500',
+            silver: '300',
+            bronze: '150'
+        },
+        event_managers: [
+            {
+                id: '1',
+                name: "Pranavi",
+                email: "pranaviraj75@gmail.com",
+                phone: "+91 9361198668",
+                role: "Event Manager",
+                year: "3rd year CSE",
+
+            }
+        ],
+        color: "green",
+        carddescription: "Create a mobile UI for the given theme",
+        description: `Good Design, when done well, should be invisible - Jared Spool \n 
+    In today's age of screens and keyboards, we spend more time staring at screens than anything else.
+    A well designed UI has become a basic requirement to attract users and generate interaction.\n\n
+    
+    This is an oppurtunity to showcase your UI design skills by designing a UI for a specific problem statement.`,
+
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSfwLCpK_PjpSYIzFYAKWStzUl0huLV83EPdf570uguIgE3gjw/viewform",
+        type: "technical",
+        faq: [
+            {
+                question: "What is the event?",
+                answer: "It's a UI design event. You will be given a brief and asked to design a UI."
+            },
+            {
+                question: "How will the work be graded?",
+                answer: "The work will be graded based on multiple factors such as visual appearance, ease-of-use, design decisions and its validity"
+            }
+        ],
+        speakers: [
+        ],
+        tags: [
+            "UI Design", "Mobile UI"
+        ]
+
     }
+    ,
+    {
+        id: '1',
+        name: "Riddle_quest",
+        title: "Riddle Quest",
+        eligibility: "Anyone can join",
+        completed: false,
+        results: null,
+        rules: [
+
+            "Total questions : 12",
+            "15 sec for each question ",
+            "Event time : 1 hr",
+            "No extra time ",
+        ],
+        pics: {
+            primary: "https://media.istockphoto.com/photos/riddle-and-mystery-picture-id1251420519?s=612x612",
+            secondary: [
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+
+            ]
+        },
+        dateTime: "March,25, 11:00 am",
+        duration: "1 hours",
+        prizes: {
+            gold: '300',
+            silver: '200',
+            bronze: '100'
+        },
+        contact: "8257014872",
+        color:'green',
+        carddescription: "Give quick answers of a given RIDDLE.",
+        description: `Riddles will be ask on a gmeet, participants needs to
+    give the answers in a given time, each correct answers carry a point which will be given to individual 
+    participants. And partcipants can also ask the riddles if he has willing to ask to other participants. `,
+        form: "https://forms.gle/mZvfCSntzQabDfsd8",
+        type: "non_technical",
+        faq: [
+            {
+                question: "How to answer?",
+                answer: "You need to raise your hand in gmeet."
+            }],
+
+        tags: [
+            "books", "poems", "riddles", "brainteaser", "the batman"
+        ]
+
+    },
+    {
+        id: '1',
+        name: "LOGO_QUIZ",
+        title: "LOGO QUIZ",
+        eligibility: "Anyone can join",
+        completed: false,
+        results: null,
+        rules: [
+
+            "Participants guess the maximum names of the logo within the time limit",
+            "Solo participation",
+            "Registration Ends on 23rd March 11pm",
+            "Join the whatsapp for further info https://chat.whatsapp.com/HqFmZWzbWG27VpCb8DiyS6",
+            "It is necessary to enjoy this event to the fullest."
+
+        ],
+        pics: {
+            primary: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+            secondary: [
+                "NULL"
 
 
+            ]
+        },
+        dateTime: "NULL",
+        duration: "1 hour 30 min",
+        prizes:
+            " Cash prize will be awarded for winners"
+        ,
+        event_managers: [
+            {
+                id: '1',
+                name: "Jeiranjeni V",
+                email: "jeiranjenivenkatesh@gmail.com",
+                phone: "9361557030",
+                role: "Event Manager",
+                year: "3rd year CSE"
+            },
+            {
+                id: '2',
+                name: "Sagolsem Hironika Devi",
+                email: "sagolsemhironika@gmail.com",
+                phone: "7085771806",
+                role: "Event Manager",
+                year: "3rd year CSE"
+            },
+            {
+                id: '3',
+                name: "Deepika T",
+                email: "deepikathirunavukkarasu@gmail.com",
+                phone: "9578439637",
+                role: "Event coordinator",
+                year: "3rd year CSE"
 
 
+            }
+        ],
+        color: "green",
+        carddescription:"Guess the logo of the company",
+        description: "Guess the maximum name of the Logos given with in the given time limit. The logos will be related to famous fashion brands, car companies, tech companies, organizations, famous tv shows or movies like marvel and even animes. 'Don't give up,there's no shame in falling down! True shame is to not stand up again!'",
+        form: "https://forms.gle/HS72CNvHobu2rTab7",
+        type: "non_technical",
+        faq: [
+            {
+                question: "What is the event?",
+                answer: "It is the logo's name finding and matching event.",
+            },
+            {
+                question: "Who can participate?",
+                answer: "Any one have interest can participate.",
+            },
+            {
+                question: "What is the reward? Who can get it?",
+                answer: "We provide certificates for Winner and Runner-up of the event",
+            },
+            {
+                question: "Is that participants provided participation certificates?",
+                answer: "No.It is a non-technical event to improves spontaneity of the participants and encourage them to explore more and have fun."
 
+            }
+        ],
+        speakers: [
+            {
+                name: "John Doe",
+                image: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+                description: "A hisg lfewrgr eg erwgerg gwwegr gr gherhgr h r h rh  r h w g dgsdg ad  er bhf  h raercgg feuwycbtryi74 fgrvutfr tryuvtyuf gty uerwgf yu34"
+            }
+        ],
+        tags: [
+            "knowledge on logos", "fashion", "techologies", "anime", "brands", "movies"
+        ]
+
+    }
 ]

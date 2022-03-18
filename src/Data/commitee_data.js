@@ -505,5 +505,27 @@ export default [
         year: 'Third year',
         x: 'CSE',
         profile: 'https://drive.google.com/uc?export=view&id=1jUYMSU-vsoowrxl1Wi3cMoRCXe05dOCT'
+    },
+    {
+        name: 'Abuthageer S',
+        position: 'Event Manager',
+        year: 'Third year',
+        x: 'CSE',
+        profile: 'https://drive.google.com/uc?export=view&id=1dzua2IDhmRDm8RK_51fyxmd5cB-hul2e'
+    },
+    {
+        name: 'Hari Prasath M',
+        position: 'Event Manager',
+        year: 'Third year',
+        x: 'CSE',
+        profile: 'https://drive.google.com/uc?export=view&id=1LUTxjlgM5qAkWaL6T16FZlXiHeJBl0gc'
+    },
+    {
+        name: 'Sanjai V',
+        position: 'Event Manager',
+        year: 'Third year',
+        x: 'CSE',
+        profile: 'https://drive.google.com/uc?export=view&id=1tdNmyHNWS9khfL1-CczEXt9qM5q9R6D9'
     }
+
 ] 
