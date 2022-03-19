@@ -35,7 +35,7 @@ const db = getFirestore()
 export {db}
 
 function App() {
-  const [flag,setflag]=useState(false)
+  const [flag,setflag]=useState(true)
   useEffect(async () => {
     const getdata = async () => {
       let event_details=events
