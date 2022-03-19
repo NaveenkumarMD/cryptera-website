@@ -54,7 +54,7 @@ function Eventdetails() {
                                     <h1>{Event_data.title}</h1>
                                     <p><i className='fas fa-calendar-week mr-2 mb-3'></i>{Event_data.dateTime}</p>
                                 </div>
-                                <div className='google-calendar' ref={contactref}>
+                                <div className='google-calendar' ref={contactref} style={{backgroundColor:"var(--fg-green)",width:"40px",height:"40px",display:"flex",justifyContent:"center",alignItems:"center",padding:"10px",borderRadius:"500px"}}>
 
 
                                 </div>

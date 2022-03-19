@@ -36,7 +36,7 @@ export default [
         contact: "9384024888",
 
 
-        color: 'green',
+        color: 'var(--fg-g)',
         carddescription: "Send your poems to us and get awarded based on likes.",
         description: `Start writing, no matter what. The water does not flow until the faucet is turned on.
         — Louis L’Amour
@@ -91,7 +91,7 @@ export default [
             bronze: '100'
         },
         contact: "9080525310",
-        color: 'green',
+        color: 'var(--fg-g)',
         description: `Participants will be given a theme and
 are expected to design beautiful
 webpages. All participants must finish
@@ -146,7 +146,7 @@ best webpage will receive their prize.`,
         duration: "3 hours",
         prizes: "200 rupees,Opportunity to get your artwork turned into an NFT!!",
         contact: "9150414945",
-        color: 'green',
+        color: 'var(--fg-g)',
         description: "Students will be provided 3 hours to work on a template provided to create a series of artworks, from 1 to maximum 10. The best artwork or series will bechosen and will be converted into NFTs",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSfg-yRrhdM0Z2Q2tMQ05fS1Zgwk8xoMEa2xFkPuslEJ7_5mZw/viewform?usp=sf_link",
         type: "technical",
@@ -233,7 +233,7 @@ best webpage will receive their prize.`,
             }
 
         ],
-        color: 'green',
+        color: 'var(--fg-g)',
         description: " Participants are asked to art a facial painting based on the given theme / topic .",
         form: "https://forms.gle/d8SHzpDhpuAPqFGE7",
         type: "non_technical",
@@ -270,7 +270,7 @@ best webpage will receive their prize.`,
             bronze: '250'
         },
         contact: "9843109033",
-        color: 'green',
+        color: 'var(--fg-g)',
         description: `This is a one day event in which aspiring entrepreneurs can pitch their business/startup ideas to the the panel of judges.The event brings together startup enthusiasts to share ideas, form teams and launch new ventures.
 `,
         form: "https://docs.google.com/forms/d/e/1FAIpQLSc6kIOuLxh6cElg2bmoNeNbf2iNDfZFSanhb8gEiqjo8wYZOQ/viewform?usp=sf_link",
@@ -384,7 +384,7 @@ best webpage will receive their prize.`,
 
 
         ],
-        color: 'green',
+        color: 'var(--fg-g)',
         description: "Present solutions or ideas for a topic or area in computer science",
         form: "https://forms.gle/zS9YGjNjb26ersZ27",
         type: "flagship",
@@ -428,7 +428,7 @@ best webpage will receive their prize.`,
 
             }
         ],
-        color: 'green',
+        color: 'var(--fg-g)',
         description: "Send any meme related to any content without any adult content. The best of all will be awarded as the winner",
         form: "https://forms.gle/usskwnLFv649RyUK9",
         type: "non_technical",
@@ -475,7 +475,7 @@ best webpage will receive their prize.`,
             bronze: '0'
         },
         contact: "8903683936",
-        color: 'green',
+        color: 'var(--fg-g)',
         description: "AYO AGENTS TIME TO CARRY YOUR TEAMMATES; Here comes the Party; GET READY TO MEET YOUR MATCH IN HIGH INTENSITY PUSHS;",
         form: "https://forms.gle/rbr7cfkVBGipWd9M7",
         type: "flagship",
@@ -540,7 +540,7 @@ best webpage will receive their prize.`,
 
             }
         ],
-        color: 'green',
+        color: 'var(--fg-g)',
         description: "Are you bored of taking amazing pictures and keeping it to yourself? 😪Say no more.😁",
         form: "https://forms.gle/UCMj8FZrUGHRQfCcA",
         type: "non_technical",
@@ -597,7 +597,7 @@ best webpage will receive their prize.`,
             bronze: '100'
         },
         contact: "9994102389",
-        color: 'green',
+        color: 'var(--fg-g)',
         carddescription: "Fill in the missing code line to get the desired output (Output will be Given).",
         description: `Participants will be given a code with
 a few missing lines… You are
@@ -673,7 +673,7 @@ handsomely.`,
                 year: "III year CSE",
             }
         ],
-        color: 'green',
+        color: 'var(--fg-g)',
         carddescription: "The event involves guessing of anime names/titles after watching a small clip. ",
         description: "The event involves guessing of anime names/titles after watching a small clip. There will be around 30 rounds with various difficulties and genre. The participants have to fill up the answers in a google form and submit it immediately after the last round. For answering, the anime names/titles can be in English or Japanese (e.g both \"Attack on Titan\" and \"Shingeki no Kyojin\" would be marked correct). Although the event is open to all, it would be recommended that you have atleast some basic knowledge.",
         form: "https://forms.gle/3PiuX3xag5nmz8dA7",
@@ -739,7 +739,7 @@ handsomely.`,
 
             }
         ],
-        color: 'green',
+        color: 'var(--fg-g)',
         carddescription: "Send the correct code for the given output. It's a time related event. The participant who first sends the form with correct answer will be awarded.",
         description: `Participants will be given a code…. Not
 just any code… a jumbled one….
@@ -782,7 +782,7 @@ a juicy reward.`,
             silver: '350',
             bronze: '150'
         },
-        color: 'green',
+        color: 'var(--fg-g)',
         contact: "9994861281",
         description: "can take any brand logo and redesign it",
         form: "https://forms.gle/Kce1LgVA7nuo4VUg9",
@@ -845,7 +845,7 @@ a juicy reward.`,
 
             }
         ],
-        color: 'green',
+        color: 'var(--fg-g)',
         description: "An artist grows by leaps and bounds when he or she puts artwork in the public, and that is what art competitions are all about.It is an opportunity for artists around to showcase your talent and get an amazing prize.",
         form: "https://docs.google.com/forms/d/1fMi9bPDGtPm4eQYKxTV3d2fi0Bz2T7cvmkPeAStNdwo/edit",
         type: "non_technical",
@@ -874,9 +874,13 @@ a juicy reward.`,
             "Hackathon will be conducted in 2 rounds",
             "In the First round We expect your solution for the Problems",
             "In the second round you will ba asked to implement your solution",
+            "Only College students are elligible ",
+            "Team member of 2-4 is allowed ",
+            "Judging panel's decision is final ",
+            " E-certificated will be provided to all"
         ],
         pics: {
-            primary: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+            primary: "https://images.unsplash.com/photo-1640891175384-e599abd85c6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80",
             secondary: [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
@@ -892,13 +896,7 @@ a juicy reward.`,
             silver: '350',
             bronze: '150'
         },
-        entry: [
-            {
-                type: "1 team",
-                amt: "50"
-            }
 
-        ],
         event_managers: [
             {
                 id: '1',
@@ -910,7 +908,7 @@ a juicy reward.`,
 
             }
         ],
-        color: 'green',
+        color: 'var(--fg-g)',
         description: "The goal of a hackathon is to create functioning software or hardware by the end of the event",
         form: "https://forms.gle/dpFezkeEKrGEXG5ZA",
         type: "flagship",
@@ -986,7 +984,7 @@ a juicy reward.`,
                 year: "3rd year CSE",
             }
         ],
-        color: 'green',
+        color: 'var(--fg-g)',
         description: "Whitespace is like air;it is necessary for design to breathe.Share your appreciation on any field through your creativity by making a poster.",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSe4XYVuZAz2I7ydqOPA24MXh_ej10WUb7KUZr00j5UVlPpc8g/viewform?usp=sf_link",
         type: "non_technical",
@@ -1035,7 +1033,7 @@ a juicy reward.`,
             silver: '200',
             bronze: '100'
         },
-        color: 'green',
+        color: 'var(--fg-g)',
         carddescription: "Interested in cracking codes and puzzles?   Well, this event is for you.",
         description: "Interested in cracking codes and puzzles?   Well, this event is for you.  Here each team use collaborative brain powers to solve programmatic puzzle, algorithmic clues, pseudocode to cross each level to reach the treasure”",
         form: "https://forms.gle/4V1Bkb3Z8VC7VcqY6",
@@ -1085,7 +1083,7 @@ a juicy reward.`,
         prizes: "Minimum of INR 4000 will be given to the top 3 teams in solo,duo and squad.",
         contact: "9003625565",
         event_managers: "Sukirtha Raj N",
-        color: 'green',
+        color: 'var(--fg-g)',
         carddescription: "Success is not final, failure is not fatal: it is the courage to continue that counts – Call of duty",
         description: `\"Success is not final, failure is not fatal: it is the courage to continue that counts – Call of duty.\" Display your versitality and skills as you gain control of the game and earn kills 
         furthermore pushing through your way towards victory.
@@ -1152,7 +1150,7 @@ a juicy reward.`,
         prizes: "Rs.500 will be given to the winner",
         contact: "9003625565",
         event_managers: "Chandramouli G",
-        color: 'green',
+        color: 'var(--fg-g)',
         carddescription: "Ready to flex some of that bug hunting skills?",
         description: "0xdebug is a code debugging event. The participants will be given C/C++/Python code containing Lexical/Logical/Syntactic errors. You should locate and correct the bug. The questions are divided into 3 levels based on difficulty (Easy-Medium-Hard).",
         form: "https://forms.gle/UEs156aVnrPBmu7E6",
@@ -1190,7 +1188,7 @@ a juicy reward.`,
         prizes: "INR 1000 will be given to the winner",
         contact: "9361105009",
         event_managers: "Arul Karthikeyan M",
-        color: 'green',
+        color: 'var(--fg-g)',
         carddescription: "BGMI room will be created and the match will be conducted in squad mode and Erangel map.",
         description: "BGMI Room code will be shared before the match start and the Match will be conducted in squard mode. The Match will be conducted in Erangel map. The Winning squard will be awarded.",
         form: "https://forms.gle/geQY2mdXK13e5xNF9",
@@ -1235,7 +1233,7 @@ a juicy reward.`,
         },
         contact: "8610559986",
         event_managers: "Neharika A R",
-        color: 'green',
+        color: 'var(--fg-g)',
         carddescription: "The event involves questions based on DBMS, DSA, OS, C, C++, Python, Java ",
         description: "This event will be of two phases - 1st phase will be elimination phase. Duration: 20mins. Selected participants will make it to 2nd phase - Duration: 30 mins. Questions will be based on DBMS, DSA, OS, C, C++, Python, Java. Certificates will be provided to all participants. Winners will be awarded with cash prize. Event details can be viewed at www.crypteracit.in",
         form: "https://docs.google.com/forms/d/1KYz35tmzvsC8G8tlSZuekA29Mv48x3CtBTXV-_qj7GQ",
@@ -1282,7 +1280,7 @@ a juicy reward.`,
         },
         contact: "9498076092",
         event_managers: "Narasiman C V",
-        color: 'green',
+        color: 'var(--fg-g)',
         carddescription: "The Coding contest is based on a certain theme and comprises of Data structures and algorithms related problems.",
         description: "The Coding contest is based on a certain theme and comprises of Data structures and algorithms related problems. There will be around 4 to 6 questions and a time limit of 1 or 2 hours to solve them. Hot cash for hot hands! Kaching! Further information regarding the link and time will be updated",
         form: "https://forms.gle/4EXy6xYThExJYFrj7",
@@ -1361,7 +1359,7 @@ a juicy reward.`,
 
             }
         ],
-        color: 'green',
+        color: 'var(--fg-g)',
         description: "Bored at usual coding? We have something new for you. Code the problem  WITHOUT LOOKING AT THE EDITOR. Not so easy now is it? Even better….  There is a time limit. If all these won’t stop you. We admit it…. you deserve this cash award… Good Luck.",
         form: "https://forms.gle/hqG18xsCEKRV9Dtf6",
         type: "technical",
@@ -1414,7 +1412,7 @@ a juicy reward.`,
         },
         contact: "8220341119",
         description:"Online chess game",
-        color: 'green',
+        color: 'var(--fg-g)',
         form: "https://forms.gle/W7vWvbQuZCqiYhe69",
         type: "non_technical",
         faq: [
@@ -1467,7 +1465,7 @@ a juicy reward.`,
 
             }
         ],
-        color: 'green',
+        color: 'var(--fg-g)',
         description: "The goal of the optimuz event is to optimize the given code",
         form: "https://forms.gle/RLJFoSuH69AZF2SJ7",
         type: "technical",
@@ -1510,7 +1508,7 @@ a juicy reward.`,
             bronze: '100'
         },
         contact: "9600573375",
-        color: 'green',
+        color: 'var(--fg-g)',
         carddescription: "Stark Expo is a technical event where participant are asked to show their innovation/project.",
         description: `Get that innovative inventor out and take this opportunity to exhibit your best project works, be it ANYTHING.
     The most innovative, creative, different altogether awesome project will receive cash price. Good Luck!`,
@@ -1577,7 +1575,7 @@ a juicy reward.`,
 
             }
         ],
-        color: "green",
+        color: "var(--fg-g)",
         carddescription: "Create a mobile UI for the given theme",
         description: `Good Design, when done well, should be invisible - Jared Spool \n 
     In today's age of screens and keyboards, we spend more time staring at screens than anything else.
@@ -1637,7 +1635,7 @@ a juicy reward.`,
             bronze: '100'
         },
         contact: "8257014872",
-        color:'green',
+        color:'var(--fg-g)',
         carddescription: "Give quick answers of a given RIDDLE.",
         description: `Riddles will be ask on a gmeet, participants needs to
     give the answers in a given time, each correct answers carry a point which will be given to individual 
@@ -1712,7 +1710,7 @@ a juicy reward.`,
 
             }
         ],
-        color: "green",
+        color: "var(--fg-g)",
         carddescription:"Guess the logo of the company",
         description: "Guess the maximum name of the Logos given with in the given time limit. The logos will be related to famous fashion brands, car companies, tech companies, organizations, famous tv shows or movies like marvel and even animes. 'Don't give up,there's no shame in falling down! True shame is to not stand up again!'",
         form: "https://forms.gle/HS72CNvHobu2rTab7",
