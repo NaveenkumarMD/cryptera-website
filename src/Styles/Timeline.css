@@ -54,20 +54,21 @@
     display: none;
 }
 .event_name{
-    font-weight: 900;
-    font-size: 60px;
+    font-weight: 900 !important;
+    font-size: 60px !important;
 }
 .event-date{
-    color:rgba(190, 188, 188, 0.9);
-    font-weight: 800;
+    color:rgba(190, 188, 188, 0.9) !important;
+    font-weight: 800 !important;
 }
 .event_name:hover{
-    color: var(--fg-green);
+    color: var(--fg-green) !important;
+    
 }
 @media only screen and (max-width: 800px) {
     .event_name{
-        font-weight: 400;
-        font-size: 16px;
+        font-weight: 400 !important;
+        font-size: 16px !important;
     }
     .event-date{
 

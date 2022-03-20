@@ -27,7 +27,7 @@ function WebDevs() {
                 greenTopref.current.style.height = `${i}px`
                 if (i > 60) {
                     greenTopref.current.style.height = `0px`
-                    navigate('/events')
+                    navigate('/timeline')
                 }
             }
         }

@@ -1,5 +1,110 @@
 export default [
     {
+        id:"1",
+        name:"Workshop1",
+        title:"Workshop on 5g network architecture,protocols and procedures",
+        dateTime:"Mar 25th, 2.00pm to 3.30pm",
+        description:"Workshop on 5g",
+        type:"flagship",
+        eligibility:"Anyone can join",
+        pics:{
+            primary:"https://media.istockphoto.com/photos/network-internet-mobile-wireless-business-concept5g-standard-of-picture-id1019082038?k=20&m=1019082038&s=612x612&w=0&h=uFIUCHYeBYdsGfEziG_D_lfpmWSQDC5MoyU6gzAujFs="
+        },
+        contact:"8838733265",
+        tags:[
+            "5g","architecture","protocols","procedures"
+        ],
+        entry:[
+            {
+                type:"1 person",
+                amt:100,
+            }
+            
+        ],
+        form:"https://forms.gle/xwaCqdGEeYwvf5Ns5",
+        speakerinfo:`
+        Sridhar Bhaskaran is an alumnus of Coimbatore Institute of Technology. He completed his BE in Computer Science and Engineering in the year 2002. He has 20 years of experience in wireless communications industry playing multiple roles from software developer to system architect to technology standards and innovation architect to Product management. He has been actively involved in the standardization of 5G network architecture since 2013 and was a key contributor to 5G standards in the areas of core network protocols. He was the author of key specifications related to 5G roaming security. He holds several patents and had got industry recognitions and awards. In 2016 he was awarded "Outstanding Technical Contributor" by Open Networking Foundation for his contributions to OpenFlow standards for GTP tunneling. He is also the author and reviewer of IETF drafts and RFCs related to distributed mobility management. He is also an active contributor to Open Radio Access Networks Alliance (O-RAN Alliance) standards. He is an industry invited speaker in conferences, standards organization and government telecommunication consultation bodies.
+        `,
+        
+        key:1,
+        speakers : [{
+            name:"Sridhar Bhaskaran",
+            bio:"He has 20 years of experience in wireless communications industry playing multiple roles like software developer, system architect,innovation architech and product management.",
+            }],
+            color:"var(--fg-green)",
+        
+    },
+    {
+        id:"2",
+        name:"Workshop2",
+        title:"Workshop on EV(Electric vehicles)",
+        dateTime:"Mar 26th, 2022 4.00pm to 5.30pm",
+        description:"Workshop on Electric vehicles",
+        type:"flagship",
+        eligibility:"Anyone can join",
+        pics:{
+            primary:"https://images.unsplash.com/photo-1617886322168-72b886573c35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZWxlY3RyaWMlMjB2ZWhpY2xlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        contact:"8838733265",
+        tags:[
+            "electric vehicles"
+        ],
+        entry:[
+            {
+                type:"1 person",
+                amt:100,
+            }
+            
+        ],
+        form:"https://forms.gle/UCEe2kVfg77ES92J6",
+        speakerinfo:`
+        Sridhar Bhaskaran is an alumnus of Coimbatore Institute of Technology. He completed his BE in Computer Science and Engineering in the year 2002. He has 20 years of experience in wireless communications industry playing multiple roles from software developer to system architect to technology standards and innovation architect to Product management. He has been actively involved in the standardization of 5G network architecture since 2013 and was a key contributor to 5G standards in the areas of core network protocols. He was the author of key specifications related to 5G roaming security. He holds several patents and had got industry recognitions and awards. In 2016 he was awarded "Outstanding Technical Contributor" by Open Networking Foundation for his contributions to OpenFlow standards for GTP tunneling. He is also the author and reviewer of IETF drafts and RFCs related to distributed mobility management. He is also an active contributor to Open Radio Access Networks Alliance (O-RAN Alliance) standards. He is an industry invited speaker in conferences, standards organization and government telecommunication consultation bodies.
+        `,
+        
+        key:1,
+        speakers : [{
+            name:"Sridhar Bhaskaran",
+            bio:"He has 20 years of experience in wireless communications industry playing multiple roles like software developer, system architect,innovation architech and product management.",
+            }],
+            color:"var(--fg-green)",
+        
+    },
+    {
+        id:"1",
+        name:"Workshop3",
+        title:"Cyber Security walkthrough for the Gen Z's ",
+        dateTime:"Mar 25th, 2022 10.00am to 11.30am",
+        description:"Workshop on cybersecurity",
+        type:"flagship",
+        eligibility:"Anyone can join",
+        pics:{
+            primary:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2kKwWp4EWbaiSPdiry2DeANiLueltWtvnlw&usqp=CAU"
+        },
+        color:"var(--fg-green)",
+        contact:"8838733265",
+        tags:[
+            "cybersecurity",
+        ],
+        entry:[
+            {
+                type:"1 person",
+                amt:100,
+            }
+            
+        ],
+        form:"https://forms.gle/dgT1HPVxtkcwkCg36",
+        speakerinfo:`
+        Sridhar Bhaskaran is an alumnus of Coimbatore Institute of Technology. He completed his BE in Computer Science and Engineering in the year 2002. He has 20 years of experience in wireless communications industry playing multiple roles from software developer to system architect to technology standards and innovation architect to Product management. He has been actively involved in the standardization of 5G network architecture since 2013 and was a key contributor to 5G standards in the areas of core network protocols. He was the author of key specifications related to 5G roaming security. He holds several patents and had got industry recognitions and awards. In 2016 he was awarded "Outstanding Technical Contributor" by Open Networking Foundation for his contributions to OpenFlow standards for GTP tunneling. He is also the author and reviewer of IETF drafts and RFCs related to distributed mobility management. He is also an active contributor to Open Radio Access Networks Alliance (O-RAN Alliance) standards. He is an industry invited speaker in conferences, standards organization and government telecommunication consultation bodies.
+        `,
+        
+        key:1,
+        speakers : [{
+            name:"Sridhar Bhaskaran",
+            bio:"He has 20 years of experience in wireless communications industry playing multiple roles like software developer, system architect,innovation architech and product management.",
+            }],
+        
+    },
+    {
         id: '1',
         name: "Spill_some_ink",
         eligibility: "Anyone can join",
@@ -1620,7 +1725,7 @@ a juicy reward.`,
             "No extra time ",
         ],
         pics: {
-            primary: "https://media.istockphoto.com/photos/riddle-and-mystery-picture-id1251420519?s=612x612",
+            primary: "https://media.istockphoto.com/photos/wooden-block-with-a-question-mark-asking-questions-searching-for-picture-id1203956344?b=1&k=20&m=1203956344&s=170667a&w=0&h=SduSK6X9vvvIdtIOU_ameZRBZbGrK9mnGv_c8DlWoPA=",
             secondary: [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",

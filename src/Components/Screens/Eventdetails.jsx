@@ -31,7 +31,7 @@ function Eventdetails() {
     if (!Event_data) {
         return true
     }
-    else {
+    else if (Event_data.key) {
         return (
             <div className='eventdetails'>
                 <div className='back-btn-container' onClick={() => navigate("/events")}>
@@ -54,7 +54,7 @@ function Eventdetails() {
                                     <h1>{Event_data.title}</h1>
                                     <p><i className='fas fa-calendar-week mr-2 mb-3'></i>{Event_data.dateTime}</p>
                                 </div>
-                                <div className='google-calendar' ref={contactref} style={{backgroundColor:"var(--fg-green)",width:"40px",height:"40px",display:"flex",justifyContent:"center",alignItems:"center",padding:"10px",borderRadius:"500px"}}>
+                                <div className='google-calendar' ref={contactref} style={{ backgroundColor: "var(--fg-green)", width: "40px", height: "40px", display: "flex", justifyContent: "center", alignItems: "center", padding: "10px", borderRadius: "500px" }}>
 
 
                                 </div>
@@ -85,23 +85,128 @@ function Eventdetails() {
                                 Event_data.entry &&
 
                                 <>
+                                    <div className='e-title-m'>
+                                        Entry fee
+                                    </div>
+                                    <div className='e-description-m'>
+                                        {
+                                            Event_data.entry.map(data => {
+                                                return (
+                                                    <tr>
+                                                        <td>{data.type}  </td>
+                                                        <td>: RS {data.amt}</td>
+                                                    </tr>
+                                                )
+                                            })
+                                        }
+
+                                    </div>
+                                </>
+                            }
                             <div className='e-title-m'>
-                                Entry fee
+                                Speaker info
                             </div>
                             <div className='e-description-m'>
+                                <p>{Event_data.speakerinfo}</p>
+                            </div>
+                            <div className='e-title-m faq-header fq-header'>
+                                Frequently asked questions
+                            </div>
+
+                            <div className='faq'>
                                 {
-                                    Event_data.entry.map(data=>{
-                                        return(
-                                            <tr>
-                                                <td>{data.type  }  </td>
-                                                <td>: RS {data.amt}</td>
-                                            </tr>
-                                                            )
+                                    Event_data.faq && Event_data.faq.map((faq, index) => {
+                                        return <Faq key={index} data={faq} />
                                     })
                                 }
-                                
                             </div>
-                            </>
+
+                            <div className='final-btn'>
+                                <a href={Event_data.form} target="_blank">
+                                    <div className='submit-btn-event'>
+                                        <div>Register</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        )
+    }
+    else {
+        return (
+            <div className='eventdetails'>
+                <div className='back-btn-container' onClick={() => navigate("/events")}>
+                    <i class="fas fa-arrow-left"></i>
+                </div>
+                <div className='eventdetails-container'>
+                    <div className=' image-container'>
+                        <div className='one'>
+                            {
+                                Event_data.pics.primary && <img src={Event_data.pics.primary} alt='event' />
+                            }
+
+                        </div>
+
+                    </div>
+                    <div className='event-content-container'>
+                        <div className='event-content-section1'>
+                            <div className='e-title'>
+                                <div className='header'>
+                                    <h1>{Event_data.title}</h1>
+                                    <p><i className='fas fa-calendar-week mr-2 mb-3'></i>{Event_data.dateTime}</p>
+                                </div>
+                                <div className='google-calendar' ref={contactref} style={{ backgroundColor: "var(--fg-green)", width: "40px", height: "40px", display: "flex", justifyContent: "center", alignItems: "center", padding: "10px", borderRadius: "500px" }}>
+
+
+                                </div>
+                            </div>
+
+                            <div className='tags'>
+
+                                {
+                                    Event_data.tags && Event_data.tags.map((tag, index) => {
+                                        return (
+                                            <div className='tag'>   <i class="fas fa-tag" style={{ marginRight: "5px" }}></i>{tag} </div>
+                                        )
+                                    })
+                                }
+
+
+                            </div>
+                            <div className='e-description'>
+                                <p>{Event_data.description}</p>
+                            </div>
+                            <div className='e-title-m'>
+                                Eligibility
+                            </div>
+                            <div className='e-description-m'>
+                                <p>{Event_data.eligibility}</p>
+                            </div>
+                            {
+                                Event_data.entry &&
+
+                                <>
+                                    <div className='e-title-m'>
+                                        Entry fee
+                                    </div>
+                                    <div className='e-description-m'>
+                                        {
+                                            Event_data.entry.map(data => {
+                                                return (
+                                                    <tr>
+                                                        <td>{data.type}  </td>
+                                                        <td>: RS {data.amt}</td>
+                                                    </tr>
+                                                )
+                                            })
+                                        }
+
+                                    </div>
+                                </>
                             }
                             <div className='e-title-m'>
                                 Rules
