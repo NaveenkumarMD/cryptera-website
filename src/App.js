@@ -12,7 +12,7 @@ import ContactUs from './Components/Screens/ContactUs';
 import WebDevs from './Components/Screens/WebDevs';
 import Commitee from './Components/Screens/Commitee';
 import Events from './Components/Screens/Events';
-
+import Timelinex from './Components/Screens/Timelinex'
 import Eventdetails from './Components/Screens/Eventdetails';
 import Navmobile from './Components/Navmobile';
 import Queries from './Components/Screens/Queries';
@@ -76,6 +76,7 @@ function App() {
             <Route path="/" element={<Home />}></Route>
             <Route path="/about_us" element={<AboutUs />}></Route>
             <Route path="/events" element={<Events />}></Route>
+            <Route path="/timeline" element={<Timelinex/>}></Route>
             <Route path="/web_devs" element={<WebDevs />}></Route>
             <Route path="/commitee" element={<Commitee />}></Route>
             <Route path="/contact_us" element={<ContactUs />}></Route>

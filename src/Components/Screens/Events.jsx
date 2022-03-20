@@ -70,7 +70,7 @@ function Events() {
                         bodyref.current.scrollLeft = 0
                         return setcurr(2)
                     }
-                    navigate('/web_devs')
+                    navigate('/timeline')
                 }
             }
 

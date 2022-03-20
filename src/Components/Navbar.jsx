@@ -14,6 +14,7 @@ function Navbar() {
     const commiteeref = useRef(null)
     const hintref = useRef(null)
     const navbarref=useRef(null)
+    const timelineref=useRef(null)
     const clearActive = () => {
         homeref.current.classList.remove('active')
         aboutref.current.classList.remove('active')
@@ -21,6 +22,7 @@ function Navbar() {
         eventref.current.classList.remove('active')
         webref.current.classList.remove('active')
         commiteeref.current.classList.remove('active')
+        timelineref.current.classList.remove('active')
 
     }
     useEffect(()=>{
@@ -80,6 +82,14 @@ function Navbar() {
         else if (location.pathname === "/events") {
             clearActive()
             eventref.current.classList.add("active")
+            hintref.current.innerHTML = "Timeline"
+            hintref.current.addEventListener("click", () => {
+                navigate("/timeline")
+            })
+        }
+        else if (location.pathname === "/timeline"){
+            clearActive()
+            timelineref.current.classList.add("active")
             hintref.current.innerHTML = "Web devs"
             hintref.current.addEventListener("click", () => {
                 navigate("/web_devs")
@@ -117,6 +127,7 @@ function Navbar() {
                 <Link to="/" ref={homeref} className="active navbar-link" id="Home-link">       <i className="fa fa-home"></i><span>Home</span></Link>
                 <Link to="about_us" ref={aboutref}  className="navbar-link" id="about_us-link"><i className="fa fa-info-circle"></i><span>About us</span></Link>
                 <Link to="events" ref={eventref} className=" navbar-link"> <i className="fa fa-calendar-minus"></i><span>Events</span></Link>
+                <Link to="timeline" ref={timelineref} className="navbar-link"> <i className="fa fa-calendar-check"></i><span>Timeline</span></Link>
                 <Link to="web_devs" ref={webref} className="navbar-link"><i className="fa fa-wifi"></i><span>Web devs</span></Link>
                 <Link to="commitee" ref={commiteeref} className=" navbar-link"><i className="fa fa-users"></i><span>Commitee</span></Link>
                 <Link to="contact_us" ref={contactref} className=" navbar-link"><i className="fa fa-headset"></i><span>Contact Us</span></Link>

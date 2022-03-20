@@ -44,7 +44,7 @@ function ContactUs() {
                 </div>
                 <h1 className='support-header'>
                     <div>Support</div>
-                    <div className='mobile-containe'>
+                    <div className='mobile-containe' style={{backgroundColor:"var(--fg-green)",width:"40px",height:"40px",display:"flex",justifyContent:"center",alignItems:"center",padding:"10px",borderRadius:"500px"}}>
                 <a href='tel:+91 8870499146'>
                 <i className='fa fa-phone'></i>
                 </a>

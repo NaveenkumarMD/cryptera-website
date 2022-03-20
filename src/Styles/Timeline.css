@@ -53,4 +53,24 @@
 .timeline-component::-webkit-scrollbar-thumb {
     display: none;
 }
+.event_name{
+    font-weight: 900;
+    font-size: 60px;
+}
+.event-date{
+    color:rgba(190, 188, 188, 0.9);
+    font-weight: 800;
+}
+.event_name:hover{
+    color: var(--fg-green);
+}
+@media only screen and (max-width: 800px) {
+    .event_name{
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .event-date{
+
+    }
+}
 

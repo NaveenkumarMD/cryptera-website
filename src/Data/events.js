@@ -469,11 +469,7 @@ best webpage will receive their prize.`,
         },
         dateTime: "Jan 2nd,11.00 am,duration : 2hrs",
         duration: "2 hours",
-        prizes: {
-            gold: '2000',
-            silver: ' 1000 VP',
-            bronze: '0'
-        },
+        prizes:"Minimum prize amount is 2000, MVP will get an exclusive battle pass",
         contact: "8903683936",
         color: 'var(--fg-g)',
         description: "AYO AGENTS TIME TO CARRY YOUR TEAMMATES; Here comes the Party; GET READY TO MEET YOUR MATCH IN HIGH INTENSITY PUSHS;",
@@ -1179,6 +1175,12 @@ a juicy reward.`,
             "No Emulator.",
             "No Hackers."
         ],
+        entry:[
+            {
+                type: "per team",
+                amt: "100"
+            },
+        ],
         pics: {
             primary: "https://drive.google.com/uc?export=view&id=1_NrSmg8CI68fM0HypDQx9n_lKbLtb_eN",
             secondary: []
@@ -1640,7 +1642,7 @@ a juicy reward.`,
         description: `Riddles will be ask on a gmeet, participants needs to
     give the answers in a given time, each correct answers carry a point which will be given to individual 
     participants. And partcipants can also ask the riddles if he has willing to ask to other participants. `,
-        form: "https://forms.gle/mZvfCSntzQabDfsd8",
+        form: "https://forms.gle/bhXL2WLpzZEhE7i17",
         type: "non_technical",
         faq: [
             {
