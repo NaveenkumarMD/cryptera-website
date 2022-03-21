@@ -116,6 +116,7 @@ function Eventdetails() {
                             <div className='faq'>
                                 {
                                     Event_data.faq && Event_data.faq.map((faq, index) => {
+                                        console.log("faq is ", faq)
                                         return <Faq key={index} data={faq} />
                                     })
                                 }

@@ -8,7 +8,7 @@ function Navmobile() {
     const location = useLocation()
     const navigate = useNavigate()
     const homeref = useRef(null)
-    const timelineref=useRef(null)
+    const timelineref = useRef(null)
     const aboutref = useRef(null)
     const contactref = useRef(null)
     const eventref = useRef(null)
@@ -48,7 +48,7 @@ function Navmobile() {
     useEffect(() => {
         if (location.pathname === "/") {
             clearActive()
-            
+
             homeref.current.classList.add("active")
             hintref.current.innerHTML = "Scroll"
             hintref.current.addEventListener("click", () => {
@@ -58,7 +58,7 @@ function Navmobile() {
         }
         else if (location.pathname.includes("/events")) {
             clearActive()
-            closenav()
+
             eventref.current.classList.add("active")
             if (location.pathname === "/events") {
                 hintref.current.innerHTML = "Web devs"
@@ -74,7 +74,7 @@ function Navmobile() {
             }
         }
         else if (location.pathname === "/about_us") {
-            closenav()
+
             clearActive()
             aboutref.current.classList.add("active")
             hintref.current.innerHTML = "Events"
@@ -84,7 +84,7 @@ function Navmobile() {
         }
         else if (location.pathname === "/contact_us") {
             clearActive()
-            closenav()
+
             contactref.current.classList.add("active")
             hintref.current.innerHTML = "To top"
             hintref.current.addEventListener("click", () => {
@@ -93,16 +93,16 @@ function Navmobile() {
         }
         else if (location.pathname === "/events") {
             clearActive()
-            closenav()
+
             eventref.current.classList.add("active")
             hintref.current.innerHTML = "Timeline"
             hintref.current.addEventListener("click", () => {
                 navigate("/timeline")
             })
         }
-        else if (location.pathname === "/timeline"){
+        else if (location.pathname === "/timeline") {
             clearActive()
-            closenav()
+
             timelineref.current.classList.add("active")
             hintref.current.innerHTML = "Web devs"
             hintref.current.addEventListener("click", () => {
@@ -111,7 +111,7 @@ function Navmobile() {
         }
         else if (location.pathname === "/web_devs") {
             clearActive()
-            closenav()
+
             webref.current.classList.add("active")
             hintref.current.innerHTML = "Committee"
             hintref.current.addEventListener("click", () => {
@@ -122,7 +122,6 @@ function Navmobile() {
 
         else if (location.pathname === "/commitee") {
             clearActive()
-            closenav()
             commiteeref.current.classList.add("active")
             hintref.current.innerHTML = "Contact us"
             hintref.current.addEventListener("click", () => {

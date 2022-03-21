@@ -1,6 +1,25 @@
 export default [
     {
         id:"1",
+        faq:[
+            {
+                question:"Will it happen online or offline?",
+                answer:"Online",
+            },
+            {
+                question:"Will it be a one day workshop or two days?",
+                answer:"One day,Time is mentioned above",
+            },
+            {
+                question:"Can I get any discount?",
+                answer:"Yeah sure,contact us for further details",
+            },
+            {
+                question:"Can I get certificate?",
+                answer:"Yes,certificate will be provided",
+            }
+
+        ],
         name:"Workshop1",
         title:"Workshop on 5g network architecture,protocols and procedures",
         dateTime:"Mar 25th, 2.00pm to 3.30pm",
@@ -17,7 +36,7 @@ export default [
         entry:[
             {
                 type:"1 person",
-                amt:100,
+                amt:150,
             }
             
         ],
@@ -31,11 +50,30 @@ export default [
             name:"Sridhar Bhaskaran",
             bio:"He has 20 years of experience in wireless communications industry playing multiple roles like software developer, system architect,innovation architech and product management.",
             }],
-            color:"var(--fg-green)",
+            color:"red",
         
     },
     {
         id:"2",
+        faq:[
+            {
+                question:"Will it happen online or offline?",
+                answer:"Online",
+            },
+            {
+                question:"Will it be a one day workshop or two days?",
+                answer:"One day,Time is mentioned above",
+            },
+            {
+                question:"Can I get any discount?",
+                answer:"Yeah sure,contact us for further details",
+            },
+            {
+                question:"Can I get certificate?",
+                answer:"Yes,certificate will be provided",
+            }
+
+        ],
         name:"Workshop2",
         title:"Workshop on EV(Electric vehicles)",
         dateTime:"Mar 26th, 2022 4.00pm to 5.30pm",
@@ -52,7 +90,7 @@ export default [
         entry:[
             {
                 type:"1 person",
-                amt:100,
+                amt:150,
             }
             
         ],
@@ -66,7 +104,7 @@ export default [
             name:"Sridhar Bhaskaran",
             bio:"He has 20 years of experience in wireless communications industry playing multiple roles like software developer, system architect,innovation architech and product management.",
             }],
-            color:"var(--fg-green)",
+            color:"red",
         
     },
     {
@@ -80,7 +118,7 @@ export default [
         pics:{
             primary:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2kKwWp4EWbaiSPdiry2DeANiLueltWtvnlw&usqp=CAU"
         },
-        color:"var(--fg-green)",
+        color:"red",
         contact:"8838733265",
         tags:[
             "cybersecurity",
@@ -88,7 +126,7 @@ export default [
         entry:[
             {
                 type:"1 person",
-                amt:100,
+                amt:150,
             }
             
         ],
@@ -102,6 +140,25 @@ export default [
             name:"Sridhar Bhaskaran",
             bio:"He has 20 years of experience in wireless communications industry playing multiple roles like software developer, system architect,innovation architech and product management.",
             }],
+        faq:[
+            {
+                question:"Will it happen online or offline?",
+                answer:"Online",
+            },
+            {
+                question:"Will it be a one day workshop or two days?",
+                answer:"One day,Time is mentioned above",
+            },
+            {
+                question:"Can I get any discount?",
+                answer:"Yeah sure,contact us for further details",
+            },
+            {
+                question:"Can I get certificate?",
+                answer:"Yes,certificate will be provided",
+            }
+
+        ]
         
     },
     {

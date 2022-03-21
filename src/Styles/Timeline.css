@@ -56,6 +56,7 @@
 .event_name{
     font-weight: 900 !important;
     font-size: 60px !important;
+    font-family: var(--font-primary) !important;
 }
 .event-date{
     color:rgba(190, 188, 188, 0.9) !important;
