@@ -104,6 +104,21 @@ function Eventdetails() {
                                 </>
                             }
                             <div className='e-title-m'>
+                                Event Info
+                            </div>
+                            <div className='e-description-m'>
+                                <ul className='list-decimal rules'>
+                                    {
+                                        Event_data.rules && Event_data.rules.map((rule, index) => {
+                                            return (
+                                                <li>{rule}</li>
+                                            )
+                                        })
+                                    }
+
+                                </ul>
+                            </div>
+                            <div className='e-title-m'>
                                 Speaker info
                             </div>
                             <div className='e-description-m'>

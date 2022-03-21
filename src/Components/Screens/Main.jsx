@@ -80,7 +80,7 @@ function Main({ movetohomepage }) {
                     
                 </div>
                 <div>
-                <a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon="">Scroll</a>
+                <a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon="" style={{fontSize:"90px"}}>Scroll</a>
                 </div>
             </div>
             <div className='add-green violet-gradient ' ref={greenref} />

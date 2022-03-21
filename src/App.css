@@ -121,7 +121,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 160px;
+    width: 190px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,7 +144,7 @@
   color:"red";
 	height: 60px;
 	width: 80px;
-	margin: 0px 0 0 -60px;
+	margin: 0px 0 0 -130px;
 	line-height: 60px;
 	position: absolute;
 	left: 50%;

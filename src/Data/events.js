@@ -1,6 +1,13 @@
 export default [
     {
         id:"1",
+        rules:[
+            "E-certificate will be given",
+            "Certificate will be given for the registered candidates",
+            "Disocunts will be given for referrals",
+            "For further details call :8838733265"
+
+        ],
         faq:[
             {
                 question:"Will it happen online or offline?",
@@ -55,6 +62,13 @@ export default [
     },
     {
         id:"2",
+        rules:[
+            "E-certificate will be given",
+            "Certificate will be given for the registered candidates",
+            "Disocunts will be given for referrals",
+            "For further details call :8838733265"
+
+        ],
         faq:[
             {
                 question:"Will it happen online or offline?",
@@ -96,7 +110,10 @@ export default [
         ],
         form:"https://forms.gle/UCEe2kVfg77ES92J6",
         speakerinfo:`
-        Sridhar Bhaskaran is an alumnus of Coimbatore Institute of Technology. He completed his BE in Computer Science and Engineering in the year 2002. He has 20 years of experience in wireless communications industry playing multiple roles from software developer to system architect to technology standards and innovation architect to Product management. He has been actively involved in the standardization of 5G network architecture since 2013 and was a key contributor to 5G standards in the areas of core network protocols. He was the author of key specifications related to 5G roaming security. He holds several patents and had got industry recognitions and awards. In 2016 he was awarded "Outstanding Technical Contributor" by Open Networking Foundation for his contributions to OpenFlow standards for GTP tunneling. He is also the author and reviewer of IETF drafts and RFCs related to distributed mobility management. He is also an active contributor to Open Radio Access Networks Alliance (O-RAN Alliance) standards. He is an industry invited speaker in conferences, standards organization and government telecommunication consultation bodies.
+        Er. N.B. BHARATH, B.E (EEE)
+        Treasurer, Solar Electric Vehicle Championship(SEVC)
+        CEO at Incite Minds
+        Member of Society for Science, Technology, Management and Humanities (SSTMH)
         `,
         
         key:1,
@@ -110,6 +127,13 @@ export default [
     {
         id:"1",
         name:"Workshop3",
+        rules:[
+            "E-certificate will be given",
+            "Certificate will be given for the registered candidates",
+            "Disocunts will be given for referrals",
+            "For further details call :8838733265"
+
+        ],
         title:"Cyber Security walkthrough for the Gen Z's ",
         dateTime:"Mar 25th, 2022 10.00am to 11.30am",
         description:"Workshop on cybersecurity",
@@ -132,7 +156,10 @@ export default [
         ],
         form:"https://forms.gle/dgT1HPVxtkcwkCg36",
         speakerinfo:`
-        Sridhar Bhaskaran is an alumnus of Coimbatore Institute of Technology. He completed his BE in Computer Science and Engineering in the year 2002. He has 20 years of experience in wireless communications industry playing multiple roles from software developer to system architect to technology standards and innovation architect to Product management. He has been actively involved in the standardization of 5G network architecture since 2013 and was a key contributor to 5G standards in the areas of core network protocols. He was the author of key specifications related to 5G roaming security. He holds several patents and had got industry recognitions and awards. In 2016 he was awarded "Outstanding Technical Contributor" by Open Networking Foundation for his contributions to OpenFlow standards for GTP tunneling. He is also the author and reviewer of IETF drafts and RFCs related to distributed mobility management. He is also an active contributor to Open Radio Access Networks Alliance (O-RAN Alliance) standards. He is an industry invited speaker in conferences, standards organization and government telecommunication consultation bodies.
+        Vigneshwaran,  Security Researcher and Web Admin at IITM BSE,
+        Abhisek R.
+Cyber Security Researcher and Chapter lead at OWASP SASTRA,
+Hariharan Sundar , Security Researcher and Core member @ Team 1nf1n1ty.
         `,
         
         key:1,
