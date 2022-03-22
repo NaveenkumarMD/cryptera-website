@@ -1427,7 +1427,7 @@ a juicy reward.`,
         color: 'var(--fg-g)',
         carddescription: "The event involves questions based on DBMS, DSA, OS, C, C++, Python, Java ",
         description: "This event will be of two phases - 1st phase will be elimination phase. Duration: 20mins. Selected participants will make it to 2nd phase - Duration: 30 mins. Questions will be based on DBMS, DSA, OS, C, C++, Python, Java. Certificates will be provided to all participants. Winners will be awarded with cash prize. Event details can be viewed at www.crypteracit.in",
-        form: "https://docs.google.com/forms/d/1KYz35tmzvsC8G8tlSZuekA29Mv48x3CtBTXV-_qj7GQ",
+        form: "https://forms.gle/ZLS912yzEbkW1xRp8",
         type: "technical",
         faq: [
             {
