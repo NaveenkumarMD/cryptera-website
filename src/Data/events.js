@@ -135,7 +135,7 @@ export default [
 
         ],
         title:"Cyber Security walkthrough for the Gen Z's ",
-        dateTime:"Mar 25th, 2022 10.00am to 11.30am",
+        dateTime:"Mar 27th, 2022 10.00am to 11.30am",
         description:"Workshop on cybersecurity",
         type:"flagship",
         eligibility:"Anyone can join",
@@ -451,7 +451,7 @@ best webpage will receive their prize.`,
 
             ]
         },
-        dateTime: "March 25th , duration 2 hours",
+        dateTime: "Mar 26th, 5pm & Mar 27th, 6pm",
         duration: "",
         prizes: {
             gold: '1000',
@@ -516,7 +516,7 @@ best webpage will receive their prize.`,
                 null,
             ]
         },
-        dateTime: "Jan 2nd,11.00 am",
+        dateTime: "Mar 26th",
         duration: "2 hours",
         prizes: {
             gold: '1000',
@@ -656,8 +656,8 @@ best webpage will receive their prize.`,
 
             ]
         },
-        dateTime: "Jan 2nd,11.00 am,duration : 2hrs",
-        duration: "2 hours",
+        dateTime: "Mar 25th, 26th & 27th 7pm to 10pm",
+        duration: "3 hours",
         prizes:"Minimum prize amount is 2000, MVP will get an exclusive battle pass",
         contact: "8903683936",
         color: 'var(--fg-g)',
@@ -774,8 +774,8 @@ best webpage will receive their prize.`,
 
             ]
         },
-        dateTime: "March, 10:00 am",
-        duration: "2 hours",
+        dateTime: "Mar 25th, 3.30pm",
+        duration: "",
         prizes: {
             gold: '300',
             silver: '200',
@@ -840,8 +840,8 @@ handsomely.`,
 
             ]
         },
-        dateTime: "null",
-        duration: "45 mins",
+        dateTime: "Mar 26th, 12pm",
+        duration: "",
         prizes: {
             gold: '1x Anime Poster',
             silver: '2x Anime Stickers',
@@ -905,7 +905,7 @@ handsomely.`,
             ]
         },
 
-        dateTime: "On 26th of March",
+        dateTime: "Mar 26th, 2pm",
         duration: "",
         contact: "8825829751",
         prizes: {
@@ -960,7 +960,7 @@ a juicy reward.`,
             "anyone who is creative can participate"
         ],
 
-        dateTime: "On 26th of March",
+        dateTime: "Mar 25th",
         duration: "",
         prizes: {
             gold: '500',
@@ -1074,8 +1074,8 @@ a juicy reward.`,
 
             ]
         },
-        dateTime: "May 22nd,11.00 am",
-        duration: "4 days",
+        dateTime: "Mar 26th",
+        duration: "",
         prizes: {
             gold: '1000',
             silver: '350',
@@ -1211,8 +1211,8 @@ a juicy reward.`,
 
             ]
         },
-        dateTime: "Jan 2nd,11.00 am",
-        duration: "2 hours",
+        dateTime: "Mar 27th, 3pm",
+        duration: "3 hours",
         prizes: {
             gold: '500',
             silver: '200',
@@ -1263,7 +1263,7 @@ a juicy reward.`,
             primary: "https://drive.google.com/uc?export=view&id=1lM3jnB39tD9LN7yFIlYvbtL6bXfutFOb",
             secondary: []
         },
-        dateTime: "25th and 26th of March",
+        dateTime: "Mar 25th, 8pm & Mar 26th, 9pm",
         duration: "2 hours",
         prizes: "Minimum of INR 4000 will be given to the top 3 teams in solo,duo and squad.",
         contact: "9003625565",
@@ -1330,7 +1330,7 @@ a juicy reward.`,
             primary: "https://drive.google.com/uc?export=view&id=1MW8x2TObNvPlSO0HQD50d8C0KAhiTfsH",
             secondary: []
         },
-        dateTime: "null",
+        dateTime: "Mar 25th, 6pm",
         duration: "1 hours",
         prizes: "Rs.500 will be given to the winner",
         contact: "9003625565",
@@ -1374,7 +1374,7 @@ a juicy reward.`,
             primary: "https://drive.google.com/uc?export=view&id=1_NrSmg8CI68fM0HypDQx9n_lKbLtb_eN",
             secondary: []
         },
-        dateTime: "null",
+        dateTime: "Mar 25th, 7pm & Mar 26th, 8pm",
         duration: "45 mins",
         prizes: "INR 1000 will be given to the winner",
         contact: "9361105009",
@@ -1415,7 +1415,7 @@ a juicy reward.`,
 
             ]
         },
-        dateTime: "null",
+        dateTime: "Mar 25th, 5pm & Mar 26th, 9am",
         duration: "45 mins",
         prizes: {
             gold: "500",
@@ -1462,8 +1462,8 @@ a juicy reward.`,
             secondary: [
             ]
         },
-        dateTime: "26 Mar",
-        duration: " ",
+        dateTime: "Mar 26th, 7pm",
+        duration: "90 mins",
         prizes: {
             gold: "750",
             silver: "350",
@@ -1523,8 +1523,8 @@ a juicy reward.`,
 
             ]
         },
-        dateTime: "Jan 2nd,11.00 am",
-        duration: "2 hours",
+        dateTime: "Mar 26th, 1pm",
+        duration: "1 hours",
         prizes: {
             gold: '500',
             silver: '200',
@@ -1594,7 +1594,7 @@ a juicy reward.`,
 
             ]
         },
-        dateTime: "May 27nd ,duration: 2 days",
+        dateTime: "Mar 26th, 10am",
         duration: "",
         prizes: {
             gold: '100',
@@ -1637,7 +1637,7 @@ a juicy reward.`,
 
             ]
         },
-        dateTime: "March 26nd",
+        dateTime: "Mar 25th, 9am",
         duration: "Max 2 hours",
         prizes: {
             gold: '300',
@@ -1691,7 +1691,7 @@ a juicy reward.`,
             secondary: [
             ]
         },
-        dateTime: "March 26nd",
+        dateTime: "Mar 26th, 11.30am",
         duration: "Max 2 hours",
         prizes: {
             gold: '300',
@@ -1748,7 +1748,7 @@ a juicy reward.`,
             ]
         },
         contact: "9361198668",
-        dateTime: "March 25th",
+        dateTime: "Mar 26th, 11:30am",
         duration: "",
         prizes: {
             gold: '500',
@@ -1818,7 +1818,7 @@ a juicy reward.`,
 
             ]
         },
-        dateTime: "March,25, 11:00 am",
+        dateTime: "Mar 25th, 12:00 pm",
         duration: "1 hours",
         prizes: {
             gold: '300',
@@ -1868,7 +1868,7 @@ a juicy reward.`,
 
             ]
         },
-        dateTime: "NULL",
+        dateTime: "Mar 26th, 12pm",
         duration: "1 hour 30 min",
         prizes:
             " Cash prize will be awarded for winners"
