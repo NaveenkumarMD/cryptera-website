@@ -1,192 +1,192 @@
 export default [
     {
-        id:"1",
-        rules:[
+        id: "1",
+        rules: [
             "E-certificate will be given",
             "Certificate will be given for the registered candidates",
             "Disocunts will be given for referrals",
             "For further details call :8838733265"
 
         ],
-        faq:[
+        faq: [
             {
-                question:"Will it happen online or offline?",
-                answer:"Online",
+                question: "Will it happen online or offline?",
+                answer: "Online",
             },
             {
-                question:"Will it be a one day workshop or two days?",
-                answer:"One day,Time is mentioned above",
+                question: "Will it be a one day workshop or two days?",
+                answer: "One day,Time is mentioned above",
             },
             {
-                question:"Can I get any discount?",
-                answer:"Yeah sure,contact us for further details",
+                question: "Can I get any discount?",
+                answer: "Yeah sure,contact us for further details",
             },
             {
-                question:"Can I get certificate?",
-                answer:"Yes,certificate will be provided",
+                question: "Can I get certificate?",
+                answer: "Yes,certificate will be provided",
             }
 
         ],
-        name:"Workshop1",
-        title:"Workshop on 5g network architecture,protocols and procedures",
-        dateTime:"Mar 25th, 2.00pm to 3.30pm",
-        description:"Workshop on 5g",
-        type:"flagship",
-        eligibility:"Anyone can join",
-        pics:{
-            primary:"https://media.istockphoto.com/photos/network-internet-mobile-wireless-business-concept5g-standard-of-picture-id1019082038?k=20&m=1019082038&s=612x612&w=0&h=uFIUCHYeBYdsGfEziG_D_lfpmWSQDC5MoyU6gzAujFs="
+        name: "Workshop1",
+        title: "Workshop on 5g network architecture,protocols and procedures",
+        dateTime: "Mar 25th, 2.00pm to 3.30pm",
+        description: "Workshop on 5g",
+        type: "flagship",
+        eligibility: "Anyone can join",
+        pics: {
+            primary: "https://media.istockphoto.com/photos/network-internet-mobile-wireless-business-concept5g-standard-of-picture-id1019082038?k=20&m=1019082038&s=612x612&w=0&h=uFIUCHYeBYdsGfEziG_D_lfpmWSQDC5MoyU6gzAujFs="
         },
-        contact:"8838733265",
-        tags:[
-            "5g","architecture","protocols","procedures"
+        contact: "8838733265",
+        tags: [
+            "5g", "architecture", "protocols", "procedures"
         ],
-        entry:[
+        entry: [
             {
-                type:"1 person",
-                amt:150,
+                type: "1 person",
+                amt: 150,
             }
-            
+
         ],
-        form:"https://forms.gle/xwaCqdGEeYwvf5Ns5",
-        speakerinfo:`
+        form: "https://forms.gle/xwaCqdGEeYwvf5Ns5",
+        speakerinfo: `
         Sridhar Bhaskaran is an alumnus of Coimbatore Institute of Technology. He completed his BE in Computer Science and Engineering in the year 2002. He has 20 years of experience in wireless communications industry playing multiple roles from software developer to system architect to technology standards and innovation architect to Product management. He has been actively involved in the standardization of 5G network architecture since 2013 and was a key contributor to 5G standards in the areas of core network protocols. He was the author of key specifications related to 5G roaming security. He holds several patents and had got industry recognitions and awards. In 2016 he was awarded "Outstanding Technical Contributor" by Open Networking Foundation for his contributions to OpenFlow standards for GTP tunneling. He is also the author and reviewer of IETF drafts and RFCs related to distributed mobility management. He is also an active contributor to Open Radio Access Networks Alliance (O-RAN Alliance) standards. He is an industry invited speaker in conferences, standards organization and government telecommunication consultation bodies.
         `,
-        
-        key:1,
-        speakers : [{
-            name:"Sridhar Bhaskaran",
-            bio:"He has 20 years of experience in wireless communications industry playing multiple roles like software developer, system architect,innovation architech and product management.",
-            }],
-            color:"red",
-        
+
+        key: 1,
+        speakers: [{
+            name: "Sridhar Bhaskaran",
+            bio: "He has 20 years of experience in wireless communications industry playing multiple roles like software developer, system architect,innovation architech and product management.",
+        }],
+        color: "red",
+
     },
     {
-        id:"2",
-        rules:[
+        id: "2",
+        rules: [
             "E-certificate will be given",
             "Certificate will be given for the registered candidates",
             "Disocunts will be given for referrals",
             "For further details call :8838733265"
 
         ],
-        faq:[
+        faq: [
             {
-                question:"Will it happen online or offline?",
-                answer:"Online",
+                question: "Will it happen online or offline?",
+                answer: "Online",
             },
             {
-                question:"Will it be a one day workshop or two days?",
-                answer:"One day,Time is mentioned above",
+                question: "Will it be a one day workshop or two days?",
+                answer: "One day,Time is mentioned above",
             },
             {
-                question:"Can I get any discount?",
-                answer:"Yeah sure,contact us for further details",
+                question: "Can I get any discount?",
+                answer: "Yeah sure,contact us for further details",
             },
             {
-                question:"Can I get certificate?",
-                answer:"Yes,certificate will be provided",
+                question: "Can I get certificate?",
+                answer: "Yes,certificate will be provided",
             }
 
         ],
-        name:"Workshop2",
-        title:"Workshop on EV(Electric vehicles)",
-        dateTime:"Mar 26th, 2022 4.00pm to 5.30pm",
-        description:"Workshop on Electric vehicles",
-        type:"flagship",
-        eligibility:"Anyone can join",
-        pics:{
-            primary:"https://images.unsplash.com/photo-1617886322168-72b886573c35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZWxlY3RyaWMlMjB2ZWhpY2xlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        name: "Workshop2",
+        title: "Workshop on EV(Electric vehicles)",
+        dateTime: "Mar 26th, 2022 4.00pm to 5.30pm",
+        description: "Workshop on Electric vehicles",
+        type: "flagship",
+        eligibility: "Anyone can join",
+        pics: {
+            primary: "https://images.unsplash.com/photo-1617886322168-72b886573c35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZWxlY3RyaWMlMjB2ZWhpY2xlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
         },
-        contact:"8838733265",
-        tags:[
+        contact: "8838733265",
+        tags: [
             "electric vehicles"
         ],
-        entry:[
+        entry: [
             {
-                type:"1 person",
-                amt:150,
+                type: "1 person",
+                amt: 150,
             }
-            
+
         ],
-        form:"https://forms.gle/UCEe2kVfg77ES92J6",
-        speakerinfo:`
+        form: "https://forms.gle/UCEe2kVfg77ES92J6",
+        speakerinfo: `
         Er. N.B. BHARATH, B.E (EEE)
         Treasurer, Solar Electric Vehicle Championship(SEVC)
         CEO at Incite Minds
         Member of Society for Science, Technology, Management and Humanities (SSTMH)
         `,
-        
-        key:1,
-        speakers : [{
-            name:"Sridhar Bhaskaran",
-            bio:"He has 20 years of experience in wireless communications industry playing multiple roles like software developer, system architect,innovation architech and product management.",
-            }],
-            color:"red",
-        
+
+        key: 1,
+        speakers: [{
+            name: "Sridhar Bhaskaran",
+            bio: "He has 20 years of experience in wireless communications industry playing multiple roles like software developer, system architect,innovation architech and product management.",
+        }],
+        color: "red",
+
     },
     {
-        id:"1",
-        name:"Workshop3",
-        rules:[
+        id: "1",
+        name: "Workshop3",
+        rules: [
             "E-certificate will be given",
             "Certificate will be given for the registered candidates",
             "Disocunts will be given for referrals",
             "For further details call :8838733265"
 
         ],
-        title:"Cyber Security walkthrough for the Gen Z's ",
-        dateTime:"Mar 27th, 2022 10.00am to 11.30am",
-        description:"Workshop on cybersecurity",
-        type:"flagship",
-        eligibility:"Anyone can join",
-        pics:{
-            primary:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2kKwWp4EWbaiSPdiry2DeANiLueltWtvnlw&usqp=CAU"
+        title: "Cyber Security walkthrough for the Gen Z's ",
+        dateTime: "Mar 27th, 2022 10.00am to 11.30am",
+        description: "Workshop on cybersecurity",
+        type: "flagship",
+        eligibility: "Anyone can join",
+        pics: {
+            primary: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2kKwWp4EWbaiSPdiry2DeANiLueltWtvnlw&usqp=CAU"
         },
-        color:"red",
-        contact:"8838733265",
-        tags:[
+        color: "red",
+        contact: "8838733265",
+        tags: [
             "cybersecurity",
         ],
-        entry:[
+        entry: [
             {
-                type:"1 person",
-                amt:150,
+                type: "1 person",
+                amt: 150,
             }
-            
+
         ],
-        form:"https://forms.gle/dgT1HPVxtkcwkCg36",
-        speakerinfo:`
+        form: "https://forms.gle/dgT1HPVxtkcwkCg36",
+        speakerinfo: `
         Vigneshwaran,  Security Researcher and Web Admin at IITM BSE,
         Abhisek R.
 Cyber Security Researcher and Chapter lead at OWASP SASTRA,
 Hariharan Sundar , Security Researcher and Core member @ Team 1nf1n1ty.
         `,
-        
-        key:1,
-        speakers : [{
-            name:"Sridhar Bhaskaran",
-            bio:"He has 20 years of experience in wireless communications industry playing multiple roles like software developer, system architect,innovation architech and product management.",
-            }],
-        faq:[
+
+        key: 1,
+        speakers: [{
+            name: "Sridhar Bhaskaran",
+            bio: "He has 20 years of experience in wireless communications industry playing multiple roles like software developer, system architect,innovation architech and product management.",
+        }],
+        faq: [
             {
-                question:"Will it happen online or offline?",
-                answer:"Online",
+                question: "Will it happen online or offline?",
+                answer: "Online",
             },
             {
-                question:"Will it be a one day workshop or two days?",
-                answer:"One day,Time is mentioned above",
+                question: "Will it be a one day workshop or two days?",
+                answer: "One day,Time is mentioned above",
             },
             {
-                question:"Can I get any discount?",
-                answer:"Yeah sure,contact us for further details",
+                question: "Can I get any discount?",
+                answer: "Yeah sure,contact us for further details",
             },
             {
-                question:"Can I get certificate?",
-                answer:"Yes,certificate will be provided",
+                question: "Can I get certificate?",
+                answer: "Yes,certificate will be provided",
             }
 
         ]
-        
+
     },
     {
         id: '1',
@@ -331,7 +331,7 @@ best webpage will receive their prize.`,
 
             ]
         },
-        dateTime: "NULL",
+        dateTime: "March 26th",
         duration: "3 hours",
         prizes: "200 rupees,Opportunity to get your artwork turned into an NFT!!",
         contact: "9150414945",
@@ -658,7 +658,7 @@ best webpage will receive their prize.`,
         },
         dateTime: "Mar 25th, 26th & 27th 7pm to 10pm",
         duration: "3 hours",
-        prizes:"Minimum prize amount is 2000, MVP will get an exclusive battle pass",
+        prizes: "Minimum prize amount is 6000, MVP will get an exclusive battle pass,valorant customized T-shirt will be given to the well-performed player in between 3rd and 4th position",
         contact: "8903683936",
         color: 'var(--fg-g)',
         description: "AYO AGENTS TIME TO CARRY YOUR TEAMMATES; Here comes the Party; GET READY TO MEET YOUR MATCH IN HIGH INTENSITY PUSHS;",
@@ -1279,33 +1279,33 @@ a juicy reward.`,
         tags: [
             "Gaming", "Mobile", "COD"
         ],
-        faq:[
- 
+        faq: [
+
             {
-                question:"What is Call of Duty: Mobile?",
-                answer:`Call of Duty: Mobile is a free-to-play shooter game. In BR mode players have to find weapons
+                question: "What is Call of Duty: Mobile?",
+                answer: `Call of Duty: Mobile is a free-to-play shooter game. In BR mode players have to find weapons
                 and attachments while keeping their ammo in check and being on the lookout
                 for enemies. The final surviving team/player is the winner!!`
             },
             {
-                question:"How do referrels work?",
-                answer:`Referral code is the registered participant's UID who is referring to others (Team Representative UID in case of Duo & Squad referrals).
+                question: "How do referrels work?",
+                answer: `Referral code is the registered participant's UID who is referring to others (Team Representative UID in case of Duo & Squad referrals).
                 For minimum of 3 referral registrations, the referred UID will get 50% cashback of Registration fees paid.
                 Atmost of 2 cashback are offerable.`
             },
 
             {
-                question:"Who are all eligible for the Lucky draw contest?",
-                answer:`Invite a minimum of 1 referral registration to enter lucky draw and win much more!!`
+                question: "Who are all eligible for the Lucky draw contest?",
+                answer: `Invite a minimum of 1 referral registration to enter lucky draw and win much more!!`
             },
             {
-                question:" Will the prize amount increase?",
-                answer:`Prize amount will increase depending upon the number of registrations.`
+                question: " Will the prize amount increase?",
+                answer: `Prize amount will increase depending upon the number of registrations.`
             }
             ,
             {
-                question:"What are the two maps in BR?",
-                answer:`Isolated and Blackout.`
+                question: "What are the two maps in BR?",
+                answer: `Isolated and Blackout.`
             }
 
 
@@ -1364,7 +1364,7 @@ a juicy reward.`,
             "No Emulator.",
             "No Hackers."
         ],
-        entry:[
+        entry: [
             {
                 type: "per team",
                 amt: "100"
@@ -1602,7 +1602,7 @@ a juicy reward.`,
             bronze: '30'
         },
         contact: "8220341119",
-        description:"Online chess game",
+        description: "Online chess game",
         color: 'var(--fg-g)',
         form: "https://forms.gle/W7vWvbQuZCqiYhe69",
         type: "non_technical",
@@ -1748,7 +1748,7 @@ a juicy reward.`,
             ]
         },
         contact: "9361198668",
-        dateTime: "Mar 26th, 11:30am",
+        dateTime: "Mar 26th, 11:30am & 27th 11:30am",
         duration: "",
         prizes: {
             gold: '500',
@@ -1826,7 +1826,7 @@ a juicy reward.`,
             bronze: '100'
         },
         contact: "8257014872",
-        color:'var(--fg-g)',
+        color: 'var(--fg-g)',
         carddescription: "Give quick answers of a given RIDDLE.",
         description: `Riddles will be ask on a gmeet, participants needs to
     give the answers in a given time, each correct answers carry a point which will be given to individual 
@@ -1868,7 +1868,7 @@ a juicy reward.`,
 
             ]
         },
-        dateTime: "Mar 26th, 12pm",
+        dateTime: "Mar 26th, 12 noon",
         duration: "1 hour 30 min",
         prizes:
             " Cash prize will be awarded for winners"
@@ -1902,7 +1902,7 @@ a juicy reward.`,
             }
         ],
         color: "var(--fg-g)",
-        carddescription:"Guess the logo of the company",
+        carddescription: "Guess the logo of the company",
         description: "Guess the maximum name of the Logos given with in the given time limit. The logos will be related to famous fashion brands, car companies, tech companies, organizations, famous tv shows or movies like marvel and even animes. 'Don't give up,there's no shame in falling down! True shame is to not stand up again!'",
         form: "https://forms.gle/HS72CNvHobu2rTab7",
         type: "non_technical",
@@ -1936,5 +1936,58 @@ a juicy reward.`,
             "knowledge on logos", "fashion", "techologies", "anime", "brands", "movies"
         ]
 
+    },
+    {
+        id: '1',
+        name: "Meant_to_meet",
+        title:"Meant to meet",
+        eligibility:"Anyone can Play",
+        completed:false,
+        results:null,
+        rules:[
+            "Preferably come as pair",
+            "Thats it!"
+        ],
+        carddescription:"Find words by matching the given 5 images",
+        pics: {
+            //https://drive.google.com/file/d/1-ekBucQJdF_j2nwmKJ9xZsoMJkcEa11d/view?usp=sharing
+            primary: "https://media.istockphoto.com/photos/thinking-team-picture-id1324905417?b=1&k=20&m=1324905417&s=170667a&w=0&h=MP821cJNytkBzMjL30xE2BFllzj59IX9q3Y4Ak34Ls8=",
+            secondary: [
+            "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+    
+            ]
+        },
+        dateTime: "Mar 26 ,09.00 AM - 09.00 PM",
+        duration: "Full day",
+        contact:"9944430260",
+        prizes: "Two best performers will get T-shirts each and winner gets a surprise gift",
+
+        color: 'var(--fg-green)',
+        description: `A fun game where you will be guessing a word using group of pictures. We will provide pictures and you have to guess the word(technical or non Technical). Faster you reply the more points you get. 20(4*5) pictures will be provided. Each group would have 4 words to guess(2 technical and 2 non technical). The group with the maximum points would win a gift. Top two performer would be gifted t-shirts.
+        4 packages will be WhatsApped to you at around 8/9am on the 26th. Each package contains 5 pictures`,
+        form: "https://forms.gle/w38ENeq2ZiYiKkek6",
+        type: "non_technical",
+        faq: [
+            {
+                question: "What is the event?",
+                answer: "You will be give images, as a whole will direct to a technical or a non-technical word/sentence. you will have to find it to earn points. Team with the most point will be awarded gift."
+            },
+            {
+                question: "Who can participate?",
+                answer: "Anyone can participate."
+            },
+            {
+                question: "Team or solo?",
+                answer: "Come as a team of two or solo, no restrictions."
+            }
+        ],
+
+        tags: [
+            "Fun","Game","Group","Guess","Picture","Word"
+        ]
+    
     }
 ]

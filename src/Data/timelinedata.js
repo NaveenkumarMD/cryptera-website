@@ -15,16 +15,18 @@ export const events = [
     time: "12:00 - 1:00 PM",
     date: "March 25",
   },
+
   {
-    title: "Logo Quiz ",
-    time: "1:00 - 2:30 PM",
+    title: "Webinar on 5G Architecture",
+    time: "2:00 - 3:30 PM",
     date: "March 25",
   },
   {
     title: "Missing code ",
-    time: "3:30 - 5:30 PM",
+    time: "3:30 - 05:30 PM",
     date: "March 25",
   },
+
   {
     title: "Mind Fest",
     time: "05:00 - 06:00 PM",
@@ -50,13 +52,14 @@ export const events = [
     time: "8:00 - 10:00 PM",
     date: "March 25",
   },
+  //26
   {
     title: "Mind Fest",
     time: "9:00 - 10:00 AM",
     date: "March 26",
   },
   {
-    title: "Webinar",
+    title: "Chess ",
     time: "10:00 - 11:30 AM",
     date: "March 26",
   },
@@ -71,7 +74,7 @@ export const events = [
     date: "March 26",
   },
   {
-    title: "Chess ",
+    title: "Logo Quiz",
     time: "12:00 - 1:30 PM",
     date: "March 26",
   },
@@ -81,7 +84,7 @@ export const events = [
     date: "March 26",
   },
   {
-    title: "Code behind  ",
+    title: "Code behind",
     time: "1:00 - 2:00 PM",
     date: "March 26",
   },
@@ -96,58 +99,59 @@ export const events = [
     date: "March 26",
   },
   {
-    title: "Webinar",
+    title: "Webinar on Electric vehicles",
     time: "4:00 - 5:30 PM",
     date: "March 26",
   },
   {
-    title: "Shark Tank ",
+    title: "Shark Tank",
     time: "5:00 - 7:00 PM",
     date: "March 26",
   },
   {
-    title: "Coding Contest  ",
+    title: "Coding Contest",
     time: "7:00 - 8:30 PM",
     date: "March 26",
   },
   {
-    title: "Valorant  ",
+    title: "Valorant",
     time: "7:00 - 10:00 PM",
     date: "March 26",
   },
   {
-    title: "BGMI ",
+    title: "BGMI",
     time: "8:00 - 9:00 PM",
     date: "March 26",
   },
   {
-    title: "COD ",
+    title: "COD",
     time: "9:00 - 10:00 PM",
     date: "March 26",
   },
+  //27
   {
-    title: "Webinar ",
+    title: "Webinar on Cybersecurity",
     time: "10:00 - 11:30 AM",
-    date: "March 26",
+    date: "March 27",
   },
   {
-    title: "UI design  ",
+    title: "UI design",
     time: "11:30 - 1:30 PM",
-    date: "March 26",
+    date: "March 27",
   },
   {
-    title: "Technical Treasure ",
+    title: "Technical Treasure Trailing",
     time: "3:00 - 6:00 PM",
-    date: "March 26",
+    date: "March 27",
   },
   {
-    title: "Shark Tank  ",
+    title: "Shark Tank",
     time: "6:00 - 7:00 PM",
     date: "March 26",
   },
   {
-    title: "Valorant ",
+    title: "Valorant",
     time: "7:00 - 10:00 PM",
-    date: "March 26",
+    date: "March 27",
   },
 ];

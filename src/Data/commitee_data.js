@@ -57,6 +57,20 @@ export default [
             "https://drive.google.com/uc?export=view&id=1VMl-kcs03zeEfrtvDW25Dhxw39Hz4iLG",
     },
     {
+        name: 'Nishanth K',
+        position: 'Social media manager',
+        year: 'Third year',
+        x: 'CSE',
+        profile: 'https://drive.google.com/uc?export=view&id=1E9LpplOOeBqGBddxVQ4O0zAFuFHsBB2e'
+    },
+    {
+        name: 'Dineshkumar S',
+        position: 'Social media manager',
+        year: 'Third year',
+        x: 'CSE',//https://drive.google.com/file/d//view?usp=sharing
+        profile: 'https://drive.google.com/uc?export=view&id=1oSK_0EvdCvTIn6cRwzfNS3US1lc_8NCY'
+    },
+    {
         name: 'Anantha Ramachandran B',
         position: 'Campaign Head',
         year: 'Third year',
@@ -334,13 +348,7 @@ export default [
         x: 'CSE',
         profile: 'https://drive.google.com/uc?export=view&id=1wyXUN2uTLwtQV6M9xCLUAfjajTbWhqGm'
     },
-    {
-        name: 'Nishanth K',
-        position: 'Event Manager',
-        year: 'Third year',
-        x: 'CSE',
-        profile: 'https://drive.google.com/uc?export=view&id=1E9LpplOOeBqGBddxVQ4O0zAFuFHsBB2e'
-    },
+
     {
         name: 'Nithish V.B',
         position: 'Event Manager',
