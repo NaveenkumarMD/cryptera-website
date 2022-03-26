@@ -140,7 +140,8 @@ function Eventdetails() {
                             <div className='final-btn'>
                                 <a href={Event_data.form} target="_blank">
                                     <div className='submit-btn-event'>
-                                        <div>Register</div>
+                                        Register
+                                    
                                     </div>
                                 </a>
                             </div>
@@ -300,7 +301,11 @@ function Eventdetails() {
                                 <div className='final-btn'>
                                     <a href={Event_data.form} target="_blank">
                                         <div className='submit-btn-event'>
-                                            <div>Register</div>
+                                            <div>
+                                            {
+                                           Event_data.s ? <>Open contest</> : <>Register Now</>
+                                       }
+                                            </div>
                                         </div>
                                     </a>
                                 </div>

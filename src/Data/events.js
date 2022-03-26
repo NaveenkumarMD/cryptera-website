@@ -1474,7 +1474,8 @@ a juicy reward.`,
         color: 'var(--fg-g)',
         carddescription: "The Coding contest is based on a certain theme and comprises of Data structures and algorithms related problems.",
         description: "The Coding contest is based on a certain theme and comprises of Data structures and algorithms related problems. There will be around 4 to 6 questions and a time limit of 1 or 2 hours to solve them. Hot cash for hot hands! Kaching! Further information regarding the link and time will be updated",
-        form: "https://forms.gle/4EXy6xYThExJYFrj7",
+        form: "https://www.hackerrank.com/cryptera-coding-contest",
+        s:1,
         type: "technical",
         faq: [
             {
